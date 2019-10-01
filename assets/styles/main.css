@@ -1,0 +1,130 @@
+@font-face {
+ font-family:'Space Mono';
+ src:url(/assets/SpaceMono-Regular-d0855b0c557b78ea0449762b25ccca018880f483e56ff9a69e7cbde1dc12fa3a.ttf)
+}
+html{
+  background-color:#152347;
+ font-size:16px;
+ -moz-osx-font-smoothing:grayscale;
+ -webkit-font-smoothing:antialiased;
+ min-width:300px;
+ overflow-x:hidden;
+ overflow-y:scroll;
+ text-rendering:optimizeLegibility;
+ text-size-adjust:100%;
+}
+body{
+  background-color: #152347;
+  font-family: SpaceMono;
+}
+.logo{
+
+ top:30%;
+ left:50%;
+}
+.glug_logo{
+  width: 5em;
+    max-width: 30vw;
+
+    -webkit-filter: drop-shadow(1px 1px 2px #000);
+filter: drop-shadow(1px 1px 2px #000);
+}
+
+#demo{
+  color: white;
+  text-align: center;
+
+}
+.card:hover{
+  box-shadow: 5px 10px 8px 10px grey ;
+  transition: 2s;
+
+}
+.time{
+  color: white;
+  text-align: center;
+}
+.footer {
+  padding-top: 4px;
+  padding-bottom: 3px;
+ text-align: center;
+
+  color: white;}
+  .centered {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.header{
+  top: 20%;
+  text-align: center;
+
+  color: white;
+  top:20%;
+  font-family: SpaceMono;
+
+
+}
+#section01 a span {
+  position: absolute;
+
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+.hack{
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 6 rem;
+}
+
+.highlight,.highlight1{
+  color:#fff922;
+  text-align:center;
+}
+@media screen and (min-width: 601px) {
+  h1 {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 601px) {
+  div.highlight1 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.highlight1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 600px){
+  .logo{
+    width: 90vw;
+  }
+}
+@media screen and (max-width: 600px){
+  .footer{
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 601px){
+  .footer{
+    font-size: 35px;
+  }
+}
