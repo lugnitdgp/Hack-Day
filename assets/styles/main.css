@@ -20,7 +20,6 @@ body{
 
  top:30%;
  left:50%;
- z-index:-1;
 }
 .glug_logo{
   width: 5em;
@@ -46,7 +45,7 @@ filter: drop-shadow(1px 1px 2px #000);
 .grp2{
   position: absolute;
   float:left;
-  left=0;
+  left:0;
   top:5%;
   z-index:-1;
 }
