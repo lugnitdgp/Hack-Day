@@ -61,7 +61,7 @@ filter: drop-shadow(1px 1px 2px #000);
 }
 #section01 a span {
   position: absolute;
-  
+
   left: 50%;
   width: 24px;
   height: 24px;
@@ -82,4 +82,15 @@ filter: drop-shadow(1px 1px 2px #000);
 .highlight{
   color:#fff922;
   text-align:center;
+}
+@media screen and (min-width: 601px) {
+  h1 {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
 }
