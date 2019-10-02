@@ -29,10 +29,9 @@ body{
 filter: drop-shadow(1px 1px 2px #000);
 }
 .grp{
-  position: absolute;
-  right:0;
-  top: 30%;
-  z-index:-1;
+bottom: 0;
+height:5%;
+
 }
 #demo{
   color: white;
@@ -46,6 +45,18 @@ filter: drop-shadow(1px 1px 2px #000);
 .time{
   color: white;
   text-align: center;
+}
+.footer {
+  padding-top: 4px;
+  padding-bottom: 3px;
+ text-align: center;
+
+  color: white;}
+  .centered {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
 }
 .grp2{
   position: absolute;
@@ -113,5 +124,15 @@ filter: drop-shadow(1px 1px 2px #000);
 @media screen and (max-width: 600px){
   .logo{
     width: 90vw;
+  }
+}
+@media screen and (max-width: 600px){
+  .footer{
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 601px){
+  .footer{
+    font-size: 35px;
   }
 }
