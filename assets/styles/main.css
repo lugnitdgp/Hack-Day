@@ -24,6 +24,7 @@ body{
 .glug_logo{
   width: 5em;
     max-width: 30vw;
+
     -webkit-filter: drop-shadow(1px 1px 2px #000);
 filter: drop-shadow(1px 1px 2px #000);
 }
@@ -36,6 +37,10 @@ filter: drop-shadow(1px 1px 2px #000);
 #demo{
   color: white;
   text-align: center;
+
+}
+.card:hover{
+  box-shadow: 5px 10px 8px 10px ;
 
 }
 .time{
@@ -79,7 +84,7 @@ filter: drop-shadow(1px 1px 2px #000);
   font-size: 6 rem;
 }
 
-.highlight{
+.highlight,.highlight1{
   color:#fff922;
   text-align:center;
 }
@@ -92,5 +97,16 @@ filter: drop-shadow(1px 1px 2px #000);
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 40px;
+  }
+}
+@media screen and (min-width: 601px) {
+  div.highlight1 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.highlight1 {
+    font-size: 18px;
   }
 }
