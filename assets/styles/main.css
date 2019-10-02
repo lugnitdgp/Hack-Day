@@ -15,6 +15,7 @@ html{
 }
 body{
   background-color: #152347;
+  font-family: SpaceMono;
 }
 .logo{
 
@@ -28,18 +29,15 @@ body{
     -webkit-filter: drop-shadow(1px 1px 2px #000);
 filter: drop-shadow(1px 1px 2px #000);
 }
-.grp{
-bottom: 0;
-height:5%;
 
-}
 #demo{
   color: white;
   text-align: center;
 
 }
 .card:hover{
-  box-shadow: 5px 10px 8px 10px ;
+  box-shadow: 5px 10px 8px 10px grey ;
+  transition: 2s;
 
 }
 .time{
@@ -58,20 +56,14 @@ height:5%;
   left:50%;
   transform: translate(-50%, -50%);
 }
-.grp2{
-  position: absolute;
-  float:left;
-  left:0;
-  top:5%;
-  z-index:-1;
-}
+
 .header{
   top: 20%;
   text-align: center;
 
   color: white;
   top:20%;
-  font-family: monospace;
+  font-family: SpaceMono;
 
 
 }
