@@ -107,6 +107,6 @@ filter: drop-shadow(1px 1px 2px #000);
 
 @media screen and (max-width: 600px) {
   div.highlight1 {
-    font-size: 18px;
+    font-size: 30px;
   }
 }
