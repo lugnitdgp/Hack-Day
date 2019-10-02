@@ -52,7 +52,7 @@ filter: drop-shadow(1px 1px 2px #000);
 .header{
   top: 20%;
   text-align: center;
-  font-size: 4 rem;
+
   color: white;
   top:20%;
   font-family: monospace;
@@ -85,7 +85,7 @@ filter: drop-shadow(1px 1px 2px #000);
 }
 @media screen and (min-width: 601px) {
   h1 {
-    font-size: 80px;
+    font-size: 70px;
   }
 }
 
