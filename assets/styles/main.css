@@ -10,7 +10,6 @@ html{
  scroll-behavior: smooth;
 }
 body{
-  /* background-color: #152347; */
   font-family: 'Space Mono', monospace !important;
   background: url(https://hacktoberfest.digitalocean.com/assets/bg-right-e498161aecb6d9b04889329f11ce0b4e09e562ead23fb12d05b7508d1dc0c85c.png), url(https://hacktoberfest.digitalocean.com/assets/bg-left-6cede81e395aa4ed5f64010cba3cd32b0cd8b29934de8a75b93c40dc9941fdd5.png), rgb(18, 33, 71);
   background-blend-mode: normal;
