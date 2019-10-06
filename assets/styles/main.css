@@ -1,33 +1,35 @@
-@import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
-html{
- background-color:#152347;
- -moz-osx-font-smoothing:grayscale;
- -webkit-font-smoothing:antialiased;
- min-width:300px;
- overflow-x:hidden;
- overflow-y:scroll;
- text-size-adjust:100%;
- scroll-behavior: smooth;
+@import url("https://fonts.googleapis.com/css?family=Space+Mono&display=swap");
+html {
+  background-color: #152347;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  min-width: 300px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-size-adjust: 100%;
+  scroll-behavior: smooth;
 }
-body{
-  font-family: 'Space Mono', monospace !important;
-  background: url(https://hacktoberfest.digitalocean.com/assets/bg-right-e498161aecb6d9b04889329f11ce0b4e09e562ead23fb12d05b7508d1dc0c85c.png), url(https://hacktoberfest.digitalocean.com/assets/bg-left-6cede81e395aa4ed5f64010cba3cd32b0cd8b29934de8a75b93c40dc9941fdd5.png), rgb(18, 33, 71);
+body {
+  font-family: "Space Mono", monospace !important;
+  background: url(https://hacktoberfest.digitalocean.com/assets/bg-right-e498161aecb6d9b04889329f11ce0b4e09e562ead23fb12d05b7508d1dc0c85c.png),
+    url(https://hacktoberfest.digitalocean.com/assets/bg-left-6cede81e395aa4ed5f64010cba3cd32b0cd8b29934de8a75b93c40dc9941fdd5.png),
+    rgb(18, 33, 71);
   background-blend-mode: normal;
   background-size: cover;
-  
 }
 
-section{
+section {
   display: list-item;
 }
-#section02{
+#section02 {
   min-height: 90vh;
 }
-#logo{
-  height:auto;
-  width:100%;
+#logo {
+  height: auto;
+  width: 100%;
+  transform: translateZ(15px);
 }
-.glug_logo{
+.glug_logo {
   width: 5em;
   max-width: 30vw;
   -webkit-filter: drop-shadow(1px 1px 2px #000);
@@ -35,41 +37,42 @@ section{
   display: block;
   margin: 0 auto;
 }
-.glug_title{
-  text-align:center;
+.glug_title {
+  text-align: center;
   color: antiquewhite;
 }
-#demo{
+#demo {
   color: white;
   text-align: center;
 }
-.card:hover{
-  box-shadow: 5px 10px 8px 10px ;
+.card:hover {
+  box-shadow: 5px 10px 8px 10px;
 }
-.time{
+.time {
   color: white;
   text-align: center;
 }
-.header{
+.header {
   top: 20%;
   text-align: center;
   color: white;
-  top:20%;
+  top: 20%;
 }
-.btn{
+.btn {
   cursor: pointer !important;
 }
-.btn:hover{
-  color: #C71585;
+.btn:hover {
+  color: #c71585;
 }
-.highlight,.highlight1{
-  color:#fff922;
-  text-align:center;
+.highlight,
+.highlight1 {
+  color: #fff922;
+  text-align: center;
 }
-.highlight3{
-  color: 	#f274bd;
+.highlight3 {
+  color: #f274bd;
 }
-.footer{
+.footer {
   background-color: #0e182f;
   color: rgb(230, 226, 19);
   bottom: 0;
@@ -79,32 +82,39 @@ section{
   text-align: center;
   font-weight: bold;
 }
-#hearts{
-  color:red;
+#hearts {
+  color: red;
   font-size: 1.5rem;
 }
-.card-body{
+.card-body {
   line-height: 0.8rem;
   font-size: 1rem;
   padding: 0.5rem !important;
 }
-.card{
+.card {
   border-top-left-radius: 40%;
   border-bottom-left-radius: 40%;
   border-top-right-radius: 6%;
   border-bottom-right-radius: 6%;
   background-color: rgb(31, 6, 48);
-  color:white;
-  border: 0.15rem solid #A11EC6;
+  color: white;
+  border: 0.15rem solid #a11ec6;
 }
-.card img{
+.card img {
   border-radius: 50%;
-  border: 0.25rem solid #A11EC6;
+  border: 0.25rem solid #a11ec6;
   margin-left: -0.25rem;
 }
-.card-title{
+.card-title {
   font-weight: bolder;
 }
-.card:hover{
+.card:hover {
   box-shadow: none;
+}
+
+.container-tilt {
+  perspective: 1000px;
+}
+.container-tilt-inside {
+  transform-style: preserve-3d;
 }
