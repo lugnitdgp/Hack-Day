@@ -43,3 +43,5 @@ git push -u origin (branch name)
 ```
 
 * Go and open a pull request from your fork to the master branch of this repository. :tada:
+
+* Please :star: this repo to make it more visible to new contributors.
