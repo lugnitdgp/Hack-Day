@@ -23,17 +23,17 @@ An event organised by GNU/Linux Users' Group, NIT Durgapur for the promotion of 
 git clone https://github.com/lugnitdgp/Hactoberfest-Hack-Day-2019.git
 cd Hactoberfest-Hack-Day-2019
 ```
-* Make a branch
+* Make a branch.
 ```
 git checkout -b (branch-name)
 ```
 
-* Add your Profile Card
-    1. Open index.html file in any text editor
-    2. Scroll down to the template and copy it
-    3. Edit image_link, name and message 
-    4. Paste at the end of each such template
-    5. Save your File
+* Add your Profile Card.
+    1. Open index.html file in any text editor.
+    2. Scroll down to the template and copy it.
+    3. Edit image_link, name and message.
+    4. Paste at the end of each such template.
+    5. Save your File.
 
 * Commit your code.
 ``` 
@@ -42,4 +42,4 @@ git commit -m "(brief description of what you have changed/fixed)"
 git push -u origin (branch name)
 ```
 
-* Go and open a pull request from your fork to the master branch of this repository
+* Go and open a pull request from your fork to the master branch of this repository. :tada:
