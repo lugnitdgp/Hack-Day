@@ -30,10 +30,16 @@ git checkout -b (branch-name)
 
 * Add your Profile Card.
     1. Open index.html file in any text editor.
-    2. Scroll down to the template and copy it.
-    3. Edit image_link, name and message.
-    4. Paste at the end of each such template.
-    5. Save your File.
+    2. Scroll down to the first `<script>` tag.
+    3. Add a dictionary to the `profiles` array in the following format.
+       ```
+        {
+          image_link: '<link-to-your-avatar>',
+          handle: '<your-github-handle>',
+          message: '<your-message-to-the-community>'
+        }
+        ```
+    4. Save your File.
 
 * Commit your code.
 ``` 
