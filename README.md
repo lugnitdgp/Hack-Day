@@ -3,7 +3,7 @@
 An event organised by GNU/Linux Users' Group, NIT Durgapur for the promotion of Hacktoberfest 2019 🎃
 
 
-## Date: Thursday 17th October, 2019 
+## Date: Thursday 17th October, 2019
 ## Venue: New Academic Building
 
 ### FAQ
@@ -29,20 +29,19 @@ git checkout -b (branch-name)
 ```
 
 * Add your Profile Card.
-    1. Open index.html file in any text editor.
-    2. Scroll down to the first `<script>` tag.
-    3. Add a dictionary to the `profiles` array in the following format.
+    1. Open data.json file in any text editor.
+    2. Add a dictionary to the `profiles` array in the following format.
        ```
-        {
-          image_link: '<link-to-your-avatar>',
-          handle: '<your-github-handle>',
-          message: '<your-message-to-the-community>'
-        }
+       {
+          "image_link": "<link-to-your-avatar>",
+          "handle": "<your-github-handle",
+          "message": "<your-message-to-the-community>"
+       }
         ```
-    4. Save your File.
+    3. Save your File.
 
 * Commit your code.
-``` 
+```
 git add .
 git commit -m "(brief description of what you have changed/fixed)"
 git push -u origin (branch name)
