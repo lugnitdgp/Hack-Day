@@ -1,4 +1,6 @@
-$.getJSON('https://raw.githubusercontent.com/lugnitdgp/Hactoberfest-Hack-Day-2019/dev/data.json', function(data) {
+fetch('../../data.json').then(response => {
+  return response.json();
+}).then(data => {
     // console.log(data); // this will show the info it in firebug console
     var profiles = data.profiles;
     var cardParent = document.getElementById('profile-cards');
