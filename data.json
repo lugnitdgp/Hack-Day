@@ -110,7 +110,21 @@
          "image_link": "https://avatars1.githubusercontent.com/u/22994472?s=460&v=4",
          "handle": "lomitaswa",
          "message": "Let's Hack THIS Hacktoberfest!"
-      } 
+      }, 
       
+         "image_link": "https://avatars0.githubusercontent.com/u/33802874?s=40&v=4",
+         "handle": "rohitbindal",
+         "message": "Hack the world!!"
+      },
+      {
+         "image_link": "https://avatars.githubusercontent.com/firfircelik",
+         "handle": "firfircelik",
+         "message": "No Soup for You!"
+      },
+      {
+         "image_link": "https://avatars.githubusercontent.com/thiivalente",
+         "handle": "thiivalente",
+         "message": "Write many code to write less code!"
+      }
    ]
 }
