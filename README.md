@@ -3,8 +3,8 @@
 An event organised by GNU/Linux Users' Group, NIT Durgapur for the promotion of Hacktoberfest 2019 🎃
 
 
-## Date: Thursday 17th October, 2019
-## Venue: New Academic Building
+##### Date: Thursday 17th October, 2019
+##### Venue: New Academic Building
 
 ### FAQ
     #### Q. Who Part in this Event?
@@ -39,6 +39,8 @@ git checkout -b (branch-name)
        }
         ```
     3. Save your File.
+    
+    **NOTE:** Make sure to follow the format of dictionary. Commit message for profile card addition should be of the form *Added profile `profile_name`*
 
 * Commit your code.
 ```
