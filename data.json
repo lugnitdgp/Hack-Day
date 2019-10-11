@@ -107,6 +107,16 @@
          "message": "👻🎃"
       },
       {
+         "image_link": "https://avatars1.githubusercontent.com/u/22994472?s=460&v=4",
+         "handle": "lomitaswa",
+         "message": "Let's Hack THIS Hacktoberfest!"
+      },
+      { 
+         "image_link": "https://avatars.githubusercontent.com/roony4",
+         "handle": "roony4",
+         "message": "Happy Coding..."
+      },
+     {
          "image_link": "https://avatars0.githubusercontent.com/u/33802874?s=40&v=4",
          "handle": "rohitbindal",
          "message": "Hack the world!!"
@@ -125,6 +135,11 @@
          "image_link": "https://avatars2.githubusercontent.com/u/42793603?s=400&v=4",
          "handle": "mariapujirahayu",
          "message": "Chicken noodle soup"
+      },
+      {
+         "image_link": "https://avatars.githubusercontent.com/albertodeago",
+         "handle": "albertodeago",
+         "message": "WAT"
       }
    ]
 }
