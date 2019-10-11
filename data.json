@@ -1,125 +1,129 @@
 {
-   "comment": " To add your own profile card, append a dictionary with your image_link, handle and message to the `profiles` array. You can use the following template dictionary to edit and append.",
-   "template": {
-      "image_link": "<link-to-your-avatar>",
-      "handle": "<your-github-handle",
-      "message": "<your-message-to-the-community>"
-   },
-   "profiles": [
-      {
-         "image_link": "https://avatars0.githubusercontent.com/u/36061892",
-         "handle": "arc9693",
-         "message": "This is the first message on this page!"
-      },
-      {
-         "image_link": "https://res.cloudinary.com/jutzee/image/upload/v1545401659/white.jpg",
-         "handle": "jpacsai",
-         "message": "Hi, I'm so exited to take part in my first Hacktoberfest!"
-      },
-      {
-         "image_link": "https://avatars2.githubusercontent.com/u/36220456?s=460&v=4",
-         "handle": "alanlengkoan",
-         "message": "Happy Hacking !!"
-      },
-      {
-         "image_link": "http://www.hotavatars.com/wp-content/uploads/2019/01/I80W1Q0.png",
-         "handle": "Huzaifa Ahmed",
-         "message": "Another hacktoberfest, yahooooo!, keep rocking, keep coding :)"
-      },
-      {
-         "image_link": "https://avatars1.githubusercontent.com/u/50653477?s=400&u=d2840b4dc68f528554f0fc9c3a5edc85a48053ce&v=4",
-         "handle": "Barath Kumar",
-         "message": "Yet another Hacker who does not wear black hoodies.. Happy Hacking :D"
-      },
-      {
-         "image_link": "https://avatars3.githubusercontent.com/u/33978990?s=400&u=a9101d0872eba05cff6641693057db64a6d677a6&v=4",
-         "handle": "Jayjeet Chakraborty",
-         "message": "Hope this gets me the T-Shirt :)"
-      },
-      {
-         "image_link": "https://timesofindia.indiatimes.com/thumb/msid-67586673,width-800,height-600,resizemode-4/67586673.jpg",
-         "handle": "Virus200",
-         "message": "Happy Hacktober!"
-      },
-      {
-         "image_link": "http://cameronmcefee.com/img/work/the-octocat/original.jpg",
-         "handle": "Saurabh Tiwari",
-         "message": "Keep Contributing!"
-      },
-      {
-         "image_link": "https://avatars3.githubusercontent.com/u/18733875",
-         "handle": "aneirfan",
-         "message": "Welcome Hacktober !"
-      },
-      {
-         "image_link": "https://pngriver.com/wp-content/uploads/2018/04/Download-Coder-PNG-Clipart.png",
-         "handle": "Sarvesh1523",
-         "message": "Welcome to the world of Open Source!"
-      },
-      {
-         "image_link": "https://cdn1.iconfinder.com/data/icons/avatar-2-2/512/Programmer-512.png",
-         "handle": "Chirag Agarwal",
-         "message": "Happy Hacking!"
-      },
-      {
-         "image_link": "https://avatars0.githubusercontent.com/u/25843628?s=460&v=4",
-         "handle": "Humberto Valente",
-         "message": "My first hacktober, congratulations to all "
-      },
-      {
-         "image_link": "https://avatars0.githubusercontent.com/u/55626361?s=400&v=4",
-         "handle": "Saurabh",
-         "message": "My First HactoberFest, I am a Full Stack Developer"
-      },
-      {
-         "image_link": "https://avatars0.githubusercontent.com/u/35847062?s=460&v=4",
-         "handle": "SSBarik",
-         "message": "Happy Coding ..."
-      },
-      {
-         "image_link": "https://avatars0.githubusercontent.com/u/5057513",
-         "handle": "Dipak",
-         "message": "My First HactoberFest, I am a Mean stack Developer"
-      },
-      {
-         "image_link": "https://avatars.githubusercontent.com/saksham1210.png",
-         "handle": "BloopDoop",
-         "message": "Let's Start!"
-      },
-      {
-         "image_link": "https://avatars0.githubusercontent.com/u/41416752?v=4",
-         "handle": "ishitar",
-         "message": "New to Open Source, so far so good."
-      },
-      {
-         "image_link": "https://avatars3.githubusercontent.com/u/32539454?s=400&u=faed5513d2ef0e93dfef8d7526d026ff5c1cb0e4&v=4",
-         "handle": "chromico",
-         "message": "Happy Hacking"
-      },
-      {
-         "image_link": "https://avatars.githubusercontent.com/subrah107",
-         "handle": "subrah107",
-         "message": "The Chosen One!"
-      },
-      {
-         "image_link": "https://avatars.githubusercontent.com/ynn1k",
-         "handle": "ynn1k",
-         "message": "👻🎃"
-      },
-      {
-         "image_link": "https://avatars0.githubusercontent.com/u/33802874?s=40&v=4",
-         "handle": "rohitbindal",
-         "message": "Hack the world!!"
-      },
-      {
-         "image_link": "https://avatars.githubusercontent.com/firfircelik",
-         "handle": "firfircelik",
-         "message": "No Soup for You!"
-      },
-      {
-         "image_link": "https://avatars.githubusercontent.com/thiivalente",
-         "handle": "thiivalente",
-         "message": "Write many code to write less code!"
-      }
-   ]
+    "comment": " To add your own profile card, append a dictionary with your image_link, handle and message to the `profiles` array. You can use the following template dictionary to edit and append.",
+    "template": {
+        "image_link": "<link-to-your-avatar>",
+        "handle": "<your-github-handle",
+        "message": "<your-message-to-the-community>"
+    },
+    "profiles": [{
+            "image_link": "https://avatars0.githubusercontent.com/u/36061892",
+            "handle": "arc9693",
+            "message": "This is the first message on this page!"
+        },
+        {
+            "image_link": "https://res.cloudinary.com/jutzee/image/upload/v1545401659/white.jpg",
+            "handle": "jpacsai",
+            "message": "Hi, I'm so exited to take part in my first Hacktoberfest!"
+        },
+        {
+            "image_link": "https://avatars2.githubusercontent.com/u/36220456?s=460&v=4",
+            "handle": "alanlengkoan",
+            "message": "Happy Hacking !!"
+        },
+        {
+            "image_link": "http://www.hotavatars.com/wp-content/uploads/2019/01/I80W1Q0.png",
+            "handle": "Huzaifa Ahmed",
+            "message": "Another hacktoberfest, yahooooo!, keep rocking, keep coding :)"
+        },
+        {
+            "image_link": "https://avatars1.githubusercontent.com/u/50653477?s=400&u=d2840b4dc68f528554f0fc9c3a5edc85a48053ce&v=4",
+            "handle": "Barath Kumar",
+            "message": "Yet another Hacker who does not wear black hoodies.. Happy Hacking :D"
+        },
+        {
+            "image_link": "https://avatars3.githubusercontent.com/u/33978990?s=400&u=a9101d0872eba05cff6641693057db64a6d677a6&v=4",
+            "handle": "Jayjeet Chakraborty",
+            "message": "Hope this gets me the T-Shirt :)"
+        },
+        {
+            "image_link": "https://timesofindia.indiatimes.com/thumb/msid-67586673,width-800,height-600,resizemode-4/67586673.jpg",
+            "handle": "Virus200",
+            "message": "Happy Hacktober!"
+        },
+        {
+            "image_link": "http://cameronmcefee.com/img/work/the-octocat/original.jpg",
+            "handle": "Saurabh Tiwari",
+            "message": "Keep Contributing!"
+        },
+        {
+            "image_link": "https://avatars3.githubusercontent.com/u/18733875",
+            "handle": "aneirfan",
+            "message": "Welcome Hacktober !"
+        },
+        {
+            "image_link": "https://pngriver.com/wp-content/uploads/2018/04/Download-Coder-PNG-Clipart.png",
+            "handle": "Sarvesh1523",
+            "message": "Welcome to the world of Open Source!"
+        },
+        {
+            "image_link": "https://cdn1.iconfinder.com/data/icons/avatar-2-2/512/Programmer-512.png",
+            "handle": "Chirag Agarwal",
+            "message": "Happy Hacking!"
+        },
+        {
+            "image_link": "https://avatars0.githubusercontent.com/u/25843628?s=460&v=4",
+            "handle": "Humberto Valente",
+            "message": "My first hacktober, congratulations to all "
+        },
+        {
+            "image_link": "https://avatars0.githubusercontent.com/u/55626361?s=400&v=4",
+            "handle": "Saurabh",
+            "message": "My First HactoberFest, I am a Full Stack Developer"
+        },
+        {
+            "image_link": "https://avatars0.githubusercontent.com/u/35847062?s=460&v=4",
+            "handle": "SSBarik",
+            "message": "Happy Coding ..."
+        },
+        {
+            "image_link": "https://avatars0.githubusercontent.com/u/5057513",
+            "handle": "Dipak",
+            "message": "My First HactoberFest, I am a Mean stack Developer"
+        },
+        {
+            "image_link": "https://avatars.githubusercontent.com/saksham1210.png",
+            "handle": "BloopDoop",
+            "message": "Let's Start!"
+        },
+        {
+            "image_link": "https://avatars0.githubusercontent.com/u/41416752?v=4",
+            "handle": "ishitar",
+            "message": "New to Open Source, so far so good."
+        },
+        {
+            "image_link": "https://avatars3.githubusercontent.com/u/32539454?s=400&u=faed5513d2ef0e93dfef8d7526d026ff5c1cb0e4&v=4",
+            "handle": "chromico",
+            "message": "Happy Hacking"
+        },
+        {
+            "image_link": "https://avatars.githubusercontent.com/subrah107",
+            "handle": "subrah107",
+            "message": "The Chosen One!"
+        },
+        {
+            "image_link": "https://avatars.githubusercontent.com/ynn1k",
+            "handle": "ynn1k",
+            "message": "👻🎃"
+        },
+        {
+            "image_link": "https://avatars0.githubusercontent.com/u/33802874?s=40&v=4",
+            "handle": "rohitbindal",
+            "message": "Hack the world!!"
+        },
+        {
+            "image_link": "https://avatars.githubusercontent.com/firfircelik",
+            "handle": "firfircelik",
+            "message": "No Soup for You!"
+        },
+        {
+            "image_link": "https://avatars.githubusercontent.com/thiivalente",
+            "handle": "thiivalente",
+            "message": "Write many code to write less code!"
+        },
+        {
+            "image_link": "https://avatars1.githubusercontent.com/u/26769575?s=460&v=4",
+            "handle": "swarajlaha",
+            "message": "Think twice. Code once!"
+        }
+    ]
 }
