@@ -22,6 +22,11 @@
          "message": "Happy Hacking !!"
       },
       {
+  	 "image_link": "https://avatars0.githubusercontent.com/u/34777987?s=460&v=4",
+   	 "handle": "sakchi17",
+	 "message": "Hacktoberfest!!"
+      },
+      {
          "image_link": "http://www.hotavatars.com/wp-content/uploads/2019/01/I80W1Q0.png",
          "handle": "Huzaifa Ahmed",
          "message": "Another hacktoberfest, yahooooo!, keep rocking, keep coding :)"
