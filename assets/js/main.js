@@ -36,3 +36,8 @@ $(function () {
         $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top }, 500, 'linear');
     });
 });
+ 
+// wait untill all elements load on page, then hide the preloader
+$(window).on("load", function () {
+    $("#wrapper").hide();
+});
