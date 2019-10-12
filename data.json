@@ -12,6 +12,11 @@
          "message": "This is the first message on this page!"
       },
       {
+         "image_link": "https://avatars2.githubusercontent.com/u/34163916",
+         "handle": "awaisrafiq410",
+         "message": "True skill in programming is to understand and use other's code!"
+      },
+      {
          "image_link": "https://res.cloudinary.com/jutzee/image/upload/v1545401659/white.jpg",
          "handle": "jpacsai",
          "message": "Hi, I'm so exited to take part in my first Hacktoberfest!"
