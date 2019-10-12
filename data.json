@@ -22,9 +22,9 @@
          "message": "Happy Hacking !!"
       },
       {
-  	 "image_link": "https://avatars0.githubusercontent.com/u/34777987?s=460&v=4",
-   	 "handle": "sakchi17",
-	 "message": "Hacktoberfest!!"
+         "image_link": "https://avatars0.githubusercontent.com/u/34777987?s=460&v=4",
+         "handle": "sakchi17",
+         "message": "Hacktoberfest!!"
       },
       {
          "image_link": "http://www.hotavatars.com/wp-content/uploads/2019/01/I80W1Q0.png",
@@ -116,7 +116,7 @@
          "handle": "lomitaswa",
          "message": "Let's Hack THIS Hacktoberfest!"
       },
-      { 
+      {
          "image_link": "https://avatars.githubusercontent.com/roony4",
          "handle": "roony4",
          "message": "Happy Coding..."
@@ -161,13 +161,13 @@
          "handle": "Mustafiz04",
          "message": "Be the lifelong learner"
       },
-	   {
+      {
          "image_link": "https://avatars3.githubusercontent.com/u/28043522?s=460&v=4",
          "handle": "hammadmashkoor",
          "message": "Show me the code!"
       },
-      {	   
-	 "image_link": "https://avatars0.githubusercontent.com/u/53057598?s=460&v=4",
+      {
+         "image_link": "https://avatars0.githubusercontent.com/u/53057598?s=460&v=4",
          "handle": "ajibaas",
          "message": "Start contributing to open source projects!"
       },
@@ -175,6 +175,16 @@
         "image_link": "https://avatars3.githubusercontent.com/u/23336539",
         "handle": "Ravainix",
         "message": "Hello world! "
+      },
+      {
+         "image_link": "https://user-images.githubusercontent.com/27477126/66704264-bf4d2900-ed37-11e9-91c4-519918fca312.jpg",
+         "handle": "castial",
+         "message": "Start contributing to open source projects!"
+      },
+      {
+          "image_link": "https://avatars1.githubusercontent.com/u/34912365?s=460&v=4",
+          "handle": "marfgold1",
+          "message": "Hello, open source world! Have a nice Hacktoberfest 2019!"
       }
    ]
 }
