@@ -190,6 +190,12 @@
          "image_link": "https://avatars3.githubusercontent.com/u/20516943?s=400&v=4",
          "handle": "Dony Cisneros",
          "message": "With effort you can achieve your goals. You can do it!"
-     }
+     },
+      {
+         "image_link": "https://avatars1.githubusercontent.com/u/49719676?s=400&v=4",
+         "handle": "TVSSSripad",
+         "message": "My first Hactoberfest"
+         
+      }
    ]
 }
