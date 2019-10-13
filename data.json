@@ -5,8 +5,7 @@
       "handle": "<your-github-handle",
       "message": "<your-message-to-the-community>"
    },
-   "profiles": [
-      {
+   "profiles": [{
          "image_link": "https://avatars0.githubusercontent.com/u/36061892",
          "handle": "arc9693",
          "message": "This is the first message on this page!"
@@ -172,9 +171,9 @@
          "message": "Start contributing to open source projects!"
       },
       {
-        "image_link": "https://avatars3.githubusercontent.com/u/23336539",
-        "handle": "Ravainix",
-        "message": "Hello world! "
+         "image_link": "https://avatars3.githubusercontent.com/u/23336539",
+         "handle": "Ravainix",
+         "message": "Hello world! "
       },
       {
          "image_link": "https://user-images.githubusercontent.com/27477126/66704264-bf4d2900-ed37-11e9-91c4-519918fca312.jpg",
@@ -182,14 +181,19 @@
          "message": "Start contributing to open source projects!"
       },
       {
-          "image_link": "https://avatars1.githubusercontent.com/u/34912365?s=460&v=4",
-          "handle": "marfgold1",
-          "message": "Hello, open source world! Have a nice Hacktoberfest 2019!"
+         "image_link": "https://avatars1.githubusercontent.com/u/34912365?s=460&v=4",
+         "handle": "marfgold1",
+         "message": "Hello, open source world! Have a nice Hacktoberfest 2019!"
       },
       {
          "image_link": "https://avatars3.githubusercontent.com/u/20516943?s=400&v=4",
          "handle": "Dony Cisneros",
          "message": "With effort you can achieve your goals. You can do it!"
-     }
+      },
+      {
+         "image_link": "https://raw.githubusercontent.com/mmstq/mmstq.github.io/master/me.png",
+         "handle": "mmstq",
+         "message": "Do what u love :-)"
+      }
    ]
 }
