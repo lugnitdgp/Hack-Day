@@ -197,14 +197,20 @@
         "message": "Happy Hacktober!"
      },
      {
-      "image_link": "https://avatars0.githubusercontent.com/u/56459726?s=460&v=4",
-      "handle": "Ira teixeira",
-      "message": "My very first Hacktoberfest! :)"
+        "image_link": "https://avatars0.githubusercontent.com/u/56459726?s=460&v=4",
+        "handle": "Ira teixeira",
+        "message": "My very first Hacktoberfest! :)"
      },
      {
-      "image_link": "https://avatars2.githubusercontent.com/u/39860598?s=460&v=4",
-      "handle: "nikhil-prabhu",
-      "message": "h3ll0fr13nd ~()8>"
+        "image_link": "https://avatars3.githubusercontent.com/u/43853002?s=460&v=4",
+        "handle": "ranjan352",
+        "message": "Happy coding :)"
+     },
+     {
+        "image_link": "https://avatars2.githubusercontent.com/u/39860598?s=460&v=4",
+        "handle: "nikhil-prabhu",
+        "message": "h3ll0fr13nd ~()8>"
      }
    ]
 }
+
