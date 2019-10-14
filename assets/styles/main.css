@@ -154,3 +154,7 @@ section {
 .container-tilt-inside {
   transform-style: preserve-3d;
 }
+
+a:hover {
+   text-decoration: none;
+}
