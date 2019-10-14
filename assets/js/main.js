@@ -37,6 +37,6 @@ $(function () {
     });
 });
 // after loading all page elements(including images), hide the preloader
-$(window).on('laod', function() {
+$(window).on('load', function() {
     $("#wrapper").hide();
 }); 
