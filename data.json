@@ -17,6 +17,11 @@
          "message": "Hi, I'm so exited to take part in my first Hacktoberfest!"
       },
       {
+         "image_link": "https://avatars0.githubusercontent.com/u/42310311?s=400&v=4",
+         "handle": "coldboy",
+         "message": "Hey, this is my first HactoberFest !"
+      },
+      {
          "image_link": "https://avatars2.githubusercontent.com/u/36220456?s=460&v=4",
          "handle": "alanlengkoan",
          "message": "Happy Hacking !!"
