@@ -1,4 +1,4 @@
-# Hacktoberfest-Hack-Day-2019
+# Hack-Day-2019
 
 An event organised by GNU/Linux Users' Group, NIT Durgapur for the promotion of Hacktoberfest 2019 🎃
 
