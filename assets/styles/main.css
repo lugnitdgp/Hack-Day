@@ -30,15 +30,32 @@ html {
 }
 body {
   font-family: 'Space Mono', monospace !important;
-  background: url(https://hacktoberfest.digitalocean.com/assets/bg-right-e498161aecb6d9b04889329f11ce0b4e09e562ead23fb12d05b7508d1dc0c85c.png),
-    url(https://hacktoberfest.digitalocean.com/assets/bg-left-6cede81e395aa4ed5f64010cba3cd32b0cd8b29934de8a75b93c40dc9941fdd5.png),
-    rgb(18, 33, 71);
-  background-blend-mode: normal;
-  background-size: cover;
+  background: transparent;
 }
 
 section {
   display: list-item;
+}
+#section01{
+  position: relative;
+}
+#section01 .container-fluid{
+  position: relative;
+  z-index: 1;
+}
+#section01::after{
+  content: url('https://hacktoberfest.digitalocean.com/assets/bg-right-e498161aecb6d9b04889329f11ce0b4e09e562ead23fb12d05b7508d1dc0c85c.png');
+  position: absolute;
+  top: 80px;
+  right: 0;
+  z-index: -1;
+}
+#section01::before{
+  content: url('https://hacktoberfest.digitalocean.com/assets/bg-left-6cede81e395aa4ed5f64010cba3cd32b0cd8b29934de8a75b93c40dc9941fdd5.png');
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: -1;
 }
 #section02 {
   min-height: 90vh;
