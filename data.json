@@ -187,6 +187,11 @@
           "message": "Hello, open source world! Have a nice Hacktoberfest 2019!"
       },
       {
+         "image_link": "http://cameronmcefee.com/img/work/the-octocat/original.jpg",
+         "handle": "Sbabureddy",
+         "message": "I Love Open Source Projects."
+     },
+     {
          "image_link": "https://avatars2.githubusercontent.com/u/25876572?s=460&v=4",
          "handle": "jyarali",
          "message": "Happy hacking!!!"
