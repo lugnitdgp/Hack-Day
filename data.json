@@ -172,14 +172,14 @@
          "message": "Start contributing to open source projects!"
       },
       {
-        "image_link": "https://avatars3.githubusercontent.com/u/23336539",
-        "handle": "Ravainix",
-        "message": "Hello world! "
+          "image_link": "https://avatars3.githubusercontent.com/u/23336539",
+          "handle": "Ravainix",
+          "message": "Hello world! "
       },
       {
-         "image_link": "https://user-images.githubusercontent.com/27477126/66704264-bf4d2900-ed37-11e9-91c4-519918fca312.jpg",
-         "handle": "castial",
-         "message": "Start contributing to open source projects!"
+          "image_link": "https://user-images.githubusercontent.com/27477126/66704264-bf4d2900-ed37-11e9-91c4-519918fca312.jpg",
+          "handle": "castial",
+          "message": "Start contributing to open source projects!"
       },
       {
           "image_link": "https://avatars1.githubusercontent.com/u/34912365?s=460&v=4",
@@ -190,6 +190,57 @@
          "image_link": "https://avatars2.githubusercontent.com/u/25876572?s=460&v=4",
          "handle": "jyarali",
          "message": "Happy hacking!!!"
-     }
+     },
+     {
+         "image_link": "https://avatars.githubusercontent.com/andre-rsfc",
+         "handle": "andre-rsfc",
+         "message": "Hello Hacktober/ Olá Brasil"
+     },
+     {
+          "image_link": "https://avatars3.githubusercontent.com/u/20516943?s=400&v=4",
+          "handle": "Dony Cisneros",
+          "message": "With effort you can achieve your goals. You can do it!"
+      },
+      {
+          "image_link": "https://avatars2.githubusercontent.com/u/37104509?s=460&v=4",
+          "handle": "allenabraham777",
+          "message": "Happy Hacktober!"
+      },
+      {
+          "image_link": "https://avatars0.githubusercontent.com/u/56459726?s=460&v=4",
+          "handle": "Ira teixeira",
+          "message": "My very first Hacktoberfest! :)"
+      },
+      {
+          "image_link": "https://avatars0.githubusercontent.com/u/38062348?s=460&v=4",
+          "handle": "LakinduK",
+          "message": "Lets Make a world better place!"
+      },
+      {
+          "image_link": "https://avatars0.githubusercontent.com/u/56459726?s=460&v=4",
+          "handle": "Ira teixeira",
+          "message": "My very first Hacktoberfest! :)"
+      },
+      {
+          "image_link": "https://imgur.com/RzPAueN",
+          "handle": "christinameador",
+          "message": "Let's get this bread!"
+      },
+      {
+          "image_link": "https://avatars0.githubusercontent.com/u/56459726?s=460&v=4",
+          "handle": "Ira teixeira",
+          "message": "My very first Hacktoberfest! :)"
+      },
+      {
+          "image_link": "https://avatars3.githubusercontent.com/u/43853002?s=460&v=4",
+          "handle": "ranjan352",
+          "message": "Happy coding :)"
+      },
+      {
+          "image_link": "https://avatars2.githubusercontent.com/u/39860598?s=460&v=4",
+          "handle: "nikhil-prabhu",
+          "message": "h3ll0fr13nd ~()8>"
+      }
    ]
 }
+
