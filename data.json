@@ -147,7 +147,7 @@
          "message": "Work Smarter! Not Harder!"
       },
       {
-         "image_link": "https://avatars2.githubusercontent.com/u/42793603?s=400&v=4",
+         "image_link": "avatars1.githubusercontent.com/u/49719676?s=400&v=4",
          "handle": "mariapujirahayu",
          "message": "Chicken noodle soup"
       },
@@ -187,20 +187,21 @@
           "message": "Hello, open source world! Have a nice Hacktoberfest 2019!"
       },
       {
-
-         "image_link": "https://avatars3.githubusercontent.com/u/20516943?s=400&v=4",
-         "handle": "Dony Cisneros",
-         "message": "With effort you can achieve your goals. You can do it!"
+         "image_link": "http://cameronmcefee.com/img/work/the-octocat/original.jpg",
+         "handle": "Sbabureddy",
+         "message": "I Love Open Source Projects."
      },
-      {
-         "image_link": "https://avatars1.githubusercontent.com/u/49719676?s=400&v=4",
-         "handle": "TVSSSripad",
-         "message": "My first Hactoberfest"
-         
-      }
-   ]
-}
-
+     {
+         "image_link": "https://avatars2.githubusercontent.com/u/25876572?s=460&v=4",
+         "handle": "jyarali",
+         "message": "Happy hacking!!!"
+     },
+     {
+         "image_link": "https://avatars.githubusercontent.com/andre-rsfc",
+         "handle": "andre-rsfc",
+         "message": "Hello Hacktober/ Olá Brasil"
+     },
+     {
           "image_link": "https://avatars3.githubusercontent.com/u/20516943?s=400&v=4",
           "handle": "Dony Cisneros",
           "message": "With effort you can achieve your goals. You can do it!"
@@ -242,10 +243,14 @@
       },
       {
           "image_link": "https://avatars2.githubusercontent.com/u/39860598?s=460&v=4",
-          "handle: "nikhil-prabhu",
-          "message": "h3ll0fr13nd ~()8>"
+          "handle": "nikhil-prabhu",
+          "message": "h3ll0fr13nd"
+      },
+      {
+         "image_link": "https://avatars2.githubusercontent.com/u/39860598?s=460&v=4",
+          "handle": "TVSSSRIPAD",
+          "message": "Hi all"
       }
    ]
 }
-
 
