@@ -1,9 +1,9 @@
 {
    "comment": " To add your own profile card, append a dictionary with your image_link, handle and message to the `profiles` array. You can use the following template dictionary to edit and append.",
    "template": {
-      "image_link": "<link-to-your-avatar>",
-      "handle": "<your-github-handle",
-      "message": "<your-message-to-the-community>"
+      "image_link": "https://avatars1.githubusercontent.com/u/56026636?s=460&v=4",
+      "handle": "Idadelveloper",
+      "message": "Still new to open source"
    },
    "profiles": [
       {
