@@ -11,6 +11,12 @@
          "handle": "arc9693",
          "message": "This is the first message on this page!"
       },
+
+      {
+         "image_link": "https://avatars1.githubusercontent.com/u/49499892?s=460&v=4",
+         "handle": "prateek",
+         "message": "This is my bio!"
+      },
       {
          "image_link": "https://res.cloudinary.com/jutzee/image/upload/v1545401659/white.jpg",
          "handle": "jpacsai",
