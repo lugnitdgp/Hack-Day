@@ -36,3 +36,19 @@ $(function () {
         $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top }, 500, 'linear');
     });
 });
+
+// Add pagination to data table containing cards
+$(document).ready(function(){
+    var table =  $('#section02');
+    
+    for (var i =0 ; i < 10; i++) {
+      
+      var $nr = $('<tr><td>A-' + i + '</td><td>B-' + i  + '</td></tr>');
+      table.append($nr);
+    }
+    
+    // after table is populated, initiate plug-in
+    $('#section02').DataTable(
+        { "lengthMenu": [[5, 10, -1], [5, 10, "All"]] 
+    });
+});
