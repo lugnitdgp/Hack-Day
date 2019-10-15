@@ -267,10 +267,39 @@
           "message": "h3ll0fr13nd"
       },
       {
+
+   "image_link": "https://images.unsplash.com/photo-1558981852-426c6c22a060?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80",
+   "handle": "chmnsingh",
+   "message": "Welcome here"
+},
+     {
+
         "image_link": "https://rukminim1.flixcart.com/image/832/832/jao8uq80/mobile-holder/h/r/v/iron-man-1-art-crazyink-original-imafy7g4hhyxe4gw.jpeg?q=70",
         "handle": "abhishek311098",
         "message": "h3ll0 w3lc0m3 t0 0p3n s0urc3"
       },
+
+      {
+        "image_link": "https://drive.google.com/drive/search?q=websitephoto",
+        "handle": "sarthak-g",
+        "message": "May your code be with you :)"
+      },
+
+      {
+         "image_link": "https://avatars0.githubusercontent.com/u/561805?s=460&v=4",
+         "handle": "leroyg",
+         "message": "Go #Hacktoberfest 2019!"
+       },
+       
+
+
+     {
+	    "image_link": "https://avatars.githubusercontent.com/codewithdev",
+	    "handle": "codewithdev",
+	    "message": "Fork till the dawn"
+     },     
+	     
+
       {
 
         "image_link": "https://avatars1.githubusercontent.com/u/38956787?s=460&v=4",
@@ -301,6 +330,28 @@
       },
       {
 
+	 "image_link": "https://avatars1.githubusercontent.com/u/23256782?s=460&v=4",
+	 "handle": "noelierx",
+	 "message": "Hi, happy hacktoberfest"
+      },
+      {
+	"image_link": "https://avatars2.githubusercontent.com/u/4638681?s=96&v=4",
+	"handle": "wuxmedia",
+	"message": "I just spent the evening on a rather long but informative task, all for a t-shirt, I hope the shirt is nice"
+      },
+	  {
+	  "image_link": "https://avatars1.githubusercontent.com/u/15322407?s=460&v=4",
+	   "handle": "adhranjan",
+         "message": "This is my first HactoberFest !"
+      },
+
+     {
+         "image_link": "https://avatars2.githubusercontent.com/u/25609023?s=460&v=4",
+         "handle": "shadmanwaris",
+         "message": "Happy to Code :)"
+       },
+     {
+
         "image_link": "https://avatars1.githubusercontent.com/u/18185476?s=460&v=4",
         "handle": "thapaPrabhat",
         "message": "It is quality rather than quantity that matters."
@@ -316,11 +367,20 @@
 	    "message": "I just spent the evening on a rather long but informative task, all for a t-shirt, I hope the shirt is nice"
 
 
-      },{
+
+      },
+     {
          "image_link": "https://avatars2.githubusercontent.com/u/47819666?s=400&v=4",
          "handle": "Kuroyza",
          "message": "Truth can only be found in the code"
+
+
+
       }
+
+
+
+
 
    ]
 }
