@@ -273,6 +273,12 @@
       },
 
       {
+        "image_link": "https://drive.google.com/drive/search?q=websitephoto",
+        "handle": "sarthak-g",
+        "message": "May your code be with you :)"
+      },
+
+      {
          "image_link": "https://avatars0.githubusercontent.com/u/561805?s=460&v=4",
          "handle": "leroyg",
          "message": "Go #Hacktoberfest 2019!"
@@ -336,6 +342,7 @@
 	    "image_link": "https://avatars2.githubusercontent.com/u/4638681?s=96&v=4",
 	    "handle": "wuxmedia",
 	    "message": "I just spent the evening on a rather long but informative task, all for a t-shirt, I hope the shirt is nice"
+
 
 
       }
