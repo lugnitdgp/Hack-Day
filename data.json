@@ -271,11 +271,77 @@
         "handle": "abhishek311098",
         "message": "h3ll0 w3lc0m3 t0 0p3n s0urc3"
       },
+
       {
          "image_link": "https://avatars0.githubusercontent.com/u/561805?s=460&v=4",
          "handle": "leroyg",
          "message": "Go #Hacktoberfest 2019!"
        },
-       {
+       
+
+
+     {
+	    "image_link": "https://avatars.githubusercontent.com/codewithdev",
+	    "handle": "codewithdev",
+	    "message": "Fork till the dawn"
+     },     
+	     
+
+      {
+
+        "image_link": "https://avatars1.githubusercontent.com/u/38956787?s=460&v=4",
+        "handle": "bvdwalt",
+        "message": "Hello from South Africa"
+
+      },
+        {
+         "image_link": "https://avatars3.githubusercontent.com/u/44169294?s=400&u=4d128872167a516d0250b32023099c3fd59f810a&v=4",
+         "handle": "Ayoazeez26",
+         "message": "Baby steps should not be underrated!!"
+      },
+     {
+         "image_link": "https://pmcvariety.files.wordpress.com/2019/04/joker-trailer.jpg?w=1000&h=563&crop=1",
+         "handle": "VIKING987",
+         "message": "Linux is not an OS. It is a kernel"
+       },
+
+     {
+         "image_link": "https://avatars0.githubusercontent.com/u/6562562?s=460&v=4",
+         "handle": "heemza",
+         "message": "Your FUTURE is created by what you do today!"
+       },
+      {
+        "image_link": "https://avatars2.githubusercontent.com/u/17794532?s=460&v=4",
+        "handle": "https://github.com/tegarjgap/",
+        "message": "I Very excited to join contribute open source project!"
+      },
+      {
+
+         "image_link": "https://avatars2.githubusercontent.com/u/25609023?s=460&v=4",
+         "handle": "shadmanwaris",
+         "message": "Happy to Code :)"
+       },
+     {
+
+        "image_link": "https://avatars1.githubusercontent.com/u/18185476?s=460&v=4",
+        "handle": "thapaPrabhat",
+        "message": "It is quality rather than quantity that matters."
+      },
+     {   
+	     "image_link": "https://avatars1.githubusercontent.com/u/23256782?s=460&v=4",
+	     "handle": "noelierx",
+	     "message": "Hi, happy hacktoberfest"
+      },
+      {
+	    "image_link": "https://avatars2.githubusercontent.com/u/4638681?s=96&v=4",
+	    "handle": "wuxmedia",
+	    "message": "I just spent the evening on a rather long but informative task, all for a t-shirt, I hope the shirt is nice"
+
+
+      }
+
+
+
+
    ]
 }
