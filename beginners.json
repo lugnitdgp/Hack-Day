@@ -1,0 +1,15 @@
+{
+  "comment": " To add the repo, append a dictionary with link to the `repositories` array. You can use the following template dictionary to edit and append.",
+  "template": {
+    "repository_link": "<link-to-repo>"
+  },
+  "repositories": [
+    {
+      "image_link": "https://avatars3.githubusercontent.com/u/812976?s=460&v=4",
+      "owner_handle": "MunGell",
+      "repository_name": "MunGell/awesome-for-beginners",
+      "repository_link": "https://github.com/mungell/awesome-for-beginners",
+      "message": "A list of awesome beginners-friendly projects."
+    }
+  ]
+}
