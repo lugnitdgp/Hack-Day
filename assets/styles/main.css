@@ -119,6 +119,7 @@ section {
   color: #f274bd;
 }
 .footer {
+  position: fixed;  /*This was not present earlier. Now footers will always stay at bottom.*/
   background-color: #0e182f;
   color: rgb(230, 226, 19);
   bottom: 0;
