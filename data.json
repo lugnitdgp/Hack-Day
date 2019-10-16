@@ -278,45 +278,34 @@
          "message": "h3ll0fr13nd"
       },
       {
-
          "image_link": "https://images.unsplash.com/photo-1558981852-426c6c22a060?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80",
          "handle": "chmnsingh",
          "message": "Welcome here"
       },
       {
-
          "image_link": "https://rukminim1.flixcart.com/image/832/832/jao8uq80/mobile-holder/h/r/v/iron-man-1-art-crazyink-original-imafy7g4hhyxe4gw.jpeg?q=70",
          "handle": "abhishek311098",
          "message": "h3ll0 w3lc0m3 t0 0p3n s0urc3"
       },
-
       {
          "image_link": "https://drive.google.com/drive/search?q=websitephoto",
          "handle": "sarthak-g",
          "message": "May your code be with you :)"
       },
-
       {
          "image_link": "https://avatars0.githubusercontent.com/u/561805?s=460&v=4",
          "handle": "leroyg",
          "message": "Go #Hacktoberfest 2019!"
       },
-
-
-
       {
          "image_link": "https://avatars.githubusercontent.com/codewithdev",
          "handle": "codewithdev",
          "message": "Fork till the dawn"
       },
-
-
       {
-
          "image_link": "https://avatars1.githubusercontent.com/u/38956787?s=460&v=4",
          "handle": "bvdwalt",
          "message": "Hello from South Africa"
-
       },
       {
          "image_link": "https://avatars3.githubusercontent.com/u/44169294?s=400&u=4d128872167a516d0250b32023099c3fd59f810a&v=4",
@@ -328,7 +317,6 @@
          "handle": "VIKING987",
          "message": "Linux is not an OS. It is a kernel"
       },
-
       {
          "image_link": "https://avatars0.githubusercontent.com/u/6562562?s=460&v=4",
          "handle": "heemza",
@@ -355,7 +343,6 @@
          "handle": "adhranjan",
          "message": "This is my first HactoberFest !"
       },
-
       {
          "image_link": "https://avatars2.githubusercontent.com/u/25609023?s=460&v=4",
          "handle": "shadmanwaris",
@@ -376,26 +363,26 @@
          "image_link": "https://avatars2.githubusercontent.com/u/4638681?s=96&v=4",
          "handle": "wuxmedia",
          "message": "I just spent the evening on a rather long but informative task, all for a t-shirt, I hope the shirt is nice"
-
-
-
       },
       {
          "image_link": "https://avatars2.githubusercontent.com/u/47819666?s=400&v=4",
          "handle": "Kuroyza",
          "message": "Truth can only be found in the code"
-
-
-
       },
+	    {
+      	 "image_link": "https://avatars1.githubusercontent.com/u/50900065?s=400&u=6eadab678a49d68840171500f36a3d7ab9d00e01&v=4",
+      	 "handle": "Perfecto06",
+      	 "message": "Eat Code Sleep Repeat"
+   	  },
+	    {
+         "image_link": "https://avatars2.githubusercontent.com/u/44156359?s=400&u=43350aecbb3240fba13158c7655ee877e0b8b061&v=4",
+         "handle": "ravijyoti3",
+         "message": "Eat Learn Repeat"
+   	  },
       {
          "image_link": "https://avatars1.githubusercontent.com/u/50900065?s=400&u=6eadab678a49d68840171500f36a3d7ab9d00e01&v=4",
          "handle": "Perfecto06",
          "message": "Eat Code Sleep Repeat"
       }
-
-
-
-
    ]
 }
