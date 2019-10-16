@@ -7,12 +7,6 @@
    },
    "profiles": [
       {
-	  "image_link": "https://avatars0.githubusercontent.com/u/31917730?s=460&v=4",
-	  "handle": "CodeHacK3R",
-          "message": "Live to Code Not Code to Live"
-      },
-	   
-      {
          "image_link": "https://avatars0.githubusercontent.com/u/36061892",
          "handle": "arc9693",
          "message": "This is the first message on this page!"
@@ -410,6 +404,11 @@
          "image_link": "https://avatars2.githubusercontent.com/u/656065?s=460&v=4",
          "handle": "Filipe Costa",
          "message": "Hello friends"
+      },
+      {
+	  "image_link": "https://avatars0.githubusercontent.com/u/31917730?s=460&v=4",
+	  "handle": "CodeHacK3R",
+          "message": "Live to Code Not Code to Live"
       }
    ]
 }
