@@ -19,6 +19,9 @@ a:hover {
 a:active{
   outline: none;
 }
+.no-hover:hover {
+    text-decoration: none;
+}
 #wrapper {
   position: fixed;
   left: 0;

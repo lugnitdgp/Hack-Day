@@ -5,7 +5,14 @@
       "handle": "<your-github-handle",
       "message": "<your-message-to-the-community>"
    },
-   "profiles": [{
+   "profiles": [
+        {
+           "image_link": "https://avatars2.githubusercontent.com/u/41655188?s=460&v=4",
+           "handle": "luucashc",
+           "message": "Hello!"
+        },
+
+       {
          "image_link": "https://avatars0.githubusercontent.com/u/36061892",
          "handle": "arc9693",
          "message": "This is the first message on this page!"
