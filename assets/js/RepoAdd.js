@@ -10,7 +10,6 @@ $.getJSON('https://raw.githubusercontent.com/lugnitdgp/Hack-Day-2019/master/repo
     card.classList.add('p-3');
 
     var repo_link = repos[index].repo_link;
-    console.log(repo_link);
     repo_link=repo_link.split("/");
     var repo_name=repo_link[repo_link.length-1];
     var repo_owner=repo_link[repo_link.length-2];
@@ -29,7 +28,7 @@ $.getJSON('https://raw.githubusercontent.com/lugnitdgp/Hack-Day-2019/master/repo
             <div class="row no-gutters">
               <div class="col-12">
                 <div class="card-body">
-                  <a href="${repo_link}"><h6 class="card-title">${repo_name}</h6></a>
+                  <a href="${repos[index].repo_link}"><h6 class="card-title">${repo_name}</h6></a>
                   <p style="line-height:1rem">
                     <small>Owner: ${repo_owner}</small><br>
                     <small>Tags: ${repo_tags}</small><br>
