@@ -34,7 +34,7 @@ git checkout -b (branch-name)
        ```
        {
           "image_link": "<link-to-your-avatar>",
-          "handle": "<your-github-handle",
+          "handle": "<your-github-handle>",
           "message": "<your-message-to-the-community>"
        }
         ```
