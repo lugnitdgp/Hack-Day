@@ -36,3 +36,7 @@ $(function () {
         $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top }, 500, 'linear');
     });
 });
+// after loading all page elements(including images), hide the preloader
+$(window).on('load', function() {
+    $("#wrapper").fadeOut('slow');
+}); 
