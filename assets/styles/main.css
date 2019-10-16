@@ -9,6 +9,16 @@ html {
   text-size-adjust: 100%;
   scroll-behavior: smooth;
 }
+a {
+  color: yellow;
+}
+a:hover {
+  color:yellow;
+  outline: none;
+}
+a:active{
+  outline: none;
+}
 #wrapper {
   position: fixed;
   left: 0;
@@ -153,4 +163,7 @@ section {
 }
 .container-tilt-inside {
   transform-style: preserve-3d;
+}
+#repo-cards .card{
+  border-radius: 0%;
 }
