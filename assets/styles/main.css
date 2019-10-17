@@ -16,6 +16,7 @@ a {
 a:hover {
   color:yellow;
   outline: none;
+  text-decoration:none;
 }
 a:active{
   outline: none;
