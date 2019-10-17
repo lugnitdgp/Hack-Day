@@ -406,9 +406,14 @@
          "message": "Hello friends"
       },
       {
-	  "image_link": "https://avatars0.githubusercontent.com/u/31917730?s=460&v=4",
-	  "handle": "CodeHacK3R",
+	       "image_link": "https://avatars0.githubusercontent.com/u/31917730?s=460&v=4",
+	        "handle": "CodeHacK3R",
           "message": "Live to Code Not Code to Live"
-      }
+      },
+      {
+         "image_link": "https://api.adorable.io/avatars/285/abott@adorable.png",
+         "handle": "Vuyanzi Glorious",
+         "message": "Hey guyz, Happy coding"
+      },
    ]
 }
