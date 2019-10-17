@@ -11,10 +11,12 @@ html {
 }
 a {
   color: yellow;
+  text-decoration: none;
 }
 a:hover {
   color:yellow;
   outline: none;
+  text-decoration:none;
 }
 a:active{
   outline: none;
