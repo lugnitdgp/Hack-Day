@@ -5,16 +5,32 @@
       "handle": "<your-github-handle",
       "message": "<your-message-to-the-community>"
    },
-   "profiles": [
-      {
+   "profiles": [{
          "image_link": "https://avatars0.githubusercontent.com/u/36061892",
          "handle": "arc9693",
          "message": "This is the first message on this page!"
+      },
+
+      {
+         "image_link": "https://avatars1.githubusercontent.com/u/36218769?s=400&u=aebb055f204c1f26de036ee604315836eee1f8c4&v=4",
+         "handle": "dryinkuzz",
+         "message": "Hello world !, from somewhere in Africa :rocket:"
+      },
+
+      {
+         "image_link": "https://avatars1.githubusercontent.com/u/49499892?s=460&v=4",
+         "handle": "prateek",
+         "message": "This is my bio!"
       },
       {
          "image_link": "https://res.cloudinary.com/jutzee/image/upload/v1545401659/white.jpg",
          "handle": "jpacsai",
          "message": "Hi, I'm so exited to take part in my first Hacktoberfest!"
+      },
+      {
+         "image_link": "https://avatars0.githubusercontent.com/u/42310311?s=400&v=4",
+         "handle": "coldboy",
+         "message": "Hey, this is my first HactoberFest !"
       },
       {
          "image_link": "https://avatars2.githubusercontent.com/u/36220456?s=460&v=4",
@@ -50,6 +66,11 @@
          "image_link": "http://cameronmcefee.com/img/work/the-octocat/original.jpg",
          "handle": "Saurabh Tiwari",
          "message": "Keep Contributing!"
+      },
+      {
+         "image_link": "https://avatars0.githubusercontent.com/u/35336343?s=460&v=4",
+         "handle": "rajpra786",
+         "message": "Help the world with code!"
       },
       {
          "image_link": "https://avatars3.githubusercontent.com/u/18733875",
@@ -172,9 +193,9 @@
          "message": "Start contributing to open source projects!"
       },
       {
-        "image_link": "https://avatars3.githubusercontent.com/u/23336539",
-        "handle": "Ravainix",
-        "message": "Hello world! "
+         "image_link": "https://avatars3.githubusercontent.com/u/23336539",
+         "handle": "Ravainix",
+         "message": "Hello world! "
       },
       {
          "image_link": "https://user-images.githubusercontent.com/27477126/66704264-bf4d2900-ed37-11e9-91c4-519918fca312.jpg",
@@ -182,9 +203,34 @@
          "message": "Start contributing to open source projects!"
       },
       {
-          "image_link": "https://avatars1.githubusercontent.com/u/34912365?s=460&v=4",
-          "handle": "marfgold1",
-          "message": "Hello, open source world! Have a nice Hacktoberfest 2019!"
+         "image_link": "https://avatars1.githubusercontent.com/u/34912365?s=460&v=4",
+         "handle": "marfgold1",
+         "message": "Hello, open source world! Have a nice Hacktoberfest 2019!"
+      },
+      {
+         "image_link": "https://avatars3.githubusercontent.com/u/20516943?s=400&v=4",
+         "handle": "Dony Cisneros",
+         "message": "With effort you can achieve your goals. You can do it!"
+      },
+      {
+         "image_link": "https://raw.githubusercontent.com/mmstq/mmstq.github.io/master/me.png",
+         "handle": "mmstq",
+         "message": "Do what u love :-)"
+      },
+      {
+         "image_link": "http://cameronmcefee.com/img/work/the-octocat/original.jpg",
+         "handle": "Sbabureddy",
+         "message": "I Love Open Source Projects."
+      },
+      {
+         "image_link": "https://avatars2.githubusercontent.com/u/25876572?s=460&v=4",
+         "handle": "jyarali",
+         "message": "Happy hacking!!!"
+      },
+      {
+         "image_link": "https://avatars.githubusercontent.com/andre-rsfc",
+         "handle": "andre-rsfc",
+         "message": "Hello Hacktober/ Olá Brasil"
       },
       {
          "image_link": "https://avatars3.githubusercontent.com/u/20516943?s=400&v=4",
@@ -205,6 +251,178 @@
       "image_link": "https://avatars2.githubusercontent.com/u/48996501?s=400&u=7054ab39f2402352e60e74e407954d90715e3753&v=4",
       "handle": "Str4nge",
       "message": "May the source be with us. 0^0 "
-   }
+      },
+      {
+         "image_link": "https://avatars2.githubusercontent.com/u/37104509?s=460&v=4",
+         "handle": "allenabraham777",
+         "message": "Happy Hacktober!"
+      },
+      {
+         "image_link": "https://avatars0.githubusercontent.com/u/56459726?s=460&v=4",
+         "handle": "Ira teixeira",
+         "message": "My very first Hacktoberfest! :)"
+      },
+      {
+         "image_link": "https://avatars0.githubusercontent.com/u/38062348?s=460&v=4",
+         "handle": "LakinduK",
+         "message": "Lets Make a world better place!"
+      },
+      {
+         "image_link": "https://avatars0.githubusercontent.com/u/56459726?s=460&v=4",
+         "handle": "Ira teixeira",
+         "message": "My very first Hacktoberfest! :)"
+      },
+      {
+         "image_link": "https://imgur.com/RzPAueN",
+         "handle": "christinameador",
+         "message": "Let's get this bread!"
+      },
+      {
+         "image_link": "https://avatars0.githubusercontent.com/u/56459726?s=460&v=4",
+         "handle": "Ira teixeira",
+         "message": "My very first Hacktoberfest! :)"
+      },
+      {
+         "image_link": "https://avatars3.githubusercontent.com/u/43853002?s=460&v=4",
+         "handle": "ranjan352",
+         "message": "Happy coding :)"
+      },
+      {
+         "image_link": "https://avatars2.githubusercontent.com/u/39860598?s=460&v=4",
+         "handle": "nikhil-prabhu",
+         "message": "h3ll0fr13nd"
+      },
+      {
+         "image_link": "https://images.unsplash.com/photo-1558981852-426c6c22a060?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80",
+         "handle": "chmnsingh",
+         "message": "Welcome here"
+      },
+      {
+         "image_link": "https://rukminim1.flixcart.com/image/832/832/jao8uq80/mobile-holder/h/r/v/iron-man-1-art-crazyink-original-imafy7g4hhyxe4gw.jpeg?q=70",
+         "handle": "abhishek311098",
+         "message": "h3ll0 w3lc0m3 t0 0p3n s0urc3"
+      },
+      {
+         "image_link": "https://drive.google.com/drive/search?q=websitephoto",
+         "handle": "sarthak-g",
+         "message": "May your code be with you :)"
+      },
+      {
+         "image_link": "https://avatars0.githubusercontent.com/u/561805?s=460&v=4",
+         "handle": "leroyg",
+         "message": "Go #Hacktoberfest 2019!"
+      },
+      {
+         "image_link": "https://avatars.githubusercontent.com/codewithdev",
+         "handle": "codewithdev",
+         "message": "Fork till the dawn"
+      },
+      {
+         "image_link": "https://avatars1.githubusercontent.com/u/38956787?s=460&v=4",
+         "handle": "bvdwalt",
+         "message": "Hello from South Africa"
+      },
+      {
+         "image_link": "https://avatars3.githubusercontent.com/u/44169294?s=400&u=4d128872167a516d0250b32023099c3fd59f810a&v=4",
+         "handle": "Ayoazeez26",
+         "message": "Baby steps should not be underrated!!"
+      },
+      {
+         "image_link": "https://pmcvariety.files.wordpress.com/2019/04/joker-trailer.jpg?w=1000&h=563&crop=1",
+         "handle": "VIKING987",
+         "message": "Linux is not an OS. It is a kernel"
+      },
+      {
+         "image_link": "https://avatars0.githubusercontent.com/u/6562562?s=460&v=4",
+         "handle": "heemza",
+         "message": "Your FUTURE is created by what you do today!"
+      },
+      {
+         "image_link": "https://avatars2.githubusercontent.com/u/17794532?s=460&v=4",
+         "handle": "https://github.com/tegarjgap/",
+         "message": "I Very excited to join contribute open source project!"
+      },
+      {
+
+         "image_link": "https://avatars1.githubusercontent.com/u/23256782?s=460&v=4",
+         "handle": "noelierx",
+         "message": "Hi, happy hacktoberfest"
+      },
+      {
+         "image_link": "https://avatars2.githubusercontent.com/u/4638681?s=96&v=4",
+         "handle": "wuxmedia",
+         "message": "I just spent the evening on a rather long but informative task, all for a t-shirt, I hope the shirt is nice"
+      },
+      {
+         "image_link": "https://avatars1.githubusercontent.com/u/15322407?s=460&v=4",
+         "handle": "adhranjan",
+         "message": "This is my first HactoberFest !"
+      },
+      {
+         "image_link": "https://avatars2.githubusercontent.com/u/25609023?s=460&v=4",
+         "handle": "shadmanwaris",
+         "message": "Happy to Code :)"
+      },
+      {
+
+         "image_link": "https://avatars1.githubusercontent.com/u/18185476?s=460&v=4",
+         "handle": "thapaPrabhat",
+         "message": "It is quality rather than quantity that matters."
+      },
+      {
+         "image_link": "https://avatars1.githubusercontent.com/u/23256782?s=460&v=4",
+         "handle": "noelierx",
+         "message": "Hi, happy hacktoberfest"
+      },
+      {
+         "image_link": "https://avatars2.githubusercontent.com/u/4638681?s=96&v=4",
+         "handle": "wuxmedia",
+         "message": "I just spent the evening on a rather long but informative task, all for a t-shirt, I hope the shirt is nice"
+      },
+      {
+         "image_link": "https://avatars2.githubusercontent.com/u/47819666?s=400&v=4",
+         "handle": "Kuroyza",
+         "message": "Truth can only be found in the code"
+      },
+	    {
+      	 "image_link": "https://avatars1.githubusercontent.com/u/50900065?s=400&u=6eadab678a49d68840171500f36a3d7ab9d00e01&v=4",
+      	 "handle": "Perfecto06",
+      	 "message": "Eat Code Sleep Repeat"
+   	  },
+	    {
+         "image_link": "https://avatars2.githubusercontent.com/u/44156359?s=400&u=43350aecbb3240fba13158c7655ee877e0b8b061&v=4",
+         "handle": "ravijyoti3",
+         "message": "Eat Learn Repeat"
+   	  },
+      {
+          "image_link": "https://avatars2.githubusercontent.com/u/39860598?s=460&v=4",
+          "handle": "nikhil-prabhu",
+          "message": "h3ll0fr13nd"
+      },
+      {
+          "image_link": "https://images.unsplash.com/photo-1558981852-426c6c22a060?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80",
+          "handle": "chmnsingh",
+          "message": "Welcome here"
+      },
+      {
+         "image_link": "https://avatars1.githubusercontent.com/u/50900065?s=400&u=6eadab678a49d68840171500f36a3d7ab9d00e01&v=4",
+         "handle": "Perfecto06",
+         "message": "Eat Code Sleep Repeat"
+      },
+      {
+         "image_link": "https://avatars3.githubusercontent.com/u/56464846?s=96&v=4",
+         "handle": "FarhadAbdoli",
+         "message": "Hello world!"
+      },
+      {
+         "image_link": "https://avatars2.githubusercontent.com/u/656065?s=460&v=4",
+         "handle": "Filipe Costa",
+         "message": "Hello friends"
+      },
+      {
+         "image_link": "https://api.adorable.io/avatars/285/abott@adorable.png",
+         "handle": "Vuyanzi Glorious",
+         "message": "Hey guyz, Happy coding"
+      }
    ]
 }
