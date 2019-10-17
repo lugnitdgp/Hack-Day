@@ -154,3 +154,29 @@ section {
 .container-tilt-inside {
   transform-style: preserve-3d;
 }
+
+.pagination .page-item {
+  background-color: #1f0630 !important;
+  border: 2px solid;
+}
+.page-item.active .page-link { 
+  background-color: #a11ec6;
+  border-color: #a11ec6 ;
+}
+.pagination .page-link {
+  color: #a11ec6 ;
+}
+.size-tracker{
+  display: inline;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .size-tracker{
+    display: none;
+  }
+  .pagination-lg .page-link {
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1;
+}
+}
