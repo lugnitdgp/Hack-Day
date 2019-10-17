@@ -1,7 +1,7 @@
 //Countdown-->
 
 // Set the date we're counting down to
-var countDownDate = new Date("Oct 19, 2019 15:37:25").getTime();
+var countDownDate = new Date("Oct 17, 2019 17:30:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {
@@ -31,10 +31,12 @@ var x = setInterval(function () {
 
 
 $(function () {
-    $('a[href*="#section02"]').on('click', function (e) {
+ 
+    $('a[href*="#"]').on('click', function (e) { 
         e.preventDefault();
         $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top }, 500, 'linear');
     });
 
    
 });
+ 
