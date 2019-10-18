@@ -42,7 +42,7 @@
          "handle": "sakchi17",
          "message": "Hacktoberfest!!"
       },
-      {
+      { 
          "image_link": "http://www.hotavatars.com/wp-content/uploads/2019/01/I80W1Q0.png",
          "handle": "Huzaifa Ahmed",
          "message": "Another hacktoberfest, yahooooo!, keep rocking, keep coding :)"
@@ -411,6 +411,12 @@
       },
       {
 
+         "image_link": "https://avatars1.githubusercontent.com/u/44157103?s=400&v=4",
+         "handle": "ajjha",
+         "message": "Eat Code Repeat"
+      },
+                {
+
          "image_link": "https://avatars3.githubusercontent.com/u/12590394?s=400&u=f82ea2abea7bb4c94dfafff350ab99b0010b765a&v=4",
          "handle": "I Play On Cardboard",
          "message": "Hello nerd friends!"
@@ -426,6 +432,7 @@
          "image_link": "https://avatars3.githubusercontent.com/u/32352500?v=4",
          "handle": "Pawan Kumar",
          "message": "hello World!"
+
 
       }
    ]
