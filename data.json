@@ -432,8 +432,11 @@
          "image_link": "https://avatars3.githubusercontent.com/u/32352500?v=4",
          "handle": "Pawan Kumar",
          "message": "hello World!"
-
-
+      }
+                {            
+         "image_link": "https://avatars3.githubusercontent.com/u/44151476?v=4",
+         "handle": "Pete Madis",
+         "message": "Hi! I'm still learning to code"
       }
    ]
 }
