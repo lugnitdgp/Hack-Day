@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
 html {
-  background-color: #152347;
+  
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   min-width: 300px;
@@ -8,12 +8,28 @@ html {
   overflow-y: scroll;
   text-size-adjust: 100%;
   scroll-behavior: smooth;
+  
+  background: linear-gradient(-45deg, #152347, #571059, #024d68, #23a3d5);
+	background-size: 400% 400%;
+	animation: gradientBG 15s ease infinite;
 }
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 a {
-  color: yellow;
+  color: green;
 }
 a:hover {
-  color:yellow;
+  color:white;
   outline: none;
 }
 a:active{
