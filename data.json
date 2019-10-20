@@ -435,10 +435,18 @@
 
 
       },
+
+	{
+	 "image_link": "https://avatars.githubusercontent.com/radharay",
+         "handle": "Radharay",
+         "message": "Hello, this is my first HactoberFest!!!"
+	},
+
       {
          "image_link": "https://avatars.githubusercontent.com/aphiwit1",
          "handle": "Aphiwit Boon",
          "message": "Hello guys"
       }
+
    ]
 }
