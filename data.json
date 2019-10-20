@@ -434,6 +434,11 @@
          "message": "hello World!"
 
 
-      }
+      },
+	{
+	 "image_link": "https://avatars.githubusercontent.com/radharay",
+         "handle": "Radharay",
+         "message": "Hello, this is my first HactoberFest!!!"
+	}
    ]
 }
