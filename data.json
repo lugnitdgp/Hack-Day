@@ -10,13 +10,11 @@
          "handle": "arc9693",
          "message": "This is the first message on this page!"
       },
-
       {
          "image_link": "https://avatars1.githubusercontent.com/u/36218769?s=400&u=aebb055f204c1f26de036ee604315836eee1f8c4&v=4",
          "handle": "dryinkuzz",
          "message": "Hello world !, from somewhere in Africa :rocket:"
       },
-
       {
          "image_link": "https://avatars1.githubusercontent.com/u/49499892?s=460&v=4",
          "handle": "prateek",
@@ -328,7 +326,6 @@
          "message": "I Very excited to join contribute open source project!"
       },
       {
-
          "image_link": "https://avatars1.githubusercontent.com/u/23256782?s=460&v=4",
          "handle": "noelierx",
          "message": "Hi, happy hacktoberfest"
@@ -349,7 +346,6 @@
          "message": "Happy to Code :)"
       },
       {
-
          "image_link": "https://avatars1.githubusercontent.com/u/18185476?s=460&v=4",
          "handle": "thapaPrabhat",
          "message": "It is quality rather than quantity that matters."
@@ -369,16 +365,16 @@
          "handle": "Kuroyza",
          "message": "Truth can only be found in the code"
       },
-	    {
-      	 "image_link": "https://avatars1.githubusercontent.com/u/50900065?s=400&u=6eadab678a49d68840171500f36a3d7ab9d00e01&v=4",
-      	 "handle": "Perfecto06",
-      	 "message": "Eat Code Sleep Repeat"
-   	  },
-	    {
+      {
+         "image_link": "https://avatars1.githubusercontent.com/u/50900065?s=400&u=6eadab678a49d68840171500f36a3d7ab9d00e01&v=4",
+         "handle": "Perfecto06",
+         "message": "Eat Code Sleep Repeat"
+      },
+      {
          "image_link": "https://avatars2.githubusercontent.com/u/44156359?s=400&u=43350aecbb3240fba13158c7655ee877e0b8b061&v=4",
          "handle": "ravijyoti3",
          "message": "Eat Learn Repeat"
-   	  },
+      },
       {
           "image_link": "https://avatars2.githubusercontent.com/u/39860598?s=460&v=4",
           "handle": "nikhil-prabhu",
@@ -410,32 +406,24 @@
          "message": "Hey guyz, Happy coding"
       },
       {
-
          "image_link": "https://avatars1.githubusercontent.com/u/44157103?s=400&v=4",
          "handle": "ajjha",
          "message": "Eat Code Repeat"
       },
       {
-
          "image_link": "https://avatars3.githubusercontent.com/u/12590394?s=400&u=f82ea2abea7bb4c94dfafff350ab99b0010b765a&v=4",
          "handle": "I Play On Cardboard",
          "message": "Hello nerd friends!"
       },
       {
-
          "image_link": "https://avatars3.githubusercontent.com/u/46675936?v=4",
          "handle": "Sweta Sahoo",
          "message": "Hello friends, Happy Coding"
-      },          
+      },     
       {            
          "image_link": "https://avatars3.githubusercontent.com/u/32352500?v=4",
          "handle": "Pawan Kumar",
          "message": "hello World!"
-      },
-      {
-         "image_link": "<link-to-your-avatar>",
-         "handle": "<your-github-handle>",
-         "message": "<your-message-to-the-community>"
       },
       {
          "image_link": "https://avatars.githubusercontent.com/eduardosgs",
@@ -443,10 +431,14 @@
          "message": "Opa, meu primeiro HacktoberFest!"
       },
       {
+         "image_link": "https://avatars.githubusercontent.com/radharay",
+         "handle": "Radharay",
+         "message": "Hello, this is my first HactoberFest!!!"
+      },
+      {
          "image_link": "https://avatars.githubusercontent.com/aphiwit1",
          "handle": "Aphiwit Boon",
          "message": "Hello guys"
       }
-
    ]
 }
