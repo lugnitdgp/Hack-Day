@@ -1,16 +1,16 @@
 {
-    "comment": "To add a link, append a dictionary with repo_link to the `repos` array. You can use the following template dictionary to edit and append.",
-    "template": {"repo_link": "<Link to the repository>"},
-    "repos":[
-        {"repo_link": "https://github.com/lugnitdgp/basic_datastructure_programs"},
-        {"repo_link": "https://github.com/Phantsure/algo-rythm-urf-algorithm"},
-        {"repo_link": "https://github.com/rohitsh16/CP_mathematics"},
-        {"repo_link": "https://github.com/SucharuRai/CSS-files"},
-        {"repo_link": "https://github.com/ashutosh97/Competitive-Programming-questions"},
-        {"repo_link": "https://github.com/naveenreddy2000/addition"},
-        {"repo_link": "https://github.com/kulkarni-rajas/codesnalgos"},
-        {"repo_link": "https://github.com/realsdx/CSS_Components"},
-        {"repo_link": "https://github.com/roundcubelabs/rn-custom-toast"}
-        
-    ]
+   "comment": "To add a link, append a dictionary with repo_link to the `repos` array. You can use the following template dictionary to edit and append.",
+   "template": {"repo_link": "<Link to the repository>"},
+   "repos":[
+     {"repo_link": "https://github.com/lugnitdgp/basic_datastructure_programs"},
+     {"repo_link": "https://github.com/Phantsure/algo-rythm-urf-algorithm"},
+     {"repo_link": "https://github.com/rohitsh16/CP_mathematics"},
+     {"repo_link": "https://github.com/SucharuRai/CSS-files"},
+     {"repo_link": "https://github.com/ashutosh97/Competitive-Programming-questions"},
+     {"repo_link": "https://github.com/naveenreddy2000/addition"},
+     {"repo_link": "https://github.com/kulkarni-rajas/codesnalgos"},
+      {"repo_link": "https://github.com/realsdx/CSS_Components"},
+      {"repo_link": "https://github.com/roundcubelabs/rn-custom-toast"}
+
+   ]
 }
