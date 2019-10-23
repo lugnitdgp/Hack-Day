@@ -441,6 +441,7 @@
          "message": "Hello guys"
       },
       {
+
 	 "image_link":"https://avatars0.githubusercontent.com/u/34334421",
 	 "handle":"vivekshah1801",
 	 "message":"Hello World, Keep Exploring"
@@ -449,6 +450,17 @@
    	 "image_link": "https://avatars3.githubusercontent.com/u/56889018?s=400&v=4",
    	 "handle": "E1saone",
   	 "message": "My first Hacktoberfest! "
+      },
+                {
+	      "image_link":"https://avatars0.githubusercontent.com/u/34334421",
+	      "handle":"vivekshah1801",
+	      "message":"Hello World, Keep Exploring"
+      },
+      {
+         "image_link":"https://avatars1.githubusercontent.com/u/44206922?s=460&v=4",
+         "handle":"shubham976",
+         "message":"Happy Hacktoberfest2K19!!"
+
       }
    ]
 }
