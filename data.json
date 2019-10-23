@@ -381,6 +381,17 @@
           "message": "h3ll0fr13nd"
       },
       {
+
+        "image_link": "https://rukminim1.flixcart.com/image/832/832/jao8uq80/mobile-holder/h/r/v/iron-man-1-art-crazyink-original-imafy7g4hhyxe4gw.jpeg?q=70",
+        "handle": "abhishek311098",
+        "message": "h3ll0 w3lc0m3 t0 0p3n s0urc3"
+      },
+      {
+         "image_link": "https://images.app.goo.gl/5tJKBAC3Xwm3b6oC8",
+         "handle": "tess10553",
+         "message": "Hello there, Happy Hacktoberfest!"
+      },
+                {
           "image_link": "https://images.unsplash.com/photo-1558981852-426c6c22a060?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80",
           "handle": "chmnsingh",
           "message": "Welcome here"
@@ -441,6 +452,17 @@
          "message": "Hello guys"
       },
       {
+
+	 "image_link":"https://avatars0.githubusercontent.com/u/34334421",
+	 "handle":"vivekshah1801",
+	 "message":"Hello World, Keep Exploring"
+      },
+      {
+   	 "image_link": "https://avatars3.githubusercontent.com/u/56889018?s=400&v=4",
+   	 "handle": "E1saone",
+  	 "message": "My first Hacktoberfest! "
+      },
+                {
 	      "image_link":"https://avatars0.githubusercontent.com/u/34334421",
 	      "handle":"vivekshah1801",
 	      "message":"Hello World, Keep Exploring"
@@ -449,11 +471,25 @@
          "image_link":"https://avatars1.githubusercontent.com/u/44206922?s=460&v=4",
          "handle":"shubham976",
          "message":"Happy Hacktoberfest2K19!!"
+
       },
       {
          "image_link":"https://avatars0.githubusercontent.com/u/25472045?s=400&v=4",
          "handle":"ManuelGil",
          "message":"Happy Hacktoberfest 2019!"
+
+
+      },
+      {
+         "image_link":"https://avatars.githubusercontent.com/akapattnaik",
+         "handle":"akapattnaik",
+         "message":"Happy coding!"
+
+
+
+
+
       }
+       
    ]
 }
