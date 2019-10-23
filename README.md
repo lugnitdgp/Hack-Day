@@ -7,7 +7,7 @@ An event organised by GNU/Linux Users' Group, NIT Durgapur for the promotion of 
 ##### Venue: New Academic Building
 
 ### FAQ
-    #### Q. Who Part in this Event?
+    #### Q. Who can take Part in this Event?
     #### A. Anyone with a GITHUB Account.
 
     #### Q. How Do I take Part in this event?
@@ -34,7 +34,7 @@ git checkout -b (branch-name)
        ```
        {
           "image_link": "<link-to-your-avatar>",
-          "handle": "<your-github-handle",
+          "handle": "<your-github-handle>",
           "message": "<your-message-to-the-community>"
        }
         ```
