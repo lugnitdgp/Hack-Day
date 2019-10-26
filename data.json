@@ -45,7 +45,7 @@
          "handle": "xMcLOVINx",
          "message": "I'm McLOVIN!!!"
       },
-      { 
+      {
          "image_link": "http://www.hotavatars.com/wp-content/uploads/2019/01/I80W1Q0.png",
          "handle": "Huzaifa Ahmed",
          "message": "Another hacktoberfest, yahooooo!, keep rocking, keep coding :)"
@@ -435,8 +435,8 @@
          "image_link": "https://avatars3.githubusercontent.com/u/46675936?v=4",
          "handle": "Sweta Sahoo",
          "message": "Hello friends, Happy Coding"
-      },     
-      {            
+      },
+      {
          "image_link": "https://avatars3.githubusercontent.com/u/32352500?v=4",
          "handle": "Pawan Kumar",
          "message": "hello World!"
@@ -483,16 +483,11 @@
          "handle":"ManuelGil",
          "message":"Happy Hacktoberfest 2019!"
 
-
       },
       {
          "image_link":"https://avatars.githubusercontent.com/akapattnaik",
          "handle":"akapattnaik",
          "message":"Happy coding!"
-
-
-
-
 
       },
       {
@@ -513,7 +508,12 @@
          "handle":"rainr7",
          "message":"This is my first Hacktoberfest!"
 
-
       }
+	  {
+		  "image_link":"https://avatars1.githubusercontent.com/u/35778371?s=460&v=4",
+		  "handle":"ModdedGamers",
+		  "message":"Having a lot of fun!"
+
+	}
    ]
 }
