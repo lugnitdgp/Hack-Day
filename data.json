@@ -489,6 +489,11 @@
 
 
 
+      },
+      {
+         "image_link":"https://avatars.githubusercontent.com/rainr7",
+         "handle":"rainr7",
+         "message":"This is my first Hacktoberfest!"
       }
        
    ]
