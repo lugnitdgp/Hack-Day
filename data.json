@@ -41,6 +41,12 @@
          "message": "Hacktoberfest!!"
       },
       {
+
+         "image_link": "https://avatars3.githubusercontent.com/u/47161588?s=460&v=4",
+         "handle": "xMcLOVINx",
+         "message": "I'm McLOVIN!!!"
+      },
+      { 
          "image_link": "http://www.hotavatars.com/wp-content/uploads/2019/01/I80W1Q0.png",
          "handle": "Huzaifa Ahmed",
          "message": "Another hacktoberfest, yahooooo!, keep rocking, keep coding :)"
@@ -491,9 +497,32 @@
 
       },
       {
+
          "image_link":"https://avatars.githubusercontent.com/abiralgtm",
          "handle":"abiralgtm",
          "message":"Talk is cheap. Show me the code."
+      },
+                {
+
+
+
+         "image_link": "https://avatars1.githubusercontent.com/u/40159400?s=460&v=4",
+         "handle": "Prashamsasharma",
+         "message": "It always seems impossible until its done."
+      },
+                {
+
+         "image_link":"https://avatars2.githubusercontent.com/u/47652925?s=400&u=abb5254960099147d05b223e71f160c8f38d6231&v=4",
+         "handle":"roman9803640949",
+         "message":"Happy Hacktoberfest2K19 - roman9803640949!!"
+
+      },
+                {
+         "image_link":"https://avatars.githubusercontent.com/rainr7",
+         "handle":"rainr7",
+         "message":"This is my first Hacktoberfest!"
+
+
       }
 
    ]
