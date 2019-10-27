@@ -22,10 +22,6 @@
          "handle": "prateek",
          "message": "This is my bio!"
       },
-      { "image_link": "https://avatars1.githubusercontent.com/u/46245859?s=40&v=4",
-          "handle": "Harshita248",
-         "message": "Hello everyone ! Learn and earn hacking. My first hacktoberfest"
-      },
 
       {
          "image_link": "https://res.cloudinary.com/jutzee/image/upload/v1545401659/white.jpg",
@@ -82,6 +78,12 @@
          "handle": "aneirfan",
          "message": "Welcome Hacktober !"
       },
+	 {
+      "image_link": "https://avatars0.githubusercontent.com/u/46245859?s=460&v=4",
+      "handle": "Harshita248",
+      "message": "Happy coding in open source !!"
+   },
+
       {
          "image_link": "https://pngriver.com/wp-content/uploads/2018/04/Download-Coder-PNG-Clipart.png",
          "handle": "Sarvesh1523",
