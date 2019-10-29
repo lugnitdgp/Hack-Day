@@ -156,6 +156,11 @@
          "message": "No Soup for You!"
       },
       {
+         "image_link":"https://avatars0.githubusercontent.com/u/56928409?s=400&u=405133835854afa202aae7783cdccc20089b710c&v=4",
+         "handle":"ZahoLinda",
+         "message":"Anonymous is my life, my profile added by FEHIM"
+      },
+      {
          "image_link": "https://avatars.githubusercontent.com/thiivalente",
          "handle": "thiivalente",
          "message": "Write many code to write less code!"
@@ -520,10 +525,18 @@
          "handle": "credocleo",
          "message": "Celebrating hacktoberfest from the PH! Happy coding everyone :) Opensource FTW!"
       },
+
       {
          "image_link": "https://avatars3.githubusercontent.com/u/36427930",
          "handle": "F4Ray",
          "message": "Hacktoberfest For Every Developer ! :)"
+      },
+	 {
+         "image_link": "https://avatars2.githubusercontent.com/u/36675143?s=400&u=dc34f0525f2d7bec4f3400314493444cd1dd54ad&v=4",
+         "handle": "tharindumalshan1",
+         "message": "Welcome to OpenSource with Hacktoberfest!"
+
       }
+	
    ]
 }
