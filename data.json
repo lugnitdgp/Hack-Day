@@ -536,6 +536,11 @@
          "handle": "tharindumalshan1",
          "message": "Welcome to OpenSource with Hacktoberfest!"
 
+      },
+      {
+	         "image_link": "https://avatars3.githubusercontent.com/u/56970972?s=400&u=1d0caf9a90f48e9bccd2bc450150eb0e1473f780&v=4",
+		 "handle": "illusivedeveloper",
+		 "message": "Hacktoberfest N!"
       }
 	
    ]
