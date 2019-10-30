@@ -536,6 +536,11 @@
          "handle": "tharindumalshan1",
          "message": "Welcome to OpenSource with Hacktoberfest!"
 
+      },
+     {
+         "image_link": "https://res.cloudinary.com/jutzee/image/upload/v1545401659/white.jpg",
+         "handle": "pallabi143",
+         "message": "Cheers to Hactoberfest2019"
       }
 	
    ]
