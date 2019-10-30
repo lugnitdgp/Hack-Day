@@ -537,10 +537,17 @@
          "message": "Welcome to OpenSource with Hacktoberfest!"
 
       },
+
       {
          "image_link": "https://th.seaicons.com/wp-content/uploads/2015/07/Mushroom-1UP-icon.png",
          "handle": "ccdlus",
          "message": "Enjoy the last 2 days of Hacktoberfest 2019"
+      },
+     {
+         "image_link": "https://res.cloudinary.com/jutzee/image/upload/v1545401659/white.jpg",
+         "handle": "pallabi143",
+         "message": "Cheers to Hactoberfest2019"
+
       }
 	
    ]
