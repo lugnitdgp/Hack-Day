@@ -544,6 +544,12 @@
       },
 
       {
+	         "image_link": "https://avatars3.githubusercontent.com/u/56970972?s=400&u=1d0caf9a90f48e9bccd2bc450150eb0e1473f780&v=4",
+		 "handle": "illusivedeveloper",
+		 "message": "Hacktoberfest N!"
+      },
+
+      {
          "image_link": "https://th.seaicons.com/wp-content/uploads/2015/07/Mushroom-1UP-icon.png",
          "handle": "ccdlus",
          "message": "Enjoy the last 2 days of Hacktoberfest 2019"
@@ -552,6 +558,7 @@
          "image_link": "https://res.cloudinary.com/jutzee/image/upload/v1545401659/white.jpg",
          "handle": "pallabi143",
          "message": "Cheers to Hactoberfest2019"
+
 
       }
 	
