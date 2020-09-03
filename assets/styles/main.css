@@ -73,7 +73,7 @@ section {
   min-height: 90vh;
 }
 #logo {
-  height: auto;
+  height: 100%;
   width: 100%;
   transform: translateZ(15px);
 }
