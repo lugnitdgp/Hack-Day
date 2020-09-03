@@ -1,6 +1,7 @@
 # Hack-Day-2019
 
-An event organised by GNU/Linux Users' Group, NIT Durgapur for the promotion of Hacktoberfest 2019 🎃
+An event organised by GNU/Linux Users' Group, NIT Durgapur for the promotion of Hacktoberfest 2019 🎃.
+Visit [https://hack-day-2020.netlify.app/](https://hack-day-2019.netlify.app) to checkout hacking ninjas from 2019 edition of hack day.
 
 
 ##### Date: Thursday 17th October, 2019
