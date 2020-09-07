@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
 html {
-  background-color: #152347;
+  background-color: white;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   min-width: 300px;
@@ -10,10 +10,10 @@ html {
   scroll-behavior: smooth;
 }
 a {
-  color: yellow;
+  color: #93c2db;
 }
 a:hover {
-  color:yellow;
+  color: #Ff8ae2;
   outline: none;
   text-decoration: none;
 }
@@ -87,7 +87,20 @@ section {
 }
 .glug_title {
   text-align: center;
-  color: antiquewhite;
+  color: #Ff8ae2;
+}
+.random {
+  color: #93c2db;
+}
+#svglem {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-20%);
+  -ms-transform: translateX(-20%);
+  transform: translateX(-50%);
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
 }
 #demo {
   color: white;
@@ -99,6 +112,29 @@ section {
 .time {
   color: white;
   text-align: center;
+}
+.time-cont {
+  margin: 0 1%;
+  color: black;
+}
+.countdown-circles {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.countdown-circles span {
+  margin: 1%;
+  padding: 5%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #93c2db;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.countdown-circles span:first-of-type {
+  margin-left: 0;
 }
 .header {
   top: 20%;
@@ -114,8 +150,11 @@ section {
 }
 .highlight,
 .highlight1 {
-  color: #fff922;
+  color: #93c2db;
   text-align: center;
+}
+.highlight-random {
+  color: #Ff8ae2;
 }
 .highlight3 {
   color: #f274bd;
@@ -166,6 +205,6 @@ section {
 .container-tilt-inside {
   transform-style: preserve-3d;
 }
-#repo-cards .card{
+#repo-cards .card {
   border-radius: 0%;
 }
