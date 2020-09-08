@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
 html {
-  background-color: #152347;
+  background-color: white;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   min-width: 300px;
@@ -10,10 +10,10 @@ html {
   scroll-behavior: smooth;
 }
 a {
-  color: yellow;
+  color: rgb(147, 194, 219);
 }
 a:hover {
-  color:yellow;
+  color:rgb(147, 194, 219);
   outline: none;
   text-decoration: none;
 }
@@ -114,7 +114,7 @@ section {
 }
 .highlight,
 .highlight1 {
-  color: #fff922;
+  color:  rgb(147, 194, 219);
   text-align: center;
 }
 .highlight3 {
@@ -168,4 +168,15 @@ section {
 }
 #repo-cards .card{
   border-radius: 0%;
+}
+.stats-cards{
+  justify-content: center;
+}
+
+.stats-card{
+  background-color:white;
+  margin: 20px;
+  width: 650px !important;
+  height: 300px !important;
+  box-shadow: rgba(1, 14, 40, 0.1) 0px 4px 16px;
 }
