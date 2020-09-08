@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Hactoberfest-Hack-Day-2019</title>
+    <title>Hactoberfest-Hack-Day-2020</title>
     <!--bootstrap stylesheet-->
     <link
       rel="stylesheet"
@@ -92,15 +92,26 @@
             <a href="./index.html">Home</a>
           </div>
           <div class="col-12 col-md-2 text-right ml-auto mt-auto mb-auto">
-            <a href="./statistics.html">Statistics</a>
+            <a href="./exploreRepos.html">Explore repositories</a>
           </div>
         </div>
       </div>
     </section>
-    <section id="section02" class="mt-5">
-      <div class="container">
-        <div id="repo-cards" class="row m-0"></div>
+    <div class="row justify-content-center m-0">
+        <div class="col-12">
+          <h1 class="font-weight-bold highlight">STATISTICS</h1>
+        </div>
+    </div>
+    <div class="row justify-content-center m-0">
+      <div class="col-12">
+        <h3 class="font-weight-bold highlight">NO OF CONTRIBUTERS:<p id="contrib-value"></p></h3>
       </div>
+  </div>
+    <section id="section02" class="mt-5">
+        <div class="conatiner">
+          <div class="row m-0" id="stats-cards"></div>
+          <!-- <canvas class="row m-0" id="stats-cards" width="400" height="400"></canvas> -->
+        </div>
     </section>
 
     <footer class="footer">
@@ -124,7 +135,11 @@
     <script src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js"></script>
     <!--preloader js library-->
     <script src="assets/js/preLoader.js"></script>
-    <!--Repo js library-->
-    <script src="assets/js/repoAdd.js"></script>
+    <!-- chart.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <!-- stats js library -->
+    <script src="assets/js/statsAdd.js"></script>
+    <!-- momentjs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
   </body>
 </html>
