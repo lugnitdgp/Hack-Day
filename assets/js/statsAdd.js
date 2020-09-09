@@ -71,6 +71,10 @@ $.when($.getJSON(repos),$.getJSON(data)).done(function(repos,data){
             card.classList.add('p-3');
             var ctx=card.getContext('2d');
 
+            Chart.Title.prototype.afterFit = function() {
+                this.paddingBottom = this.paddingBottom + 50;
+            };
+
             var newChart=new Chart(ctx,charts[i])
             parentContainer.appendChild(card);
         }
@@ -247,7 +251,6 @@ var getRepoChart=(no_of_repos,no_of_profiles,forks)=> {
         data:{
             labels:['Forks','Repo cards','Profile cards'],
             datasets:[{
-                label:"Repo Data",
                 barThickness:10,
                 data:[forks,no_of_repos,no_of_profiles],
                 backgroundColor:[
@@ -263,10 +266,7 @@ var getRepoChart=(no_of_repos,no_of_profiles,forks)=> {
         },
         options:{
             legend:{
-                labels:{
-                    fontColor: 'black',
-                    fontSize:25
-                }
+                display:false
             },
             scales:{
                 yAxes:[{
@@ -283,7 +283,16 @@ var getRepoChart=(no_of_repos,no_of_profiles,forks)=> {
                         fontColor:"black"
                     }
                 }]
-            }
+            },
+            title: {
+                display: true,
+                text: 'Repo data',
+                position: 'top',
+                fontSize:25,
+                fontColor:"black",
+                fontStyle:"normal",
+                padding: 30
+            },
         }
     }
 }
@@ -305,17 +314,20 @@ var getContribChart=(data)=>{
         },
         options:{
             legend:{
+                position:'right',
                 labels:{
                     fontColor: 'black',
-                    fontSize:25
+                    fontSize:20,
                 }
             },
             title: {
                 display: true,
                 text: 'Pull Requests',
                 position: 'top',
-                fontSize:30,
-                fontColor:"black"
+                fontSize:25,
+                fontColor:"black",
+                fontStyle:"normal",
+                padding: 30
             },
         }
     }
@@ -328,7 +340,6 @@ var getCommitChart=(data)=>{
             labels: data.date.map((date)=>moment(date).format('MMM Do')),
             datasets:[
                 {
-                    label:"Daily Number Of Commits",
                     fill:true,
                     backgroundColor:'#FF8AE2',
                     data:data.daily_commits,
@@ -338,10 +349,7 @@ var getCommitChart=(data)=>{
         },
         options:{
             legend:{
-                labels:{
-                    fontColor: 'black',
-                    fontSize:25
-                }
+                display:false
             },
             scales:{
                 yAxes:[{
@@ -357,7 +365,16 @@ var getCommitChart=(data)=>{
                         fontColor:"black"
                     }
                 }]
-            }
+            },
+            title: {
+                display: true,
+                text: 'Daily Commit Data',
+                position: 'top',
+                fontSize:25,
+                fontColor:"black",
+                fontStyle:"normal",
+                padding: 30
+            },
         }
     }
 }
@@ -378,17 +395,20 @@ var getIssuesChart=(data)=>{
         },
         options:{
             legend:{
+                position:'right',
                 labels:{
                     fontColor: 'black',
-                    fontSize:25
+                    fontSize:20,
                 }
             },
             title: {
                 display: true,
                 text: 'Issues',
                 position: 'top',
-                fontSize:30,
-                fontColor:"black"
+                fontSize:25,
+                fontColor:"black",
+                fontStyle:"normal",
+                padding: 30
             },
         }
     }
