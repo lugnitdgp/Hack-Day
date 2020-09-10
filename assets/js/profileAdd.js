@@ -1,4 +1,4 @@
-$.getJSON('https://raw.githubusercontent.com/lugnitdgp/Hack-Day-2019/master/data.json', function(data) {
+$.getJSON('https://raw.githubusercontent.com/lugnitdgp/Hack-Day/2020/data.json', function(data) {
     // console.log(data); // this will show the info it in firebug console
     var profileKeys = ["handle", "image_link", "message"];
     /**
@@ -7,7 +7,7 @@ $.getJSON('https://raw.githubusercontent.com/lugnitdgp/Hack-Day-2019/master/data
     var isProfileValid = function(profile) {
       return profileKeys.every(k => k in profile)
     };
-    
+
     /**
      * Given an array of profiles, keep only one for handle (handle is the id of the profile)
      */
@@ -18,10 +18,10 @@ $.getJSON('https://raw.githubusercontent.com/lugnitdgp/Hack-Day-2019/master/data
         return profile;
       })
     }
-    
-    // get only unique and valid profiles 
+
+    // get only unique and valid profiles
     var profiles = getUniqueProfiles(data.profiles.filter(isProfileValid));
-    
+
     var cardParent = document.getElementById('profile-cards');
     for (index = 0; index < profiles.length; index++){
       var card = document.createElement('div');
@@ -46,5 +46,12 @@ $.getJSON('https://raw.githubusercontent.com/lugnitdgp/Hack-Day-2019/master/data
             </div>
         `;
       cardParent.appendChild(card);
+    }
+    if(!profiles.length)
+    {
+      var card = document.createElement('div');
+      card.classList.add('col-12');
+      card.innerHTML= "<h1>No ninjas encountered yet. Are you one? Fill free to add your card!</h1>";
+      cardParent.append(card);
     }
   });

@@ -10,7 +10,7 @@ html {
   scroll-behavior: smooth;
 }
 a {
-  color: #93c2db;
+  color: #072540
 }
 a:hover {
   color: #Ff8ae2;
@@ -98,7 +98,7 @@ section {
 #svglem {
   position: relative;
   left: 50%;
-  width: 770px; 
+  width: 770px;
   height: 300px;
   -webkit-transform: translateX(-20%);
   -ms-transform: translateX(-20%);
@@ -126,12 +126,14 @@ section {
 .countdown-circles {
   text-transform: uppercase;
   font-weight: bold;
+  margin-top: 2rem;
 }
 .countdown-circles span {
-  width: 150px;
-  height: 150px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  background-color: #93c2db;
+  background-color: #072540;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -164,8 +166,8 @@ section {
   color: #f274bd;
 }
 .footer {
-  background-color: #0e182f;
-  color: rgb(230, 226, 19);
+  background-color: #072540;
+  color: #93c2db;
   bottom: 0;
   width: 100%;
   padding-top: 4px;
@@ -216,8 +218,13 @@ section {
   margin-top: -1% !important;
 }
 
+.click:hover,.click:active {
+  background: #072540 !important;
+  color: white !important;
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  #svglem { 
+  #svglem {
     margin-top: -3%;
   }
   .time {
@@ -228,7 +235,7 @@ section {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 992px) { 
+@media only screen and (min-width: 768px) and (max-width: 992px) {
   a {
     font-size: 0.8em;
   }
@@ -239,7 +246,7 @@ section {
     margin-top: 2% !important;
     font-size: 1.4em;
   }
-  #svglem { 
+  #svglem {
     margin-top: -4%;
     width: 500px;
     height: 270px;
@@ -252,8 +259,8 @@ section {
   }
   .countdown-circles span {
     font-size: 0.8em;
-    width: 125px;
-    height: 125px;
+    width: 60px;
+    height: 60px;
   }
   .ninja {
     margin-top: -0.7% !important;
@@ -261,7 +268,7 @@ section {
   }
 }
 
-@media only screen and (max-width: 768px) { 
+@media only screen and (max-width: 768px) {
   .explore {
     float: left;
     font-size: 0.8em;
@@ -292,8 +299,8 @@ section {
   }
   .countdown-circles span {
     font-size: 0.6em;
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
   }
   .ninja {
     margin-top: -1.0% !important;
@@ -301,6 +308,10 @@ section {
   }
   .click {
     font-size: 0.8em;
+  }
+  .click:hover,.click:active {
+    background: #072540 !important;
+    color: white !important;
   }
 }
 @media only screen and (max-width: 671px) {
