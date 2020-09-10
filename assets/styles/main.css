@@ -78,12 +78,15 @@ section {
   transform: translateZ(15px);
 }
 .glug_logo {
-  width: 5em;
+  width: 4em;
   max-width: 30vw;
   -webkit-filter: drop-shadow(1px 1px 2px #000);
   filter: drop-shadow(1px 1px 2px #000);
   display: block;
   margin: 0 auto;
+}
+.heading {
+  margin-top: -3% !important;
 }
 .glug_title {
   text-align: center;
@@ -95,6 +98,8 @@ section {
 #svglem {
   position: relative;
   left: 50%;
+  width: 770px; 
+  height: 300px;
   -webkit-transform: translateX(-20%);
   -ms-transform: translateX(-20%);
   transform: translateX(-50%);
@@ -110,11 +115,12 @@ section {
   box-shadow: 5px 10px 8px 10px;
 }
 .time {
+  margin-top: -3.5%;
   color: white;
   text-align: center;
 }
 .time-cont {
-  margin: 0 1%;
+  margin: 0 0.5%;
   color: black;
 }
 .countdown-circles {
@@ -122,8 +128,6 @@ section {
   font-weight: bold;
 }
 .countdown-circles span {
-  margin: 1%;
-  padding: 5%;
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -207,4 +211,118 @@ section {
 }
 #repo-cards .card {
   border-radius: 0%;
+}
+.ninja {
+  margin-top: -1% !important;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  #svglem { 
+    margin-top: -3%;
+  }
+  .time {
+    margin-top: -6.5%;
+  }
+  .ninja {
+    margin-top: -0.3% !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) { 
+  a {
+    font-size: 0.8em;
+  }
+  .glug_logo {
+    width: 3em;
+  }
+  .glug_title {
+    margin-top: 2% !important;
+    font-size: 1.4em;
+  }
+  #svglem { 
+    margin-top: -4%;
+    width: 500px;
+    height: 270px;
+  }
+  .hack_day {
+    font-size: 1.4em;
+  }
+  .time {
+    margin-top: -7.5%;
+  }
+  .countdown-circles span {
+    font-size: 0.8em;
+    width: 125px;
+    height: 125px;
+  }
+  .ninja {
+    margin-top: -0.7% !important;
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (max-width: 768px) { 
+  .explore {
+    float: left;
+    font-size: 0.8em;
+  }
+  .glug_logo {
+    width: 3em;
+  }
+  .glug_title {
+    margin-top: 2% !important;
+    font-size: 1.4em;
+  }
+  .svg-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #svglem {
+    margin-top: -4%;
+    width: 500px;
+    height: 270px;
+    transform: translateX(-70%);
+  }
+  .hack_day {
+    font-size: 1.4em;
+  }
+  .time {
+    margin-top: -10.5%;
+  }
+  .countdown-circles span {
+    font-size: 0.6em;
+    width: 100px;
+    height: 100px;
+  }
+  .ninja {
+    margin-top: -1.0% !important;
+    font-size: 0.8em;
+  }
+  .click {
+    font-size: 0.8em;
+  }
+}
+@media only screen and (max-width: 671px) {
+  .explore {
+    margin: 0 10%;
+    font-size: 0.6em;
+  }
+  .glug_title {
+    margin-top: 2% !important;
+    font-size: 1.2em;
+  }
+  .presents {
+    margin-top: -1% !important;
+    font-size: 1.2em;
+  }
+  .hack_day {
+    margin-top: -10.0% !important;
+    font-size: 1.0em;
+  }
+  #svglem {
+    margin-left: 15%;
+    margin-right: 10%;
+    /* transform: translateX(-55%); */
+  }
 }

@@ -47,4 +47,4 @@ $.getJSON('https://raw.githubusercontent.com/lugnitdgp/Hack-Day-2019/master/data
         `;
       cardParent.appendChild(card);
     }
-});
+  });
