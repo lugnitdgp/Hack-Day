@@ -171,11 +171,6 @@ section {
 }
 
 .stats-card{
-  background-color:white;
-  margin: 20px;
-  width: 650px !important;
-  height: 300px !important;
+  background-color: white;
   box-shadow: rgba(1, 14, 40, 0.1) 0px 4px 16px;
-  padding:30px !important;
-  padding-top:0px !important
 }
