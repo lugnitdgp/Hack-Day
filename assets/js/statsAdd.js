@@ -3,7 +3,7 @@ var data="https://raw.githubusercontent.com/lugnitdgp/Hack-Day/2020/data.json";
 var year=2019;
 
 $.when($.getJSON(repos),$.getJSON(data)).done(function(repos,data){
-    
+
     // data for number of repos,profile,forks chart
     var repos=repos[0].repos;
     var profiles=data[0].profiles;
@@ -15,7 +15,7 @@ $.when($.getJSON(repos),$.getJSON(data)).done(function(repos,data){
         forks:0
     };
 
-    // data for no of PRs and closed PRs 
+    // data for no of PRs and closed PRs
     var PR_values={
         open:0,
         closed:0,
@@ -49,7 +49,7 @@ $.when($.getJSON(repos),$.getJSON(data)).done(function(repos,data){
     ])
     .then(()=>{
 
-        var repochart=getRepoChart(no_of_repos,no_of_profiles,fork_values.forks); 
+        var repochart=getRepoChart(no_of_repos,no_of_profiles,fork_values.forks);
         var contribchart=getContribChart(PR_values);
         var commitchart=getCommitChart(commit_values);
         var issuechart=getIssuesChart(issues_values);
@@ -59,16 +59,17 @@ $.when($.getJSON(repos),$.getJSON(data)).done(function(repos,data){
         document.getElementById('contrib-value').innerHTML=no_of_profiles
 
         var parentContainer=document.getElementById('stats-cards');
-        parentContainer.classList.add('justify-content-center')
-        
+    //    parentContainer.classList.add('justify-content-center')
+
         for(i=0;i<charts.length;i++)
         {
             //create card for each chart
             var card=document.createElement('canvas');
             card.classList.add('stats-card');
             card.classList.add('col-12');
-            card.classList.add('col-md-4');
-            card.classList.add('p-3');
+            card.classList.add('col-md-5');
+            card.classList.add('p-2');
+            card.classList.add('m-1');
             var ctx=card.getContext('2d');
 
             Chart.Title.prototype.afterFit = function() {
@@ -91,7 +92,7 @@ var getSortedCommits=(commits,data)=>{
         if(commit.commit.committer.date>=new Date(`Sept 1, ${year} 00:00:00`).toISOString() && commit.commit.committer.date<=new Date(`Dec 31, ${year} 00:00:00`).toISOString())
         {
             var date_of_commit=commit.commit.committer.date.split('T',1)[0];
-           
+
             if(data.date.indexOf(date_of_commit)==-1)
             {
                 data.date.push(date_of_commit)
@@ -106,7 +107,7 @@ var getSortedCommits=(commits,data)=>{
 }
 
 var getCommits=async(data)=>{
-    try 
+    try
     {
         var i=0;
         var flag=0;
@@ -122,17 +123,17 @@ var getCommits=async(data)=>{
                 {
                     commits.forEach((commit)=>data.commits.push(commit));
                 }
-            }) 
-        }  
-    } 
-    catch (error) 
+            })
+        }
+    }
+    catch (error)
     {
-        console.log(error)  
+        console.log(error)
     }
 }
 
 var getForks=async(data)=>{
-    try 
+    try
     {
         var i=0;
         var flag=0;
@@ -155,18 +156,18 @@ var getForks=async(data)=>{
                         }
                     })
                 }
-            }) 
-        }  
-    } 
-    catch (error) 
+            })
+        }
+    }
+    catch (error)
     {
-        console.log(error)  
+        console.log(error)
     }
 }
 
 
 var getPRData=async (PR_values)=>{
-    try 
+    try
     {
         //gets pr data
         var i=0;
@@ -198,17 +199,17 @@ var getPRData=async (PR_values)=>{
                         }
                     })
                 }
-            }) 
-        }  
-    } 
-    catch (error) 
+            })
+        }
+    }
+    catch (error)
     {
-        console.log(error)  
+        console.log(error)
     }
 }
 
 var getIssuesData=async (data)=>{
-    try 
+    try
     {
         var i=0;
         var flag=0;
@@ -235,12 +236,12 @@ var getIssuesData=async (data)=>{
                         }
                     })
                 }
-            }) 
-        }  
-    } 
-    catch (error) 
+            })
+        }
+    }
+    catch (error)
     {
-        console.log(error)  
+        console.log(error)
     }
 }
 
@@ -248,6 +249,7 @@ var getIssuesData=async (data)=>{
 var getRepoChart=(no_of_repos,no_of_profiles,forks)=> {
     return {
         type:'bar',
+
         data:{
             labels:['Forks','Repo cards','Profile cards'],
             datasets:[{
@@ -272,14 +274,16 @@ var getRepoChart=(no_of_repos,no_of_profiles,forks)=> {
                 yAxes:[{
                     ticks:{
                         beginAtZero: true,
-                        fontSize:20,
+                        fontSize:10,
+                        fontStyle: "bold",
                         fontColor:"black"
                     }
                 }],
                 xAxes:[{
                     barThickness: 50,
                     ticks:{
-                        fontSize:20,
+                        fontSize:10,
+                        fontStyle: "bold",
                         fontColor:"black"
                     }
                 }]
@@ -288,10 +292,10 @@ var getRepoChart=(no_of_repos,no_of_profiles,forks)=> {
                 display: true,
                 text: 'Repo data',
                 position: 'top',
-                fontSize:25,
+                fontSize:15,
                 fontColor:"black",
-                fontStyle:"normal",
-                padding: 30
+                fontStyle:"bold",
+                paddingBottom: 30
             },
         }
     }
@@ -317,17 +321,18 @@ var getContribChart=(data)=>{
                 position:'right',
                 labels:{
                     fontColor: 'black',
-                    fontSize:20,
+                    fontSize:10,
+                    fontStyle: "bold"
                 }
             },
             title: {
                 display: true,
                 text: 'Pull Requests',
                 position: 'top',
-                fontSize:25,
+                fontSize:15,
                 fontColor:"black",
-                fontStyle:"normal",
-                padding: 30
+                fontStyle:"bold",
+                paddingBottom: 30
             },
         }
     }
@@ -370,10 +375,10 @@ var getCommitChart=(data)=>{
                 display: true,
                 text: 'Daily Commit Data',
                 position: 'top',
-                fontSize:25,
+                fontSize:15,
                 fontColor:"black",
-                fontStyle:"normal",
-                padding: 30
+                fontStyle:"bold",
+                paddingBottom: 30
             },
         }
     }
@@ -398,17 +403,18 @@ var getIssuesChart=(data)=>{
                 position:'right',
                 labels:{
                     fontColor: 'black',
-                    fontSize:20,
+                    fontSize:10,
+                    fontStyle: "bold"
                 }
             },
             title: {
                 display: true,
                 text: 'Issues',
                 position: 'top',
-                fontSize:25,
+                fontSize:15,
                 fontColor:"black",
-                fontStyle:"normal",
-                padding: 30
+                fontStyle:"bold",
+                paddingBottom: 30
             },
         }
     }
