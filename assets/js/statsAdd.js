@@ -1,9 +1,8 @@
-var repos="https://raw.githubusercontent.com/lugnitdgp/Hack-Day/2020/repos.json";
-var data="https://raw.githubusercontent.com/lugnitdgp/Hack-Day/2020/data.json";
+var repos="https://raw.githubusercontent.com/lugnitdgp/Hack-Day/2019/repos.json";
+var data="https://raw.githubusercontent.com/lugnitdgp/Hack-Day/2019/data.json";
 var year=2019;
 
 $.when($.getJSON(repos),$.getJSON(data)).done(function(repos,data){
-
     // data for number of repos,profile,forks chart
     var repos=repos[0].repos;
     var profiles=data[0].profiles;
@@ -39,6 +38,9 @@ $.when($.getJSON(repos),$.getJSON(data)).done(function(repos,data){
     }
 
     //function call for getting all data and making charts after data received
+    if(localStorage.getItem("isStored"))
+    makeChart(no_of_repos,no_of_profiles);
+    else
     Promise.all([
         getCommits(commits).then(()=>{
             getSortedCommits(commits.commits,commit_values)
@@ -48,42 +50,52 @@ $.when($.getJSON(repos),$.getJSON(data)).done(function(repos,data){
         getIssuesData(issues_values)
     ])
     .then(()=>{
+        localStorage.setItem("isStored",true)
+        localStorage.setItem("forks",JSON.stringify(fork_values.forks));
+        localStorage.setItem("PR_values",JSON.stringify(PR_values));
+        localStorage.setItem("commit_values",JSON.stringify(commit_values));
+        localStorage.setItem("issues_values",JSON.stringify(issues_values));
 
-        var repochart=getRepoChart(no_of_repos,no_of_profiles,fork_values.forks);
-        var contribchart=getContribChart(PR_values);
-        var commitchart=getCommitChart(commit_values);
-        var issuechart=getIssuesChart(issues_values);
-
-        var charts=[repochart,contribchart,commitchart,issuechart]
-
-        document.getElementById('contrib-value').innerHTML=no_of_profiles
-
-        var parentContainer=document.getElementById('stats-cards');
-    //    parentContainer.classList.add('justify-content-center')
-
-        for(i=0;i<charts.length;i++)
-        {
-            //create card for each chart
-            var card=document.createElement('canvas');
-            card.classList.add('stats-card');
-            card.classList.add('col-12');
-            card.classList.add('col-md-5');
-            card.classList.add('p-2');
-            card.classList.add('m-1');
-            var ctx=card.getContext('2d');
-
-            Chart.Title.prototype.afterFit = function() {
-                this.paddingBottom = this.paddingBottom + 50;
-            };
-
-            var newChart=new Chart(ctx,charts[i])
-            parentContainer.appendChild(card);
-        }
+        makeChart(no_of_repos,no_of_profiles);
     })
     .catch((err)=>{
         console.log(err)
     })
 })
+
+var makeChart=(no_of_repos, no_of_profiles)=>{
+
+    var repochart=getRepoChart(no_of_repos,no_of_profiles,JSON.parse(localStorage.getItem("forks")));
+    var contribchart=getContribChart(JSON.parse(localStorage.getItem("PR_values")));
+    var commitchart=getCommitChart(JSON.parse(localStorage.getItem("commit_values")));
+    var issuechart=getIssuesChart(JSON.parse(localStorage.getItem("issues_values")));
+
+    var charts=[repochart,contribchart,commitchart,issuechart]
+
+    document.getElementById('contrib-value').innerHTML=no_of_profiles
+
+    var parentContainer=document.getElementById('stats-cards');
+//    parentContainer.classList.add('justify-content-center')
+
+    for(i=0;i<charts.length;i++)
+    {
+        //create card for each chart
+        var card=document.createElement('canvas');
+        card.classList.add('stats-card');
+        card.classList.add('col-12');
+        card.classList.add('col-md-5');
+        card.classList.add('p-2');
+        card.classList.add('m-1');
+        var ctx=card.getContext('2d');
+
+        Chart.Title.prototype.afterFit = function() {
+            this.paddingBottom = this.paddingBottom + 50;
+        };
+
+        var newChart=new Chart(ctx,charts[i])
+        parentContainer.appendChild(card);
+    }
+}
 
 var getSortedCommits=(commits,data)=>{
     commits.sort((a,b)=>(a.commit.committer.date > b.commit.committer.date) ? 1 : -1)
@@ -92,7 +104,6 @@ var getSortedCommits=(commits,data)=>{
         if(commit.commit.committer.date>=new Date(`Sept 1, ${year} 00:00:00`).toISOString() && commit.commit.committer.date<=new Date(`Dec 31, ${year} 00:00:00`).toISOString())
         {
             var date_of_commit=commit.commit.committer.date.split('T',1)[0];
-
             if(data.date.indexOf(date_of_commit)==-1)
             {
                 data.date.push(date_of_commit)
