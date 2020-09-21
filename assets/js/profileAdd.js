@@ -51,7 +51,7 @@ $.getJSON('https://raw.githubusercontent.com/lugnitdgp/Hack-Day/2020/data.json',
     {
       var card = document.createElement('div');
       card.classList.add('col-12');
-      card.innerHTML= "<h1>No ninjas encountered yet. Are you one? Fill free to add your card!</h1>";
+      card.innerHTML= "<h1>No ninjas encountered yet. Are you one? Feel free to add your card!</h1>";
       cardParent.append(card);
     }
   });
