@@ -11,7 +11,7 @@ An event organised by GNU/Linux Users' Group, NIT Durgapur for the promotion of 
     #### A. Anyone with a GITHUB Account.
 
     #### Q. How Do I take Part in this event?
-    #### A. Follow the [Contribution Guidelines](https://github.com/lugnitdgp/Hack-Day/blob/2020/CONTRIBUTING.md)
+    #### A. Follow the contribution guidelines as specified in CONTRIBUTING.md file.
 
     #### Q. What do I get by participating in this contest?
     #### A. Just send 4 PRs and get a Free T-Shirt from Digital Ocean.
