@@ -189,17 +189,25 @@ section {
   border-bottom-left-radius: 40%;
   border-top-right-radius: 6%;
   border-bottom-right-radius: 6%;
-  background-color: rgb(31, 6, 48);
+  background-color: #072540;
   color: white;
-  border: 0.15rem solid #a11ec6;
+  border: 0.20rem solid #Ff8ae2;
 }
 .card img {
   border-radius: 50%;
-  border: 0.25rem solid #a11ec6;
+  border: 0.25rem solid #Ff8ae2;
   margin-left: -0.25rem;
 }
 .card-title {
   font-weight: bolder;
+}
+.card a {
+  color: #007bff;
+}
+.card a:hover {
+  color: #Ff8ae2;
+  outline: none;
+  text-decoration: none;
 }
 .card:hover {
   box-shadow: none;
@@ -248,8 +256,6 @@ section {
   }
   #svglem {
     margin-top: -4%;
-    width: 500px;
-    height: 270px;
   }
   .hack_day {
     font-size: 1.4em;
@@ -270,26 +276,18 @@ section {
 
 @media only screen and (max-width: 768px) {
   .explore {
-    float: left;
-    font-size: 0.8em;
+    margin-left: 12%;
+    font-size: 1.2em;
   }
   .glug_logo {
     width: 3em;
   }
   .glug_title {
-    margin-top: 2% !important;
+    margin-top: 8% !important;
     font-size: 1.4em;
   }
   .svg-cont {
-    display: flex;
-    justify-content: center;
     align-items: center;
-  }
-  #svglem {
-    margin-top: -4%;
-    width: 500px;
-    height: 270px;
-    transform: translateX(-70%);
   }
   .hack_day {
     font-size: 1.4em;
@@ -314,26 +312,15 @@ section {
     color: white !important;
   }
 }
-@media only screen and (max-width: 671px) {
-  .explore {
-    margin: 0 10%;
-    font-size: 0.6em;
-  }
-  .glug_title {
-    margin-top: 2% !important;
-    font-size: 1.2em;
-  }
-  .presents {
-    margin-top: -1% !important;
-    font-size: 1.2em;
-  }
-  .hack_day {
-    margin-top: -10.0% !important;
-    font-size: 1.0em;
+
+@media only screen and (max-width: 576px){
+  .svg-cont {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   #svglem {
-    margin-left: 15%;
-    margin-right: 10%;
-    /* transform: translateX(-55%); */
+    height: 220px;
   }
 }
