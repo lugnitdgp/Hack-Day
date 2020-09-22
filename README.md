@@ -1,4 +1,5 @@
 # Hack-Day-2020
+[![CodeFactor](https://www.codefactor.io/repository/github/lugnitdgp/hack-day/badge)](https://www.codefactor.io/repository/github/lugnitdgp/hack-day)
 
 An event organised by GNU/Linux Users' Group, NIT Durgapur for the promotion of Hacktoberfest 2020 🎃
 
