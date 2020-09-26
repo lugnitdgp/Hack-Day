@@ -1,38 +1,39 @@
-jQuery.ajaxSetup({async:false});
-$.getJSON('https://raw.githubusercontent.com/lugnitdgp/Hack-Day-2019/2020/repos.json', function(data) {
-    // console.log(data); // this will show the info it in firebug console
-    var repos = data.repos;
-    var cardParent = document.getElementById('repo-cards');
-    for (index = 0; index < repos.length; index++){
-    var card = document.createElement('div');
+jQuery.ajaxSetup({ async: false });
+$.getJSON('https://raw.githubusercontent.com/lugnitdgp/Hack-Day-2019/2019/repos.json', (data) => {
+  // console.log(data); // this will show the info it in firebug console
+  let { repos } = data;
+  // console.log(repos)
+  let cardParent = document.getElementById('repo-cards');
+  for (let index = 0; index < repos.length; index += 1) {
+    let card = document.createElement('div');
     card.classList.add('col-12');
     card.classList.add('col-md-4');
     card.classList.add('p-3');
 
-    var repo_link = repos[index].repo_link;
-    repo_link=repo_link.split("/");
-    var repo_name=repo_link[repo_link.length-1];
-    var repo_owner=repo_link[repo_link.length-2];
-    var repo_tags="";
-    $.get("https://api.github.com/repos/"+repo_owner+"/"+repo_name+"/tags", function(tags) {
-      repo_tags=Object.keys(tags);
-      if(repo_tags=="")
-        repo_tags="No tags specified";
-    })
-    var repo_languages=""
-    $.get("https://api.github.com/repos/"+repo_owner+"/"+repo_name+"/languages", function(languages) {
-      repo_languages=Object.keys(languages);
-    })
-    card.innerHTML =
-          `<div class="card">
+    let repoLink = repos[index].repo_link;
+    repoLink = repoLink.split('/');
+    let repoName = repoLink[repoLink.length - 1];
+    let repoOwner = repoLink[repoLink.length - 2];
+    let repoTags = '';
+    $.get(`https://api.github.com/repos/${repoOwner}/${repoName}/tags`, (tags) => {
+      repoTags = Object.keys(tags);
+      if (repoTags === '') {
+        repoTags = 'No tags specified';
+      }
+    });
+    let repoLanguages = '';
+    $.get(`https://api.github.com/repos/${repoOwner}/${repoName}/languages`, (languages) => {
+      repoLanguages = Object.keys(languages);
+    });
+    card.innerHTML = `<div class="card">
             <div class="row no-gutters">
               <div class="col-12">
                 <div class="card-body">
-                  <a href="${repos[index].repo_link}"><h6 class="card-title">${repo_name}</h6></a>
+                  <a href="${repos[index].repo_link}"><h6 class="card-title">${repoName}</h6></a>
                   <p style="line-height:1rem">
-                    <small>Owner: ${repo_owner}</small><br>
-                    <small>Tags: ${repo_tags}</small><br>
-                    <small>Languages: ${repo_languages}</small><br>
+                    <small>Owner: ${repoOwner}</small><br>
+                    <small>Tags: ${repoTags}</small><br>
+                    <small>Languages: ${repoLanguages}</small><br>
                   </p>
                 </div>
               </div>
@@ -42,4 +43,3 @@ $.getJSON('https://raw.githubusercontent.com/lugnitdgp/Hack-Day-2019/2020/repos.
     cardParent.appendChild(card);
   }
 });
-
