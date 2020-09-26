@@ -1,0 +1,19 @@
+{
+  "name": "hack-day",
+  "version": "1.0.0",
+  "description": "An event organised by GNU/Linux Users' Group, NIT Durgapur for the promotion of Hacktoberfest 2019 🎃. Visit [https://hack-day-2019.netlify.app/](https://hack-day-2019.netlify.app) to checkout hacking ninjas from 2019 edition of hack day.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "stylelint": "^13.7.2",
+    "stylelint-config-standard": "^20.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

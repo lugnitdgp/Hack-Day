@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
+
 html {
   background-color: #152347;
   -moz-osx-font-smoothing: grayscale;
@@ -9,18 +10,22 @@ html {
   text-size-adjust: 100%;
   scroll-behavior: smooth;
 }
+
 a {
   color: yellow;
 }
+
 a:hover {
-  color:yellow;
+  color: yellow;
   outline: none;
   text-decoration: none;
 }
-a:active{
+
+a:active {
   outline: none;
   text-decoration: none;
 }
+
 #wrapper {
   position: fixed;
   left: 0;
@@ -32,6 +37,7 @@ a:active{
   height: 100vh;
   z-index: 99999;
 }
+
 #wrapper svg {
   position: absolute;
   left: 0;
@@ -40,6 +46,7 @@ a:active{
   bottom: 0;
   margin: auto;
 }
+
 body {
   font-family: 'Space Mono', monospace !important;
   background: transparent;
@@ -48,35 +55,42 @@ body {
 section {
   display: list-item;
 }
-#section01{
+
+#section01 {
   position: relative;
 }
-#section01 .container-fluid{
+
+#section01 .container-fluid {
   position: relative;
   z-index: 1;
 }
-#section01::after{
+
+#section01::after {
   content: url('https://hacktoberfest.digitalocean.com/assets/bg-right-e498161aecb6d9b04889329f11ce0b4e09e562ead23fb12d05b7508d1dc0c85c.png');
   position: absolute;
   top: 80px;
   right: 0;
   z-index: -1;
 }
-#section01::before{
+
+#section01::before {
   content: url('https://hacktoberfest.digitalocean.com/assets/bg-left-6cede81e395aa4ed5f64010cba3cd32b0cd8b29934de8a75b93c40dc9941fdd5.png');
-    position: absolute;
-    top: 0px;
-    left: 0;
-    z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
+
 #section02 {
   min-height: 90vh;
 }
+
 #logo {
   height: 100%;
   width: 100%;
   transform: translateZ(15px);
 }
+
 .glug_logo {
   width: 5em;
   max-width: 30vw;
@@ -85,41 +99,60 @@ section {
   display: block;
   margin: 0 auto;
 }
+
 .glug_title {
   text-align: center;
   color: antiquewhite;
 }
+
 #demo {
   color: white;
   text-align: center;
 }
-.card:hover {
-  box-shadow: 5px 10px 8px 10px;
+
+.card {
+  border-top-left-radius: 40%;
+  border-bottom-left-radius: 40%;
+  border-top-right-radius: 6%;
+  border-bottom-right-radius: 6%;
+  background-color: rgb(31, 6, 48);
+  color: white;
+  border: 0.15rem solid #a11ec6;
 }
+
+.card:hover {
+  box-shadow: none;
+}
+
 .time {
   color: white;
   text-align: center;
 }
+
 .header {
   top: 20%;
   text-align: center;
   color: white;
-  top: 20%;
 }
+
 .btn {
   cursor: pointer !important;
 }
+
 .btn:hover {
   color: #c71585;
 }
+
 .highlight,
 .highlight1 {
   color: #fff922;
   text-align: center;
 }
+
 .highlight3 {
   color: #f274bd;
 }
+
 .footer {
   background-color: #0e182f;
   color: rgb(230, 226, 19);
@@ -130,47 +163,41 @@ section {
   text-align: center;
   font-weight: bold;
 }
+
 #hearts {
   color: red;
   font-size: 1.5rem;
 }
+
 .card-body {
   line-height: 0.8rem;
   font-size: 1rem;
   padding: 0.5rem !important;
 }
-.card {
-  border-top-left-radius: 40%;
-  border-bottom-left-radius: 40%;
-  border-top-right-radius: 6%;
-  border-bottom-right-radius: 6%;
-  background-color: rgb(31, 6, 48);
-  color: white;
-  border: 0.15rem solid #a11ec6;
-}
+
 .card img {
   border-radius: 50%;
   border: 0.25rem solid #a11ec6;
   margin-left: -0.25rem;
 }
+
 .card-title {
   font-weight: bolder;
-}
-.card:hover {
-  box-shadow: none;
 }
 
 .container-tilt {
   perspective: 1000px;
 }
+
 .container-tilt-inside {
   transform-style: preserve-3d;
 }
-#repo-cards .card{
+
+#repo-cards .card {
   border-radius: 0%;
 }
 
-.stats-card{
+.stats-card {
   background-color: white;
-  box-shadow: rgba(1, 14, 40, 0.1) 0px 4px 16px;
+  box-shadow: rgba(1, 14, 40, 0.1) 0 4px 16px;
 }
