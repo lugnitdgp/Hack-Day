@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
+
 html {
   background-color: white;
   -moz-osx-font-smoothing: grayscale;
@@ -9,18 +10,22 @@ html {
   text-size-adjust: 100%;
   scroll-behavior: smooth;
 }
+
 a {
-  color: #072540
+  color: #072540;
 }
+
 a:hover {
-  color: #Ff8ae2;
+  color: #ff8ae2;
   outline: none;
   text-decoration: none;
 }
-a:active{
+
+a:active {
   outline: none;
   text-decoration: none;
 }
+
 #wrapper {
   position: fixed;
   left: 0;
@@ -32,6 +37,7 @@ a:active{
   height: 100vh;
   z-index: 99999;
 }
+
 #wrapper svg {
   position: absolute;
   left: 0;
@@ -40,6 +46,7 @@ a:active{
   bottom: 0;
   margin: auto;
 }
+
 body {
   font-family: 'Space Mono', monospace !important;
   background: transparent;
@@ -48,35 +55,42 @@ body {
 section {
   display: list-item;
 }
-#section01{
+
+#section01 {
   position: relative;
 }
-#section01 .container-fluid{
+
+#section01 .container-fluid {
   position: relative;
   z-index: 1;
 }
-#section01::after{
+
+#section01::after {
   content: url('https://hacktoberfest.digitalocean.com/assets/bg-right-e498161aecb6d9b04889329f11ce0b4e09e562ead23fb12d05b7508d1dc0c85c.png');
   position: absolute;
   top: 80px;
   right: 0;
   z-index: -1;
 }
-#section01::before{
+
+#section01::before {
   content: url('https://hacktoberfest.digitalocean.com/assets/bg-left-6cede81e395aa4ed5f64010cba3cd32b0cd8b29934de8a75b93c40dc9941fdd5.png');
-    position: absolute;
-    top: 0px;
-    left: 0;
-    z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
+
 #section02 {
   min-height: 90vh;
 }
+
 #logo {
   height: 100%;
   width: 100%;
   transform: translateZ(15px);
 }
+
 .glug_logo {
   width: 4em;
   max-width: 30vw;
@@ -85,16 +99,20 @@ section {
   display: block;
   margin: 0 auto;
 }
+
 .heading {
   margin-top: -3% !important;
 }
+
 .glug_title {
   text-align: center;
-  color: #Ff8ae2;
+  color: #ff8ae2;
 }
+
 .random {
   color: #93c2db;
 }
+
 #svglem {
   position: relative;
   left: 50%;
@@ -103,31 +121,43 @@ section {
   -webkit-transform: translateX(-20%);
   -ms-transform: translateX(-20%);
   transform: translateX(-50%);
-  margin-left:auto;
-  margin-right:auto;
-  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
+
 #demo {
   color: white;
   text-align: center;
 }
-.card:hover {
-  box-shadow: 5px 10px 8px 10px;
+
+.card {
+  border-top-left-radius: 40%;
+  border-bottom-left-radius: 40%;
+  border-top-right-radius: 6%;
+  border-bottom-right-radius: 6%;
+  background-color: #072540;
+  color: white;
+  border: 0.2rem solid #ff8ae2;
 }
+
 .time {
   margin-top: -3.5%;
   color: white;
   text-align: center;
 }
+
 .time-cont {
   margin: 0 0.5%;
   color: black;
 }
+
 .countdown-circles {
   text-transform: uppercase;
   font-weight: bold;
   margin-top: 2rem;
 }
+
 .countdown-circles span {
   width: 80px;
   height: 80px;
@@ -139,32 +169,39 @@ section {
   justify-content: center;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
+
 .countdown-circles span:first-of-type {
   margin-left: 0;
 }
+
 .header {
   top: 20%;
   text-align: center;
   color: white;
-  top: 20%;
 }
+
 .btn {
   cursor: pointer !important;
 }
+
 .btn:hover {
   color: #c71585;
 }
+
 .highlight,
 .highlight1 {
   color: #93c2db;
   text-align: center;
 }
+
 .highlight-random {
-  color: #Ff8ae2;
+  color: #ff8ae2;
 }
+
 .highlight3 {
   color: #f274bd;
 }
+
 .footer {
   background-color: #072540;
   color: #93c2db;
@@ -175,40 +212,38 @@ section {
   text-align: center;
   font-weight: bold;
 }
+
 #hearts {
   color: red;
   font-size: 1.5rem;
 }
+
 .card-body {
   line-height: 0.8rem;
   font-size: 1rem;
   padding: 0.5rem !important;
 }
-.card {
-  border-top-left-radius: 40%;
-  border-bottom-left-radius: 40%;
-  border-top-right-radius: 6%;
-  border-bottom-right-radius: 6%;
-  background-color: #072540;
-  color: white;
-  border: 0.20rem solid #Ff8ae2;
-}
+
 .card img {
   border-radius: 50%;
-  border: 0.25rem solid #Ff8ae2;
+  border: 0.25rem solid #ff8ae2;
   margin-left: -0.25rem;
 }
+
 .card-title {
   font-weight: bolder;
 }
+
 .card a {
   color: #007bff;
 }
+
 .card a:hover {
-  color: #Ff8ae2;
+  color: #ff8ae2;
   outline: none;
   text-decoration: none;
 }
+
 .card:hover {
   box-shadow: none;
 }
@@ -216,17 +251,21 @@ section {
 .container-tilt {
   perspective: 1000px;
 }
+
 .container-tilt-inside {
   transform-style: preserve-3d;
 }
+
 #repo-cards .card {
   border-radius: 0%;
 }
+
 .ninja {
   margin-top: -1% !important;
 }
 
-.click:hover,.click:active {
+.click:hover,
+.click:active {
   background: #072540 !important;
   color: white !important;
 }
@@ -235,9 +274,11 @@ section {
   #svglem {
     margin-top: -3%;
   }
+
   .time {
     margin-top: -6.5%;
   }
+
   .ninja {
     margin-top: -0.3% !important;
   }
@@ -247,27 +288,34 @@ section {
   a {
     font-size: 0.8em;
   }
+
   .glug_logo {
     width: 3em;
   }
+
   .glug_title {
     margin-top: 2% !important;
     font-size: 1.4em;
   }
+
   #svglem {
     margin-top: -4%;
   }
+
   .hack_day {
     font-size: 1.4em;
   }
+
   .time {
     margin-top: -7.5%;
   }
+
   .countdown-circles span {
     font-size: 0.8em;
     width: 60px;
     height: 60px;
   }
+
   .ninja {
     margin-top: -0.7% !important;
     font-size: 0.9em;
@@ -279,47 +327,58 @@ section {
     margin-left: 12%;
     font-size: 1.2em;
   }
+
   .glug_logo {
     width: 3em;
   }
+
   .glug_title {
     margin-top: 8% !important;
     font-size: 1.4em;
   }
+
   .svg-cont {
     align-items: center;
   }
+
   .hack_day {
     font-size: 1.4em;
   }
+
   .time {
     margin-top: -10.5%;
   }
+
   .countdown-circles span {
     font-size: 0.6em;
     width: 50px;
     height: 50px;
   }
+
   .ninja {
-    margin-top: -1.0% !important;
+    margin-top: -1% !important;
     font-size: 0.8em;
   }
+
   .click {
     font-size: 0.8em;
   }
-  .click:hover,.click:active {
+
+  .click:hover,
+  .click:active {
     background: #072540 !important;
     color: white !important;
   }
 }
 
-@media only screen and (max-width: 576px){
+@media only screen and (max-width: 576px) {
   .svg-cont {
     margin-top: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
   #svglem {
     height: 220px;
   }

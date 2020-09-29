@@ -1,0 +1,17 @@
+{
+  "name": "hack-day",
+  "version": "1.0.0",
+  "description": "[![CodeFactor](https://www.codefactor.io/repository/github/lugnitdgp/hack-day/badge)](https://www.codefactor.io/repository/github/lugnitdgp/hack-day)",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "stylelint": "^13.7.2",
+    "stylelint-config-standard": "^20.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
+}
