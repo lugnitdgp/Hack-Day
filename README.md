@@ -3,9 +3,8 @@
 
 An event organised by GNU/Linux Users' Group, NIT Durgapur for the promotion of Hacktoberfest 2020 🎃
 
-
-##### Date: Friday 2nd October, 2020
-##### Venue: Online
+![](https://media0.giphy.com/media/TOWeGr70V2R1K/giphy.gif)
+##### Webinar date: Friday 2nd October, 2020 (tentative)
 
 ### FAQ
     #### Q. Who can take Part in this Event?
