@@ -11,5 +11,10 @@
          "handle": "Abha2001",
          "message": "Welcome to Hacktober Fest 2020!"
       }
+      {
+         "image_link": "https://avatars.githubusercontent.com/fastboot",
+         "handle": "fastboot",
+         "message": "Happy Hacking!"
+      }
    ]
 }
