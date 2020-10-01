@@ -1,10 +1,10 @@
 {
-   "comment": " To add your own profile card, append a dictionary with your image_link, handle and message to the `profiles` array. You can use the following template dictionary to edit and append.",
-   "template": {
-      "image_link": "<link-to-your-avatar>",
-      "handle": "<your-github-handle",
-      "message": "<your-message-to-the-community>"
-   },
+  "comment": " To add your own profile card, append a dictionary with your image_link, handle and message to the `profiles` array. You can use the following template dictionary to edit and append.",
+  "template": {
+    "image_link": "<link-to-your-avatar>",
+    "handle": "<your-github-handle",
+    "message": "<your-message-to-the-community>"
+  },
   "profiles": [
     {
       "image_link": "https://avatars2.githubusercontent.com/u/56684260?s=400&v=4",
@@ -52,6 +52,11 @@
       "message": "Read the docs instead of following tutorials, and learn Git Revert before using it (if ever)"
     },
     {
+      "image_link": "https://avatars0.githubusercontent.com/u/16155449?s=460&u=57ff2b2597ae8ad7ffbb58027f30765f800c6214&v=4",
+      "handle": "Soupaul",
+      "message": "Welcome to the biggest Open Source Fest of the year. Happy Hacking!"
+    },
+    {
       "image_link": "https://avatars.githubusercontent.com/fastboot",
       "handle": "fastboot",
       "message": "Happy Hacking!"
@@ -60,6 +65,21 @@
         "image_link": "https://avatars0.githubusercontent.com/u/55945733?s=400&u=6191193db82a1eca464fd7cd3f6dcb066ed890d7&v=4",
          "handle": "tanu272",
          "message": "Let's support Open Source and let it support us!!"
+     },
+     {
+      "image_link": "https://avatars2.githubusercontent.com/u/56684260?s=400&v=4",
+      "handle": "realkelvinperez",
+      "message": "Hack The Planet 2020!"
+     },
+     {
+      "image_link": "https://avatars2.githubusercontent.com/u/26022852?u=cdacca2f6fe77788834e6e5674cbd73349ec4a3c&v=4",
+      "handle": "nazmifeeroz",
+      "message": "Stay safe everyone!"
+     },
+     {
+      "image_link": "https://github.com/Karim-Adnan/Karim-Adnan/blob/master/pic.jpg",
+      "handle": "Karim-Adnan",
+      "message": "Let's all explore Open Source!"
      }
   ]
 }
