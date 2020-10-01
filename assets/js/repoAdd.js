@@ -1,5 +1,5 @@
 jQuery.ajaxSetup({ async: false });
-$.getJSON('https://raw.githubusercontent.com/lugnitdgp/Hack-Day/2020/repos.json', (data) => {
+$.getJSON('../../repos.json', (data) => {
   // console.log(data); // this will show the info it in firebug console
   let { repos } = data;
   let cardParent = document.getElementById('repo-cards');
