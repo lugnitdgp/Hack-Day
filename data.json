@@ -180,10 +180,15 @@
             "handle": "codeR49",
             "message": "Lets come together and make software development friendly with open source."
         },
-		    {
+	{
             "image_link": "https://avatars.githubusercontent.com/juricav",
             "handle": "juricav",
             "message": "Lets join and contribute to open source"
-        }
+        },
+	{
+            "image_link": "https://avatars.githubusercontent.com/vicnetto",
+            "handle": "vicnetto",
+            "message": "Happy hacktoberfest guys! First PR!"
+        },
     ]
 }
