@@ -13,3 +13,13 @@
       }
    ]
 }
+{
+   "comment": " To add your own profile card, append a dictionary with your image_link, handle and message to the `profiles` array. You can use the following template dictionary to edit and append.",
+   "template": {
+      "image_link": "https://avatars1.githubusercontent.com/u/65327648?s=460&u=a1553eb29967486f209c8da4bc08cb9a2a587413&v=4",
+      "handle": "Bayuputra18",
+      "message": "Hai"
+   },
+   "profiles": [
+   ]
+}
