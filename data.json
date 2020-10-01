@@ -1,10 +1,10 @@
 {
-  "comment": " To add your own profile card, append a dictionary with your image_link, handle and message to the `profiles` array. You can use the following template dictionary to edit and append.",
-  "template": {
-    "image_link": "<link-to-your-avatar>",
-    "handle": "<your-github-handle>",
-    "message": "<your-message-to-the-community>"
-  },
+   "comment": " To add your own profile card, append a dictionary with your image_link, handle and message to the `profiles` array. You can use the following template dictionary to edit and append.",
+   "template": {
+      "image_link": "<link-to-your-avatar>",
+      "handle": "<your-github-handle",
+      "message": "<your-message-to-the-community>"
+   },
   "profiles": [
     {
       "image_link": "https://avatars2.githubusercontent.com/u/56684260?s=400&v=4",
@@ -50,6 +50,12 @@
       "image_link": "https://avatars0.githubusercontent.com/u/56874571?s=400&u=22a63ffa2b5c97676c80f6eedfa401c65b78f299&v=4",
       "handle": "v-rohan",
       "message": "Read the docs instead of following tutorials, and learn Git Revert before using it (if ever)"
-    }
+    },
+    {
+      "image_link": "https://avatars.githubusercontent.com/fastboot",
+      "handle": "fastboot",
+      "message": "Happy Hacking!"
+     }
   ]
 }
+
