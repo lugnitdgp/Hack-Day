@@ -2,5 +2,6 @@
    "comment": "To add a link, append a dictionary with repo_link to the `repos` array. You can use the following template dictionary to edit and append.",
    "template": {"repo_link": "<Link to the repository>"},
    "repos":[
+      {"repo_link": "https://github.com/Abha2001/SortingVisualiser"}
    ]
 }
