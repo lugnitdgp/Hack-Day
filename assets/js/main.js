@@ -38,7 +38,7 @@ $(() => {
 });
 
 // Scroll ninja cards to the top of the page on button click
-/*exported scrollNinjasToTop */
+/* exported scrollNinjasToTop */
 function scrollNinjasToTop() {
-  document.getElementById('section02').scrollIntoView({ behavior: 'smooth', block: 'start'});
+  document.getElementById('section02').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
