@@ -2,7 +2,7 @@
    "comment": " To add your own profile card, append a dictionary with your image_link, handle and message to the `profiles` array. You can use the following template dictionary to edit and append.",
    "template": {
       "image_link": "<link-to-your-avatar>",
-      "handle": "<your-github-handle",
+      "handle": "<your-github-handle>",
       "message": "<your-message-to-the-community>"
    },
    "profiles": [
@@ -11,13 +11,21 @@
          "handle": "Abha2001",
          "message": "Welcome to Hacktober Fest 2020!"
       },
-         {
+      {
+         "image_link": "https://avatars3.githubusercontent.com/u/56582834?s=400&u=590c5070cbee835a6807d052dfb76c2591044c9f&v=4",
+         "handle": "YASHMAROO",
+         "message": "Start Hacking ,Hacktober Fest 2020 has begun!!!"
+      },
+      {
+         "image_link": "https://avatars3.githubusercontent.com/u/55195169?s=400&u=9591e52523f8c3faab1cd39465e8262f7115b8c3&v=4",
+         "handle":"AnweshaDan",
+         "message":"Let's support open source!"
+      },
+      {
          "image_link": "https://avatars2.githubusercontent.com/u/56028031?v=4",
-         "handle": "<Kaustuv942",
+         "handle": "Kaustuv942",
          "message": "Hello! Welcome to 2020  Hacktoberfest"
-        }
-
-      
+      }
    ]
 }
  
