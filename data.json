@@ -2,7 +2,7 @@
    "comment": " To add your own profile card, append a dictionary with your image_link, handle and message to the `profiles` array. You can use the following template dictionary to edit and append.",
    "template": {
       "image_link": "<link-to-your-avatar>",
-      "handle": "<your-github-handle",
+      "handle": "<your-github-handle>",
       "message": "<your-message-to-the-community>"
    },
    "profiles": [
@@ -12,9 +12,94 @@
          "message": "Welcome to Hacktober Fest 2020!"
       },
       {
+         "image_link": "https://avatars1.githubusercontent.com/u/57780448?s=400&u=a1b5d7038f4d6ccb59963c6776a09cd0233a6966&v=4",
+         "handle": "xvishka",
+         "message": "Welcome to Hacktober Fest 2020!"
+      },
+      {
+         "image_link": "https://avatars1.githubusercontent.com/u/31585789?s=460&v=4",
+         "handle": "raihan71",
+         "message": "Happy hacking !"
+      },
+      {
+         "image_link": "https://avatars3.githubusercontent.com/u/56582834?s=400&u=590c5070cbee835a6807d052dfb76c2591044c9f&v=4",
+         "handle": "YASHMAROO",
+         "message": "Start Hacking ,Hacktober Fest 2020 has begun!!!"
+      },
+      {
+         "image_link": "https://avatars3.githubusercontent.com/u/55195169?s=400&u=9591e52523f8c3faab1cd39465e8262f7115b8c3&v=4",
+         "handle":"AnweshaDan",
+         "message":"Let's support open source!"
+      },
+      {
+         "image_link": "https://avatars2.githubusercontent.com/u/56028031?v=4",
+         "handle": "Kaustuv942",
+         "message": "Hello! Welcome to 2020  Hacktoberfest"
+      },
+      {
+         "image_link": "https://avatars2.githubusercontent.com/u/33978990?s=460&u=55de18c3a33335fc5e683f18b5a2e567075ff150&v=4",
+         "handle": "Jayjeet Chakraborty",
+         "message": "Hey hacktoberfest ! watch me screw your mission."
+      },
+      {
+         "image_link": "https://avatars3.githubusercontent.com/u/11471337?s=460&v=4",
+         "handle": "ficopang",
+         "message": "Have a nice day!"
+      },
+      {
+         "image_link": "https://joeschmoe.io/api/v1/c",
+         "handle": "Aditya Negandhi",
+         "message": "open source contribution is fun!"
+      },
+      {
+         "image_link": "https://avatars1.githubusercontent.com/u/56606434?s=400&u=14c9f711e07278958dfed7227554b109be43af73&v=4",
+         "handle": "isha27255",
+         "message": "Hacktoberfest 2020! #OpenSource"
+      },
+      {
+        "image_link": "https://avatars0.githubusercontent.com/u/56874571?s=400&u=22a63ffa2b5c97676c80f6eedfa401c65b78f299&v=4",
+        "handle": "v-rohan",
+        "message": "Read the docs instead of following tutorials, and learn Git Revert before using it (if ever)"
+      },
+      {
+        "image_link": "https://avatars0.githubusercontent.com/u/16155449?s=460&u=57ff2b2597ae8ad7ffbb58027f30765f800c6214&v=4",
+        "handle": "Soupaul",
+        "message": "Welcome to the biggest Open Source Fest of the year. Happy Hacking!"
+      },
+      {
+        "image_link": "https://avatars.githubusercontent.com/fastboot",
+        "handle": "fastboot",
+        "message": "Happy Hacking!"
+       },
+       {
+          "image_link": "https://avatars0.githubusercontent.com/u/55945733?s=400&u=6191193db82a1eca464fd7cd3f6dcb066ed890d7&v=4",
+           "handle": "tanu272",
+           "message": "Let's support Open Source and let it support us!!"
+       },
+       {
+        "image_link": "https://avatars2.githubusercontent.com/u/56684260?s=400&v=4",
+        "handle": "realkelvinperez",
+        "message": "Hack The Planet 2020!"
+       },
+       {
+        "image_link": "https://avatars2.githubusercontent.com/u/26022852?u=cdacca2f6fe77788834e6e5674cbd73349ec4a3c&v=4",
+        "handle": "nazmifeeroz",
+        "message": "Stay safe everyone!"
+       },
+       {
+        "image_link": "https://github.com/Karim-Adnan/Karim-Adnan/blob/master/pic.jpg",
+        "handle": "Karim-Adnan",
+        "message": "Let's all explore Open Source!"
+       },
+       {
+        "image_link": "https://avatars3.githubusercontent.com/u/62387484?s=460&u=e562a466444833684fb4446c599615bb415a8b96&v=4",
+        "handle": "gitapin82y",
+        "message": "Welcome to Hacktober Fest 2020, Complete all missions and have a good experience"
+       },
+       {
          "image_link": "https://avatars.githubusercontent.com/alanlengkoan",
          "handle": "alanlengkoan",
          "message": "Happy Hacking guys !!!!"
-      }
-   ]
+        }
+    ]
 }
