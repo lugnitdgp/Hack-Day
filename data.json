@@ -19,7 +19,7 @@
       {
          "image_link": "https://avatars1.githubusercontent.com/u/31585789?s=460&v=4",
          "handle": "raihan71",
-         "message" "Happy hacking !"
+         "message": "Happy hacking !"
       },
       {
          "image_link": "https://avatars3.githubusercontent.com/u/56582834?s=400&u=590c5070cbee835a6807d052dfb76c2591044c9f&v=4",
@@ -40,6 +40,12 @@
          "image_link": "https://avatars3.githubusercontent.com/u/11471337?s=460&v=4",
          "handle": "ficopang",
          "message": "Have a nice day!"
+      }
+      , 
+      {
+         "image_link": "https://avatars0.githubusercontent.com/u/22804984?s=460&u=58a6d8219427a293bfe20f2b589edee28ee744e5&v=4",
+         "handle": "lemuellloren",
+         "message": "Have an Awesome Hacktoberfest 2020! Happy Happy Hacking!"
       }
    ]
 }
