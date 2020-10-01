@@ -5,7 +5,7 @@ let countDownDate = new Date('Oct 1, 2020 00:00:00').getTime();
 
 // Update the count down every 1 second
 let x = setInterval(() => {
-// Get today's date and time
+  // Get today's date and time
   let now = new Date().getTime();
 
   // Find the distance between now and the count down date
@@ -30,9 +30,3 @@ let x = setInterval(() => {
   }
 }, 1000);
 
-$(() => {
-  $('a[href*="#"]').on('click', (e) => {
-    e.preventDefault();
-    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top }, 500, 'linear');
-  });
-});
