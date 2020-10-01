@@ -29,4 +29,3 @@ let x = setInterval(() => {
     document.getElementById('demo').innerHTML = 'EXPIRED';
   }
 }, 1000);
-

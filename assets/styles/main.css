@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Space+Mono&display=swap");
 
 html {
   background-color: white;
@@ -48,7 +48,7 @@ a:active {
 }
 
 body {
-  font-family: 'Space Mono', monospace !important;
+  font-family: "Space Mono", monospace !important;
   background: transparent;
 }
 
@@ -66,7 +66,7 @@ section {
 }
 
 #section01::after {
-  content: url('https://hacktoberfest.digitalocean.com/assets/bg-right-e498161aecb6d9b04889329f11ce0b4e09e562ead23fb12d05b7508d1dc0c85c.png');
+  content: url("https://hacktoberfest.digitalocean.com/assets/bg-right-e498161aecb6d9b04889329f11ce0b4e09e562ead23fb12d05b7508d1dc0c85c.png");
   position: absolute;
   top: 80px;
   right: 0;
@@ -74,7 +74,7 @@ section {
 }
 
 #section01::before {
-  content: url('https://hacktoberfest.digitalocean.com/assets/bg-left-6cede81e395aa4ed5f64010cba3cd32b0cd8b29934de8a75b93c40dc9941fdd5.png');
+  content: url("https://hacktoberfest.digitalocean.com/assets/bg-left-6cede81e395aa4ed5f64010cba3cd32b0cd8b29934de8a75b93c40dc9941fdd5.png");
   position: absolute;
   top: 0;
   left: 0;
@@ -268,6 +268,7 @@ section {
 .click:active {
   background: #072540 !important;
   color: white !important;
+  border-color: #072540 !important;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -368,6 +369,7 @@ section {
   .click:active {
     background: #072540 !important;
     color: white !important;
+    border-color: #072540 !important;
   }
 }
 
