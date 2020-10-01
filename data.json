@@ -1,11 +1,11 @@
 {
-  "comment": " To add your own profile card, append a dictionary with your image_link, handle and message to the `profiles` array. You can use the following template dictionary to edit and append.",
-  "template": {
-    "image_link": "<link-to-your-avatar>",
-    "handle": "<your-github-handle>",
-    "message": "<your-message-to-the-community>"
-  },
-  "profiles": [
+   "comment": " To add your own profile card, append a dictionary with your image_link, handle and message to the `profiles` array. You can use the following template dictionary to edit and append.",
+   "template": {
+      "image_link": "<link-to-your-avatar>",
+      "handle": "<your-github-handle>",
+      "message": "<your-message-to-the-community>"
+   },
+   "profiles": [
       {
          "image_link": "https://avatars2.githubusercontent.com/u/56684260?s=400&v=4",
          "handle": "Abha2001",
@@ -28,8 +28,13 @@
       },
       {
          "image_link": "https://avatars3.githubusercontent.com/u/55195169?s=400&u=9591e52523f8c3faab1cd39465e8262f7115b8c3&v=4",
-         "handle": "AnweshaDan",
-         "message": "Let's support open source!"
+         "handle":"AnweshaDan",
+         "message":"Let's support open source!"
+      },
+      {
+         "image_link": "https://avatars2.githubusercontent.com/u/56028031?v=4",
+         "handle": "Kaustuv942",
+         "message": "Hello! Welcome to 2020  Hacktoberfest"
       },
       {
          "image_link": "https://avatars2.githubusercontent.com/u/33978990?s=460&u=55de18c3a33335fc5e683f18b5a2e567075ff150&v=4",
@@ -93,4 +98,3 @@
        }
     ]
 }
-
