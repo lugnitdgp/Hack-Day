@@ -1,11 +1,11 @@
 {
-   "comment": " To add your own profile card, append a dictionary with your image_link, handle and message to the `profiles` array. You can use the following template dictionary to edit and append.",
-   "template": {
-      "image_link": "<link-to-your-avatar>",
-      "handle": "<your-github-handle>",
-      "message": "<your-message-to-the-community>"
-   },
-   "profiles": [
+  "comment": " To add your own profile card, append a dictionary with your image_link, handle and message to the `profiles` array. You can use the following template dictionary to edit and append.",
+  "template": {
+    "image_link": "<link-to-your-avatar>",
+    "handle": "<your-github-handle",
+    "message": "<your-message-to-the-community>"
+  },
+  "profiles": [
       {
          "image_link": "https://avatars2.githubusercontent.com/u/56684260?s=400&v=4",
          "handle": "Abha2001",
@@ -135,6 +135,11 @@
          "image_link": "https://avatars3.githubusercontent.com/u/65762022?s=400&v=4",
          "handle": "swapniltri",
          "message": "Welcome to Hacktober Fest 2020!"
+        },
+        {
+         "image_link": "https://pradhumndave.tech/images/IMG_20200502_094911.jpg",
+         "handle": "davedevelopers",
+         "message": "Each PR can change the world !"
         }
     ]
 }
