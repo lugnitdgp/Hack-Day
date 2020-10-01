@@ -6,6 +6,11 @@
     "message": "<your-message-to-the-community>"
   },
   "profiles": [
+      {
+        "image_link": "https://avatars3.githubusercontent.com/u/62387484?s=460&u=e562a466444833684fb4446c599615bb415a8b96&v=4",
+        "handle": "gitapin82y",
+        "message": "Welcome to Hacktober Fest 2020, Complete all missions and have a good experience"
+    },
     {
       "image_link": "https://avatars2.githubusercontent.com/u/56684260?s=400&v=4",
       "handle": "Abha2001",
