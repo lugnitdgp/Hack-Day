@@ -36,3 +36,10 @@ $(() => {
     $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top }, 500, 'linear');
   });
 });
+
+
+function scroll_to_ninja(){
+
+    window.scrollBy(0, 600);
+
+}
