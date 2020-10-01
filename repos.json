@@ -3,6 +3,7 @@
    "template": {"repo_link": "<Link to the repository>"},
    "repos":[
       {"repo_link": "https://github.com/Abha2001/SortingVisualiser"},
-      {"repo_link": "https://github.com/YASHMAROO/Video-Player"}
+      {"repo_link": "https://github.com/YASHMAROO/Video-Player"},
+      {"repo_link": "https://github.com/isha27255/Url-Shortner-"}
    ]
 }
