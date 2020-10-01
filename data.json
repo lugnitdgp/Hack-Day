@@ -146,11 +146,15 @@
           "handle": "nirvikagarwal",
           "message": "Welcome to Hacktoberfest 2020! Happy Hacking!"
           },
-         {
-          "image_link": "https://avatars2.githubusercontent.com/u/4294811?s=460&v=4",
-          "handle": "jommartinez",
-          "message": "Work hard! Happy Hacking!"
-          }
-      
+          {
+           "image_link": "https://avatars2.githubusercontent.com/u/4294811?s=460&v=4",
+           "handle": "jommartinez",
+           "message": "Work hard! Happy Hacking!"
+          },
+          {
+           "image_link": "https://imanmohi.tech/assets/img/00fea36f-647f-4edb-95da-f34faa8f4a35.jpg",
+           "handle": "ImanMohi",
+           "message": "Happy contributing everyone!!!"
+          }      
      ]
 }
