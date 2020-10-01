@@ -29,17 +29,3 @@ let x = setInterval(() => {
     document.getElementById('demo').innerHTML = 'EXPIRED';
   }
 }, 1000);
-
-$(() => {
-  $('a[href*="#"]').on('click', (e) => {
-    e.preventDefault();
-    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top }, 500, 'linear');
-  });
-});
-
-
-function scroll_to_ninja(){
-
-    window.scrollBy(0, 600);
-
-}
