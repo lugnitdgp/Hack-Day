@@ -1,15 +1,17 @@
 {
-   "comment": " To add your own profile card, append a dictionary with your image_link, handle and message to the `profiles` array. You can use the following template dictionary to edit and append.",
-   "template": {
-      "image_link": "<link-to-your-avatar>",
-      "handle": "<your-github-handle",
-      "message": "<your-message-to-the-community>"
-   },
-   "profiles": [
-      {
-         "image_link": "https://avatars2.githubusercontent.com/u/56684260?s=400&v=4",
-         "handle": "Abha2001",
-         "message": "Welcome to Hacktober Fest 2020!"
-      }
-   ]
+    "comment": " To add your own profile card, append a dictionary with your image_link, handle and message to the `profiles` array. You can use the following template dictionary to edit and append.",
+    "template": {
+        "image_link": "<link-to-your-avatar>",
+        "handle": "<your-github-handle",
+        "message": "<your-message-to-the-community>"
+    },
+    "profiles": [{
+        "image_link": "https://avatars2.githubusercontent.com/u/56684260?s=400&v=4",
+        "handle": "Abha2001",
+        "message": "Welcome to Hacktober Fest 2020!"
+    } {
+        "image_link": "https://avatars2.githubusercontent.com/u/49982556?s=400&u=f7095011027378133c38229779470bdcf6d99ace&v=4",
+        "handle": "UshasriMavuri1999",
+        "message": "Push yourself, because no one else is going to do it for you."
+    }]
 }
