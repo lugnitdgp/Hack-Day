@@ -19,8 +19,9 @@
       {
          "image_link": "https://avatars1.githubusercontent.com/u/31585789?s=460&v=4",
          "handle": "raihan71",
-         "message" "Happy hacking !"
+         "message": "Happy hacking !"
       },
+      {
          "image_link": "https://avatars3.githubusercontent.com/u/56582834?s=400&u=590c5070cbee835a6807d052dfb76c2591044c9f&v=4",
          "handle": "YASHMAROO",
          "message": "Start Hacking ,Hacktober Fest 2020 has begun!!!"
@@ -39,6 +40,11 @@
          "image_link": "https://avatars3.githubusercontent.com/u/11471337?s=460&v=4",
          "handle": "ficopang",
          "message": "Have a nice day!"
+      },
+      {
+         "image_link": "https://joeschmoe.io/api/v1/c",
+         "handle": "Aditya Negandhi",
+         "message": "open source contribution is fun!"
       }
    ]
 }
