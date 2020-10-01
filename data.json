@@ -44,7 +44,12 @@
       {
          "image_link": "https://komarev.com/ghpvc/?username=drcoolsanjeev",
          "handle": "drcoolsanjeev",
-         "message": "Welcome to Hacktober Fest 2020!"
+         "message": "Lets join and contribute to open source"
+      },
+      {
+         "image_link": "https://joeschmoe.io/api/v1/c",
+         "handle": "Aditya Negandhi",
+         "message": "open source contribution is fun!"
       }
    ]
 }
