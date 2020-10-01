@@ -39,6 +39,6 @@ $(() => {
 
 // Scroll ninja cards to the top of the page on button click
 let clickHereButton = document.getElementById('click-here-button');
-clickHereButton.onclick = function(event) {
+clickHereButton.onclick = function scrollToTop() {
     document.getElementById('section02').scrollIntoView({ behavior: 'smooth', block: 'start' });
-}
+};
