@@ -36,3 +36,8 @@ $(() => {
     $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top }, 500, 'linear');
   });
 });
+
+// Scroll ninja cards to the top of the page on button click
+function scrollNinjasToTop() {
+  section02.scrollIntoView({ behavior: 'smooth', block: 'start'});
+}
