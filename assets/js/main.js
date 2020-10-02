@@ -31,8 +31,8 @@ let x = setInterval(() => {
 }, 1000);
 
 function scrollUp(){
-  $('html,body').animate({
-        scrollTop: $("#section02").offset().top},
+  $('html,body').animate( {
+        scrollTop: $("#section02").offset().top },
         'slow');
 }
 
@@ -42,4 +42,3 @@ $(() => {
     $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top }, 500, 'linear');
   });
 });
-
