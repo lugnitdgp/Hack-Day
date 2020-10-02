@@ -12,11 +12,6 @@
       "message": "Welcome to Hacktober Fest 2020!"
     },
     {
-      "image_link": "https://avatars1.githubusercontent.com/u/23064184?s=400&u=ef3f4f9e3ca13b0bb97d8ea617b3e1bc706381fd&v=4",
-      "handle": "kourto",
-      "message": "Happy Hacktober Fest 2020!!  #opensource"
-    },
-    {
       "image_link": "https://avatars1.githubusercontent.com/u/57780448?s=400&u=a1b5d7038f4d6ccb59963c6776a09cd0233a6966&v=4",
       "handle": "xvishka",
       "message": "Welcome to Hacktober Fest 2020!"
@@ -310,6 +305,11 @@
       "image_link": "https://avatars.githubusercontent.com/u/45515549?s=460&u=be003a1a86bb0ed667608f15e80139b7023c3483",
       "handle": "dlppdl",
       "message": "Happy Hacking :)"
+    },
+    {
+      "image_link": "https://avatars1.githubusercontent.com/u/23064184?s=400&u=ef3f4f9e3ca13b0bb97d8ea617b3e1bc706381fd&v=4",
+      "handle": "kourto",
+      "message": "Happy Hacktober Fest 2020!!  #opensource"
     }
   ]
 }
