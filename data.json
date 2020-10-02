@@ -42,11 +42,6 @@
       "message": "Hey hacktoberfest ! watch me screw your mission."
     },
     {
-      "image_link": "https://avatars.githubusercontent.com/sda06407",
-      "handle": "AStar",
-      "message": "Lets join to open source"
-    },
-    {
       "image_link": "https://avatars2.githubusercontent.com/u/42437190?s=460&u=8d5d8c83e38c37240a96f33cc421d37cc889836f&v=4",
       "handle": "anurawat01",
       "message": "Welcome to Hacktober Fest 2020!"
@@ -200,6 +195,11 @@
       "image_link": "https://avatars0.githubusercontent.com/u/65699258?s=460&u=7b57c5ec9f906c869f7f1d62bae833b0d1115e1b&v=4",
       "handle": "hardik12-tech",
       "message": "Lets join and contribute to open source"
+    },
+    {
+      "image_link": "https://avatars.githubusercontent.com/sda06407",
+      "handle": "AStar",
+      "message": "Lets join to open source"
     }
   ]
 }
