@@ -33,7 +33,7 @@ $.getJSON('https://raw.githubusercontent.com/lugnitdgp/Hack-Day/2020/data.json',
     card.innerHTML = `<div class='card'>
             <div class='row no-gutters'>
               <div class='col-4'>
-                <img src='${profile.image_link}' class='card-img' alt='${profile.handle}'>
+                <img src='${profile.image_link}' class='card-img' alt='${profile.handle}' onerror="this.style.display='none'">
               </div>
               <div class='col-8'>
                 <div class='card-body'>
