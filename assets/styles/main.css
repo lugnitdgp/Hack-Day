@@ -58,14 +58,21 @@ section {
 
 #section01 {
   position: relative;
+  height: 100vh;
 }
 
-#section01 .container-fluid {
+#section001 {
+  position: relative;
+}
+
+#section01 .container-fluid,
+#section001 .container-fluid {
   position: relative;
   z-index: 1;
 }
 
-#section01::after {
+#section01::after,
+#section02::after {
   content: url('https://hacktoberfest.digitalocean.com/assets/bg-right-e498161aecb6d9b04889329f11ce0b4e09e562ead23fb12d05b7508d1dc0c85c.png');
   position: absolute;
   top: 80px;
@@ -73,7 +80,8 @@ section {
   z-index: -1;
 }
 
-#section01::before {
+#section01::before,
+#section001::before {
   content: url('https://hacktoberfest.digitalocean.com/assets/bg-left-6cede81e395aa4ed5f64010cba3cd32b0cd8b29934de8a75b93c40dc9941fdd5.png');
   position: absolute;
   top: 0;
@@ -91,13 +99,19 @@ section {
   transform: translateZ(15px);
 }
 
+.explore {
+  margin-top: 2% !important;
+  font-size: 2vh;
+}
+
 .glug_logo {
-  width: 4em;
+  width: 10vh;
   max-width: 30vw;
   -webkit-filter: drop-shadow(1px 1px 2px #000);
   filter: drop-shadow(1px 1px 2px #000);
   display: block;
   margin: 0 auto;
+  margin-top: 2% !important;
 }
 
 .heading {
@@ -105,19 +119,30 @@ section {
 }
 
 .glug_title {
+  margin-top: 4% !important;
+  font-size: 6vh;
   text-align: center;
   color: #ff8ae2;
+}
+
+.presents {
+  margin-top: 1% !important;
+  font-size: 3vh;
 }
 
 .random {
   color: #93c2db;
 }
 
+.svg-cont {
+  margin-top: 5%;
+}
+
 #svglem {
   position: relative;
   left: 50%;
   width: 770px;
-  height: 300px;
+  height: 45vh;
   -webkit-transform: translateX(-20%);
   -ms-transform: translateX(-20%);
   transform: translateX(-50%);
@@ -172,6 +197,14 @@ section {
 
 .countdown-circles span:first-of-type {
   margin-left: 0;
+}
+
+.ninja {
+  font-size: 3vh;
+}
+
+.click {
+  font-size: 3vh;
 }
 
 .header {
@@ -260,10 +293,6 @@ section {
   border-radius: 0%;
 }
 
-.ninja {
-  margin-top: -1% !important;
-}
-
 .click:hover,
 .click:active {
   background: #072540 !important;
@@ -271,39 +300,70 @@ section {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  #svglem {
-    margin-top: -3%;
+  .explore {
+    font-size: 2vh;
   }
 
-  .time {
-    margin-top: -6.5%;
+  .glug_logo {
+    margin-top: 3% !important;
+    width: 8vh;
+  }
+
+  .glug_title {
+    margin-top: 10% !important;
+    font-size: 6vh;
+  }
+
+  .presents {
+    margin-top: 1% !important;
+    font-size: 3vh;
+  }
+
+  .svg-cont {
+    margin-top: 10%;
+  }
+
+  #svglem {
+    height: 380px;
+  }
+
+  .hack_day {
+    margin-top: 15%;
+    font-size: 4vh;
   }
 
   .ninja {
-    margin-top: -0.3% !important;
+    font-size: 3vh !important;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   a {
-    font-size: 0.8em;
+    font-size: 2vh;
   }
 
   .glug_logo {
-    width: 3em;
+    width: 6vh;
   }
 
   .glug_title {
+    margin-top: 10% !important;
+    font-size: 4vh;
+  }
+
+  .presents {
     margin-top: 2% !important;
-    font-size: 1.4em;
+    font-size: 3vh;
   }
 
   #svglem {
-    margin-top: -4%;
+    margin-top: 15%;
+    height: 400px;
   }
 
   .hack_day {
-    font-size: 1.4em;
+    margin-top: 15%;
+    font-size: 4vh;
   }
 
   .time {
@@ -317,32 +377,46 @@ section {
   }
 
   .ninja {
-    margin-top: -0.7% !important;
-    font-size: 0.9em;
+    margin-top: 6% !important;
+    font-size: 2.5vh;
+  }
+
+  .click {
+    font-size: 2.5vh !important;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .explore {
-    margin-left: 12%;
-    font-size: 1.2em;
+    margin-left: 30%;
+    font-size: 1.3em;
   }
 
   .glug_logo {
-    width: 3em;
+    width: 10vh;
   }
 
   .glug_title {
-    margin-top: 8% !important;
-    font-size: 1.4em;
+    margin-top: 10% !important;
+    font-size: 4vh;
+  }
+
+  .presents {
+    margin-top: 4% !important;
+    font-size: 3vh;
   }
 
   .svg-cont {
     align-items: center;
   }
 
+  #svglem {
+    height: 350px;
+  }
+
   .hack_day {
-    font-size: 1.4em;
+    margin-top: 5% !important;
+    font-size: 4vh;
   }
 
   .time {
@@ -356,12 +430,12 @@ section {
   }
 
   .ninja {
-    margin-top: -1% !important;
-    font-size: 0.8em;
+    margin-top: 10%;
+    font-size: 2.5vh;
   }
 
   .click {
-    font-size: 0.8em;
+    font-size: 2vh;
   }
 
   .click:hover,
@@ -381,5 +455,17 @@ section {
 
   #svglem {
     height: 220px;
+  }
+
+  .explore {
+    margin-left: 12%;
+  }
+
+  .hack_day {
+    margin-top: 1% !important;
+  }
+
+  .ninja {
+    margin-top: -1% !important;
   }
 }
