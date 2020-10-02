@@ -2,7 +2,7 @@
 
 * Fork and Clone this repository.
 ```
-git clone https://github.com/YASHMAROO/Hack-Day.git
+git clone https://github.com/lugnitdgp/Hack-Day.git
 cd Hack-Day
 ```
 * Make a branch.
