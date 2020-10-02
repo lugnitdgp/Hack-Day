@@ -5,11 +5,7 @@
     "handle": "<your-github-handle",
     "message": "<your-message-to-the-community>"
   },
-  {
-   "image_link": "<https://github.com/aniket102-sh>",
-   "handle": "<aniket102-sh>",
-   "message": "<Welcome to the hacktober fest>"
-}
+
   "profiles": [
     {
       "image_link": "https://avatars2.githubusercontent.com/u/56684260?s=400&v=4",
@@ -311,5 +307,11 @@
       "handle": "dlppdl",
       "message": "Happy Hacking :)"
     }
-  ]
-}
+   
+    {
+   "image_link": "<https://github.com/aniket102-sh>",
+   "handle": "<aniket102-sh>",
+   "message": "<Welcome to the hacktober fest>"
+     }
+    }
+] 
