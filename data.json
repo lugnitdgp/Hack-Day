@@ -1,4 +1,3 @@
-{
   "comment": " To add your own profile card, append a dictionary with your image_link, handle and message to the `profiles` array. You can use the following template dictionary to edit and append.",
   "template": {
     "image_link": "<link-to-your-avatar>",
@@ -195,6 +194,11 @@
       "image_link": "https://avatars0.githubusercontent.com/u/65699258?s=460&u=7b57c5ec9f906c869f7f1d62bae833b0d1115e1b&v=4",
       "handle": "hardik12-tech",
       "message": "Lets join and contribute to open source"
+    },
+    {
+      "image_link": "https://avatars.githubusercontent.com/vicnetto",
+      "handle": "vicnetto",
+      "message": "Happy hacktoberfest guys! First PR!"
     }
   ]
 }
