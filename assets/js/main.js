@@ -31,8 +31,9 @@ let x = setInterval(() => {
 }, 1000);
 
 $(() => {
+  let s2 = $('#section02');
   $('a[href*="#"]').on('click', (e) => {
     e.preventDefault();
-    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top }, 500, 'linear');
+    $('html, body').animate({ scrollTop: s2.offset().top }, 500, 'linear');
   });
 });
