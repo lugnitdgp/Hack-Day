@@ -1,5 +1,8 @@
 ## Contribution Guidelines !
 
+### NOTICE 
+**Issue#223 ,i.e., Adding profile cards in the data.json file is only for first timers and beginners. Other PRs will not be valid.**
+
 * Fork and Clone this repository.
 ```
 git clone https://github.com/lugnitdgp/Hack-Day.git
