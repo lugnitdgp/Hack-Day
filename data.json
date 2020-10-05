@@ -350,6 +350,11 @@
       "image_link": "<https://github.com/shubham-tiwary/shubham-tiwary/blob/master/cover2.gif>",
       "handle": "shubham-tiwary",
       "message": "ctrl + c, ctrl + v"
-    }    
+    },
+    {
+      "image_link": "https://avatars.githubusercontent.com/Solis1",
+      "handle": "Solis1",
+      "message": "HACKTOBERFEST 2020, let's learn how to do open source"
+    }
   ]
 }
