@@ -227,11 +227,6 @@
       "message": "Let's support open source!"
     },
     {
-      "image_link": "https://avatars3.githubusercontent.com/u/41639506?s=460&u=3eeb13cf571683f04e5aa1d9ef2922ae33f1b6c7&v=4",
-      "handle": "d-schaffer",
-      "message": "Don´t be Evil!"
-    },
-    {
       "image_link": "https://avatars.githubusercontent.com/miqbalrr",
       "handle": "miqbalrr",
       "message": "hack everythink"
@@ -345,6 +340,11 @@
       "image_link": "<https://avatars1.githubusercontent.com/u/26551767?s=460&u=90ac208471c372015d59124acdc00fb509cd7496&v=4>",
       "handle": "amiecroteau",
       "message": "I can't wait to get my tshirt!"
+    },
+    {
+      "image_link": "https://avatars3.githubusercontent.com/u/41639506?s=460&u=3eeb13cf571683f04e5aa1d9ef2922ae33f1b6c7&v=4",
+      "handle": "d-schaffer",
+      "message": "Don´t be Evil!"
     }
   ]
 }
