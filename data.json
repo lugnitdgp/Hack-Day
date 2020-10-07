@@ -367,9 +367,9 @@
       "message": "this gonna be super fun!"
     },
     {
-     "image_link": "<https://github.com/shubham-tiwary/shubham-tiwary/blob/master/cover2.gif>",
-      "handle": "Brand00wn",
-      "message": "Shut the fuck up and take my PR ;p"
-    }
+      "image_link": "https://avatars.githubusercontent.com/Solis1",
+      "handle": "Solis1",
+      "message": "HACKTOBERFEST 2020, let's learn how to do open source"
+    }  
   ]
 }
