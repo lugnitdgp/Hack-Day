@@ -29,8 +29,8 @@ $.getJSON('https://raw.githubusercontent.com/lugnitdgp/Hack-Day/2020/repos.json'
       url : `https://api.github.com/repos/${repoOwner}/${repoName}/topics`,
       type: 'GET',
       success : function (topics) {
-        repoTopics = Object.keys(names);
-        if (repoTopics === '') {
+        repoTopics = topics.names.join(", ");
+        if (repoTopics === "") {
           repoTopics = 'No topics specified';
         }
       }
