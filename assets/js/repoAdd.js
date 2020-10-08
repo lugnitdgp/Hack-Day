@@ -14,12 +14,29 @@ $.getJSON('https://raw.githubusercontent.com/lugnitdgp/Hack-Day/2020/repos.json'
     let repoName = repoLink[repoLink.length - 1];
     let repoOwner = repoLink[repoLink.length - 2];
     let repoTopics = '';
-    $.get(`https://api.github.com/repos/${repoOwner}/${repoName}/topics`, (topics) => {
+   /* $.get(`https://api.github.com/repos/${repoOwner}/${repoName}/topics`, (topics) => {
       repoTopics = Object.keys(topics);
       if (repoTopics === '') {
         repoTopics = 'No topics specified';
       }
     });
+    */
+    $.ajax({     
+      headers: {          
+        Accept: "application/vnd.github.mercy-preview+json",         
+        "Content-Type": "text/plain; charset=utf-8"   
+      },  
+      url : `https://api.github.com/repos/${repoOwner}/${repoName}/topics`,
+      type: 'GET',
+      success : function (topics) {
+        repoTopics = Object.keys(names);
+        if (repoTopics === '') {
+          repoTopics = 'No topics specified';
+        }
+      }
+    });
+
+    
     let repoLanguages = '';
     $.get(`https://api.github.com/repos/${repoOwner}/${repoName}/languages`, (languages) => {
       repoLanguages = Object.keys(languages);
