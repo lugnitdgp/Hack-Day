@@ -13,11 +13,11 @@ $.getJSON('https://raw.githubusercontent.com/lugnitdgp/Hack-Day/2020/repos.json'
     repoLink = repoLink.split('/');
     let repoName = repoLink[repoLink.length - 1];
     let repoOwner = repoLink[repoLink.length - 2];
-    let repoTags = '';
-    $.get(`https://api.github.com/repos/${repoOwner}/${repoName}/tags`, (tags) => {
-      repoTags = Object.keys(tags);
-      if (repoTags === '') {
-        repoTags = 'No tags specified';
+    let repoTopics = '';
+    $.get(`https://api.github.com/repos/${repoOwner}/${repoName}/topics`, (topics) => {
+      repoTopics = Object.keys(topics);
+      if (repoTopics === '') {
+        repoTopics = 'No topics specified';
       }
     });
     let repoLanguages = '';
@@ -31,7 +31,7 @@ $.getJSON('https://raw.githubusercontent.com/lugnitdgp/Hack-Day/2020/repos.json'
                   <a href="${repos[index].repo_link}"><h6 class="card-title">${repoName}</h6></a>
                   <p style="line-height:1rem">
                     <small>Owner: ${repoOwner}</small><br>
-                    <small>Tags: ${repoTags}</small><br>
+                    <small>Topics: ${repoTopics}</small><br>
                     <small>Languages: ${repoLanguages}</small><br>
                   </p>
                 </div>
