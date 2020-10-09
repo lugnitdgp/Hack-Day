@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out Git repository
+      - name: Check Out Git repository
         uses: actions/checkout@v2
 
       # Install your linters here
