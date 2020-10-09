@@ -2,7 +2,7 @@
    "comment": "To add a link, append a dictionary with repo_link to the `repos` array. You can use the following template dictionary to edit and append.",
    "template": {"repo_link": "<Link to the repository>"},
    "repos":[
-      {"repo_link":"https://github.com/AnweshaDan/Harmony"},
+      {"repo_link": "https://github.com/AnweshaDan/Harmony"},
       {"repo_link": "https://github.com/AbhinavKrishna26/JavaApp"},
       {"repo_link": "https://github.com/Abha2001/SortingVisualiser"},
       {"repo_link": "https://github.com/YASHMAROO/Video-Player"},
@@ -14,6 +14,7 @@
       {"repo_link": "https://github.com/apreshagarwal/PrismCode-Online-Evaluation-System-Demo"},
       {"repo_link": "https://github.com/Olsyx/Hedra-Library"},
       {"repo_link": "https://github.com/raj0512gaurav/raj"},
-      {"repo_link": "https://github.com/isha27255/Url-Shortner-"}
+      {"repo_link": "https://github.com/isha27255/Url-Shortner-"},
+      {"repo_link": "https://github.com/vp4321/photoblog"}
    ]
 }
