@@ -352,10 +352,10 @@
       "message": "ctrl + c, ctrl + v"
     },
     {
-     "image_link": "https://avatars0.githubusercontent.com/u/12138570?s=460&u=25c9858c907a2bafb50494403b8f6bffbaa98e0e&v=4",
+      "image_link": "https://avatars0.githubusercontent.com/u/12138570?s=460&u=25c9858c907a2bafb50494403b8f6bffbaa98e0e&v=4",
       "handle": "dcassoli",
       "message": "Hello! Welcome to Hacktoberfest 2020!!! Enjoy!"
-    }, 
+    },
     {
       "image_link": "https://avatars3.githubusercontent.com/u/54590189?s=460&u=521ed3971f7e517600c7ccbbcf5590efea4104a6&v=4",
       "handle": "7sparsh",
@@ -385,6 +385,11 @@
       "image_link": "https://avatars2.githubusercontent.com/u/42597251?s=400&u=11d1ed4df4fabc352436a7ef48d76ef2975d9ed9&v=4",
       "handle": "kumanik5661",
       "message": "Wow, so many people"
+    },
+    {
+      "image_link": "https://febridk.id/vendor/images/avatar.jpg",
+      "handle": "febridk",
+      "message": "Happy hacktoberfest ❤️."
     }
   ]
 }
