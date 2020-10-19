@@ -11,11 +11,7 @@
       "handle": "Abha2001",
       "message": "Welcome to Hacktober Fest 2020!"
     },
-    {
-      "image_link": "https://avatars0.githubusercontent.com/u/32936314?s=460&v=4",
-      "handle": "yashagrawal457",
-      "message": "Welcome to Hacktober Fest 2020!"
-    },
+    
     {
       "image_link": "https://avatars1.githubusercontent.com/u/57780448?s=400&u=a1b5d7038f4d6ccb59963c6776a09cd0233a6966&v=4",
       "handle": "xvishka",
@@ -445,6 +441,11 @@
       "image_link": "https://avatars0.githubusercontent.com/u/64770208?s=60&v=4",
       "handle": "Rune-Coder",
       "message": "Let's grow through open source"
+    }
+    {
+      "image_link": "https://avatars0.githubusercontent.com/u/32936314?s=460&v=4",
+      "handle": "yashagrawal457",
+      "message": "Welcome to Hacktober Fest 2020!"
     }
   ]
 }
