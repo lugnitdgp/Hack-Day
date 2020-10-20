@@ -4,7 +4,7 @@ html {
   background-color: white;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  min-width: 300px;
+  min-width: 350px;
   overflow-x: hidden;
   overflow-y: scroll;
   text-size-adjust: 100%;
@@ -12,11 +12,11 @@ html {
 }
 
 a {
-  color: #072540;
+  color: #073540;
 }
 
 a:hover {
-  color: #ff8ae2;
+  color: #ff8be2;
   outline: none;
   text-decoration: none;
 }
@@ -57,7 +57,7 @@ section {
 }
 
 #section01 {
-  position: relative;
+  position: absolute;
   height: 100vh;
 }
 
@@ -75,7 +75,7 @@ section {
 #section02::after {
   content: url('https://hacktoberfest.digitalocean.com/assets/bg-right-e498161aecb6d9b04889329f11ce0b4e09e562ead23fb12d05b7508d1dc0c85c.png');
   position: absolute;
-  top: 80px;
+  top: 82px;
   right: 0;
   z-index: -1;
 }
@@ -94,8 +94,8 @@ section {
 }
 
 #logo {
-  height: 100%;
-  width: 100%;
+  height: 99%;
+  width: 99%;
   transform: translateZ(15px);
 }
 
@@ -141,8 +141,8 @@ section {
 #svglem {
   position: relative;
   left: 50%;
-  width: 770px;
-  height: 45vh;
+  width: 772px;
+  height: 44vh;
   -webkit-transform: translateX(-20%);
   -ms-transform: translateX(-20%);
   transform: translateX(-50%);
