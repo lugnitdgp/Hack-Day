@@ -437,11 +437,6 @@
       "message": "Let's hack it!"
     },
     {
-      "image_link": "https://avatars2.githubusercontent.com/u/47179458?s=460&v=4",
-      "handle": "norabalogh",
-      "message": "Happy Hacktober 2020!"
-    },
-    {
       "image_link": "https://avatars0.githubusercontent.com/u/64770208?s=60&v=4",
       "handle": "Rune-Coder",
       "message": "Let's grow through open source"
@@ -495,6 +490,11 @@
       "image_link": "https://avatars0.githubusercontent.com/u/65298629?s=400&u=e4ccd3d49aeb791003c886b1354c88a5f3211726&v=4",
       "handle": "sujoy-coder",
       "message": "This Contribution is the part of HacktoberFest-2020."
+    },
+    {
+      "image_link": "https://avatars2.githubusercontent.com/u/47179458?s=460&v=4",
+      "handle": "norabalogh",
+      "message": "Happy Hacktober 2020!"
     }
   ]
 }
