@@ -1,4 +1,4 @@
-{
+﻿{
   "comment": " To add your own profile card, append a dictionary with your image_link, handle and message to the `profiles` array. You can use the following template dictionary to edit and append.",
   "template": {
     "image_link": "<link-to-your-avatar>",
@@ -495,6 +495,61 @@
       "image_link": "https://avatars3.githubusercontent.com/u/50997688?s=400&u=a7d3c390e89905b6cfda8d537c93da13ff5d0914&v=4",
       "handle": "Fabianolvs",
       "message": "I can found everything I want in the code."
+    },
+    {
+      "image_link": "https://avatars0.githubusercontent.com/jhonatanbeltran",
+      "handle": "jhonatanbeltran",
+      "message": "Happy hacking and HacktoberFest-2020."
+    },
+    {
+      "image_link": "https://avatars0.githubusercontent.com/u/37164890?s=400&u=5a0c36a4a3aecc35f9f369d59905e0e3bb5350dc&v=4",
+      "handle": "rupertbulquerin",
+      "message": "404 message not found."
+    },
+	  {
+      "image_link": "https://avatars3.githubusercontent.com/u/47711025?s=460&u=2bd0f3901e1f7c7a871370138aaa7e6c643bf843&v=4",
+      "handle": "joshuqa",
+      "message": "\"Software is like sex: It's better when it's free.\" -Linus Torvalds"
+    },
+    {
+      "image_link": "https://avatars2.githubusercontent.com/u/47179458?s=460&v=4",
+      "handle": "norabalogh",
+      "message": "Happy Hacktober 2020!"
+    }, 
+    { 
+      "image_link": "https://avatars3.githubusercontent.com/u/72960818?s=460&v=4",
+      "handle": "chloee59",
+      "message": "Trying code 101."
+    },
+    {
+      "image_link": "https://avatars0.githubusercontent.com/u/58944265?s=460&u=d9b6d9b69b4f76bdb4b7bd6c8ea60791489cfc77&v=4",
+      "handle": "VkRan",
+      "message": "Live your life to fullest"
+    },
+    {
+      "image_link": "https://avatars.githubusercontent.com/kuroyza",
+      "handle": "kuroyza",
+      "message": "Truth can only be found in the code."
+    },
+    {
+      "image_link": "https://avatars2.githubusercontent.com/u/73506280?s=460&v=4",
+      "handle": "Danielaamu12345",
+      "message": "Meh"
+    },
+    {
+      "image_link": "https://avatars2.githubusercontent.com/u/56028031?v=4",
+      "handle": "geovanymantilla",
+      "message": "Happy contributing everyone!!."
+    },
+    {
+      "image_link": "https://avatars0.githubusercontent.com/u/65298629?s=400&u=e4ccd3d49aeb791003c886b1354c88a5f3211726&v=4",
+      "handle": "owaiskhan3",
+      "message": "Eat... Sleep... Code... Repeat..."
+    },
+    {
+      "image_link": "https://avatars2.githubusercontent.com/u/29019657?s=400&v=4",
+      "handle": "WilliamAboucaya",
+      "message": "Don't forget to brush your teeth and to comment your code, kids!"
     }
   ]
 }
