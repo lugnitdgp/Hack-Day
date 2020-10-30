@@ -5,8 +5,7 @@
     "handle": "<your-github-handle",
     "message": "<your-message-to-the-community>"
   },
-  "profiles": [
-    {
+  "profiles": [{
       "image_link": "https://avatars2.githubusercontent.com/u/56684260?s=400&v=4",
       "handle": "Abha2001",
       "message": "Welcome to Hacktober Fest 2020!"
@@ -511,7 +510,7 @@
       "handle": "rupertbulquerin",
       "message": "404 message not found."
     },
-	  {
+    {
       "image_link": "https://avatars3.githubusercontent.com/u/47711025?s=460&u=2bd0f3901e1f7c7a871370138aaa7e6c643bf843&v=4",
       "handle": "joshuqa",
       "message": "\"Software is like sex: It's better when it's free.\" -Linus Torvalds"
@@ -520,8 +519,8 @@
       "image_link": "https://avatars2.githubusercontent.com/u/47179458?s=460&v=4",
       "handle": "norabalogh",
       "message": "Happy Hacktober 2020!"
-    }, 
-    { 
+    },
+    {
       "image_link": "https://avatars3.githubusercontent.com/u/72960818?s=460&v=4",
       "handle": "chloee59",
       "message": "Trying code 101."
@@ -573,8 +572,8 @@
     },
     {
       "image_link": "https://avatars0.githubusercontent.com/u/40497894?s=400&u=a2f5a6d3b3548566c44194588ae4c566d171ddd0&v=4",
-      "handle" : "sharmaji-2407",
-      "message" : "I know you guys are doing this for the t-shirt :-P"
+      "handle": "sharmaji-2407",
+      "message": "I know you guys are doing this for the t-shirt :-P"
     },
     {
       "image_link": "https://en.gravatar.com/userimage/58886018/516b2be3f79720ff4baf7c126b1078b1.jpg?size=200",
@@ -590,6 +589,11 @@
       "image_link": "https://avatars.githubusercontent.com/dlu117",
       "handle": "dlu117",
       "message": "Happy Hacktoberfest!!!"
+    },
+    {
+      "image_link": "https://avatars.githubusercontent.com/JMustang",
+      "handle": "JMustang",
+      "message": "focus on the code! 💪"
     }
   ]
 }
