@@ -37,11 +37,6 @@
       "message": "Hello! Welcome to 2020  Hacktoberfest"
     },
     {
-      "image_link": "https://avatars2.githubusercontent.com/u/14186989",
-      "handle": "mkhy19",
-      "message": "Hello! Happy Hacktoberfest!"
-    },
-    {
       "image_link": "https://avatars2.githubusercontent.com/u/33978990?s=460&u=55de18c3a33335fc5e683f18b5a2e567075ff150&v=4",
       "handle": "Jayjeet Chakraborty",
       "message": "Hey hacktoberfest ! watch me screw your mission."
@@ -495,6 +490,11 @@
       "image_link": "https://avatars0.githubusercontent.com/u/65298629?s=400&u=e4ccd3d49aeb791003c886b1354c88a5f3211726&v=4",
       "handle": "sujoy-coder",
       "message": "This Contribution is the part of HacktoberFest-2020."
+    },
+    {
+      "image_link": "https://avatars2.githubusercontent.com/u/14186989",
+      "handle": "mkhy19",
+      "message": "Hello! Happy Hacktoberfest!"
     }
   ]
 }
