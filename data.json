@@ -580,7 +580,7 @@
       "image_link": "https://en.gravatar.com/userimage/58886018/516b2be3f79720ff4baf7c126b1078b1.jpg?size=200",
       "handle": "davis-byamugisha",
       "message": "Kudos to open source contributors!"
-    },
+    }, 
     {
       "image_link": "https://avatars.githubusercontent.com/JoaoJesus94",
       "handle": "JoaoJesus94",
@@ -610,6 +610,11 @@
       "image_link": "https://avatars.githubusercontent.com/emmermarcell",
       "handle": "emmermarcell",
       "message": "Namespaces are one honking great idea -- let's do more of those!"
+    },
+    {
+      "image_link": "https://avatars1.githubusercontent.com/u/55859975?s=460&u=67758c83789b056b1a69aad7b2baa35c0e760121&v=4",
+      "handle": "Camiila23",
+      "message": "Never put off till tomorrow what may be done day after tomorrow just as well"
     }
   ]
 }
