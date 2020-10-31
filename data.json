@@ -1,4 +1,4 @@
-﻿{
+{
   "comment": " To add your own profile card, append a dictionary with your image_link, handle and message to the `profiles` array. You can use the following template dictionary to edit and append.",
   "template": {
     "image_link": "<link-to-your-avatar>",
@@ -590,6 +590,26 @@
       "image_link": "https://avatars.githubusercontent.com/dlu117",
       "handle": "dlu117",
       "message": "Happy Hacktoberfest!!!"
+    },
+    {  
+      "image_link": "https://avatars2.githubusercontent.com/u/28197080?s=460&u=b72f8e7d02d0c33981bb5caea711c068ad70a5d8&v=4",
+      "handle": "rifaimartin",
+      "message": "hip hip array!"
+    },
+    {
+      "image_link": "https://avatars.githubusercontent.com/kapilk535",
+      "handle": "kapilk535",
+      "message": "Programming Fact :- Time spent[:)] :: 95% = Naming dumy variables; 5% = Actually Coding (LOL) "
+    },
+    {
+      "image_link": "https://avatars2.githubusercontent.com/u/14186989",
+      "handle": "mkhy19",
+      "message": "Hello! Happy Hacktoberfest!"
+    },
+    {
+      "image_link": "https://avatars.githubusercontent.com/emmermarcell",
+      "handle": "emmermarcell",
+      "message": "Namespaces are one honking great idea -- let's do more of those!"
     },
     {
       "image_link": "https://avatars1.githubusercontent.com/u/55859975?s=460&u=67758c83789b056b1a69aad7b2baa35c0e760121&v=4",
