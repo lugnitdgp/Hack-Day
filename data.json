@@ -1,4 +1,4 @@
-﻿{
+{
   "comment": " To add your own profile card, append a dictionary with your image_link, handle and message to the `profiles` array. You can use the following template dictionary to edit and append.",
   "template": {
     "image_link": "<link-to-your-avatar>",
@@ -557,6 +557,31 @@
       "message": "Don't forget to brush your teeth and to comment your code, kids!"
     },
     {
+      "image_link": "https://avatars2.githubusercontent.com/u/3674512?s=460&u=52cea89fe71a3fb02e580d5f644ecf578640da6f&v=4",
+      "handle": "Cencristian",
+      "message": "Take it ease!"
+    },
+    {
+      "image_link": "https://avatars1.githubusercontent.com/u/59413176?s=400&v=4",
+      "handle": "Adityachaturvedi2906",
+      "message": "If you get tired, learn to rest and not to quit."
+    },
+    {
+      "image_link": "https://avatars0.githubusercontent.com/u/29715707?s=460&u=666da5e96864eeadc2710f2db46dc2d84dd9c33b&v=4",
+      "handle": "AValdez3",
+      "message": "Happy Hacktoberfest."
+    },
+    {
+      "image_link": "https://avatars0.githubusercontent.com/u/40497894?s=400&u=a2f5a6d3b3548566c44194588ae4c566d171ddd0&v=4",
+      "handle" : "sharmaji-2407",
+      "message" : "I know you guys are doing this for the t-shirt :-P"
+    },
+    {
+      "image_link": "https://en.gravatar.com/userimage/58886018/516b2be3f79720ff4baf7c126b1078b1.jpg?size=200",
+      "handle": "davis-byamugisha",
+      "message": "Kudos to open source contributors!"
+    },
+    {
       "image_link": "https://avatars.githubusercontent.com/JoaoJesus94",
       "handle": "JoaoJesus94",
       "message": "\"Any fool can write code that a computer can understand. Good programmers write code that humans can understand.\" -Martin Fowler"
@@ -566,10 +591,15 @@
       "handle": "dlu117",
       "message": "Happy Hacktoberfest!!!"
     },
+    {  
+      "image_link": "https://avatars2.githubusercontent.com/u/28197080?s=460&u=b72f8e7d02d0c33981bb5caea711c068ad70a5d8&v=4",
+      "handle": "rifaimartin",
+      "message": "hip hip array!"
+    },
     {
       "image_link": "https://avatars.githubusercontent.com/kapilk535",
       "handle": "kapilk535",
       "message": "Programming Fact :- Time spent[:)] :: 95% = Naming dumy variables; 5% = Actually Coding (LOL) "
-    }  
+    }
   ]
 }
