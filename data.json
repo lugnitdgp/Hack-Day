@@ -7,6 +7,11 @@
   },
   "profiles": [
     {
+      "image_link": "https://avatars.githubusercontent.com/u/60318289?v=4",
+      "handle": "Majdi-Zlitni",
+      "message": "I'm in love with contributing"
+    },
+    {
       "image_link": "https://avatars2.githubusercontent.com/u/56684260?s=400&v=4",
       "handle": "Abha2001",
       "message": "Welcome to Hacktober Fest 2020!"
