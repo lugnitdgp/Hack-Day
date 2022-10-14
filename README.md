@@ -1,4 +1,4 @@
-# Hack-Day-2022
+# Hacktoberfest 2022
 [![CodeFactor](https://www.codefactor.io/repository/github/lugnitdgp/hack-day/badge)](https://www.codefactor.io/repository/github/lugnitdgp/hack-day) ![Lint](https://github.com/lugnitdgp/Hack-Day/workflows/Lint/badge.svg)
 
 An event for the promotion of Hacktoberfest 2022 🎃
