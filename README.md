@@ -8,7 +8,7 @@ An event organised by GNU/Linux Users' Group, NIT Durgapur for the promotion of 
 
 ### FAQ
     #### Q. Who can take Part in this Event?
-    #### A. Anyone with a GITHUB Account.
+    #### A. Anyone with a GitHub Account.
 
     #### Q. How Do I take Part in this event?
     #### A. Follow the contribution guidelines as specified in CONTRIBUTING.md file. 
@@ -16,7 +16,7 @@ An event organised by GNU/Linux Users' Group, NIT Durgapur for the promotion of 
     #### Q. What do I get by participating in this contest?
     #### A. Just send 4 PRs and get a Free T-Shirt from Digital Ocean.
 
-### NOTICE
+### Notice
 
 #### One of the issues, i.e, Issue#223 has been created specifically for beginners and first-timers. Any other pull requests will not be valid. 
 #### Others willing to contribute need to work on the other issues.
